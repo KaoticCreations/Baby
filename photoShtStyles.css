@@ -2,14 +2,18 @@
     box-sizing: border-box;
  }  
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 780px){
     body{
+        /*
         display:flex;
         flex-direction: column;
+        */
+
+        grid-template-columns: 200px 580px ;    
         width: 780px;
     }
     .kContainrPhotoSht{   
-        width: 380px;
+        width: 680px;
             grid-column: 1;
     }        
     
@@ -102,7 +106,7 @@ body{
     
     
     
-    margin:auto;
+    
 
     background-image: linear-gradient(#f3f3f3,#6498d4,#e77ceb );
     border: 2px solid #e44ae9;
@@ -131,10 +135,10 @@ body{
 }
 
 .kmainphotosht{
+    
     display:flex;
     flex-wrap: wrap;
     align-items: center;
-     
     
 }
 .kcardphotosht{
