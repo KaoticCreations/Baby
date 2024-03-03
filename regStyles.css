@@ -15,8 +15,8 @@
         width:768px;
             
     } 
-    .kheaderSono{
-        
+    .kmainReg{
+        width:768px;
             
     
     } 
@@ -67,11 +67,11 @@
         max-width: 1980px; 
         min-width: 380px;
         
-        width: 1980px;
+        width: 1380px;
         background-color: #7d7daf;    
         margin-top:0;
         display:grid;
-        grid-template-columns: 200px 1580px ;    
+        grid-template-columns: 200px 1380px ;    
         grid-template-rows: 120px 700px  auto;         
     }
 
@@ -79,12 +79,12 @@
 .ktainrReg{
     grid-row: 1;
     grid-column: 2;    
-    width:1580px;
+    width:980px;
     height: fit-content;  
     padding:30px;
     padding-bottom:200px;
-    margin:auto;
-
+    
+    margin: auto;
     margin-top: 50px;
     margin-bottom: 50px;    
 
