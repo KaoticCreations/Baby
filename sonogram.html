@@ -4,90 +4,72 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">    
     <link rel="stylesheet" href="kStyles.css">
+    <link rel="stylesheet" href="sonoStyles.css">
+    
     <title>Baby Stubbs-Jones</title>
     
 
 
 </head>
 <body >
-    <div class="kContainr">
+    <div class="knav">
+        <div class="kNavCtrl"  id="kNavCtrl">
+            <button class="openbtn" id="openbtn" onclick="openNav()"> <i class="bi bi-box-arrow-right"></i> Menu </button>  
+        </div>
 
-    
-        <div class="kheader">
+        <div id="mySidebar" class="sidebar">
             
-            <div class="kheadr1">
-                <img src="Sonogram\SmartSelect_20240226_145315_Gallery.jpg" class="sonoimage"/>
-            </div>
-
-            <div class="kheadr2">
-                <label id="title">Photo Shoot</label>
-            </div>
-            <div class="kheadr3">
+            <button class="closebtn" id="menuClose" onclick="closeNav()" ><i class="bi bi-x-circle">CLOSE</i></button> 
+            <a href="index.html"><i class="bi bi-door-closed">&nbsp;</i>Log-Out</a>
+            <br/>                    
+            <a href="dashboard.html"><i class="bi bi-speedometer">&nbsp;</i>Dashboard</a>
+            <a href="sonogram.html"><i class="bi bi-speedometer">&nbsp;</i>Sonogram Images</a>
+            <a href="photoShoot.html"><i class="bi bi-cloud-download">&nbsp;</i>Maternity Shoot</a>
+            <a href="registries.html"><i class="bi bi-card-list">&nbsp;</i>Registries</a>            
+            <a href="name.html"><i class="bi bi-cloud-download">&nbsp;</i>Name Recommendations</a>    
             
-            </div>
         </div>   
-        <div class="knav">
-            <div class="kNavCtrl"  id="kNavCtrl">
-                <button class="openbtn" id="openbtn" onclick="openNav()"> <i class="bi bi-box-arrow-right"></i> Menu </button>  
-            </div>
 
-            <div id="mySidebar" class="sidebar">
-                
-                <button class="closebtn" id="menuClose" onclick="closeNav()" ><i class="bi bi-x-circle">CLOSE</i></button>  
-                
-                <a href="index.html"><i class="bi bi-door-closed">&nbsp;</i>Log-Out</a>
-                <br/>                    
-                <a href="orders.html"><i class="bi bi-speedometer">&nbsp;</i>Dashboard</a>
-                <a href="sonogram.html"><i class="bi bi-speedometer">&nbsp;</i>Sonogram Images</a>
-                <a href="photoShoot.html"><i class="bi bi-cloud-download">&nbsp;</i>Photo Shoot</a>
-                <a href="orders.html"><i class="bi bi-card-list">&nbsp;</i>Registries</a>            
-                    
-                <a href="orders.html"><i class="bi bi-cloud-download">&nbsp;</i>Name Recommendations</a>    
-                
-            </div>   
-
-        </div> 
-        <div class="kmain">
-
-            <div class="kcard">
-                <!-- <img class="imageRt" src="baby photo shoot\00-nEEpf2K38E8eqx9SJ7tGuGVL-hKczCieBYfJvA4hLpcH4vcBWR8iUofcsdhgecW2qCe7ffHDJpwno-pEcjtJnw.jpeg.jpg">-->
-                
-                <img class="imageSon" src="received_380903561241392.jpeg">
-                <img class="imageSon" src="received_415931014226547.jpeg">
-                <img class="imageSon" src="received_2512733565577717.jpeg">    
-                <img class="imageSon" src="received_3330252937121105.jpeg">   
-                
-                
-                
-                
-
-            </div>
-            
-
-            <div class="kcard2">      
-                <img class="imageSon" src="received_908450560744133.jpeg">          
-                <img class="imageSon" src="received_945369460440762.jpeg">
-                <img class="imageSon" src="received_772207981035096.jpeg">
-                
-                <img class="imageSon" src="received_1065479651414331.jpeg"> 
-                <img class="imageSon" src="received_1103318244043361.jpeg">      
-                   
-                                 
-            </div>
-            
-            <div class="kcard">
-                <img class="imageSon" src="received_1105439327574621.jpeg">   
-                <img class="imageSon" src="received_1594410271329078.jpeg">      
-                   
-                <img class="imageSon" src="received_7590387284356737.jpeg">    
-                   
-                
-
-            </div>
-
-            
-            
+    </div> 
+    <div class="kContainrSono">         
+       
         
+        <div class="kheaderSono">
+            
+                <label id="title">Sonogram Images</label>
+                
+        </div>  
+        <div class="kcardSono">
+            <img class="imageBlu" src="Sonogram\received_3330252937121105.jpeg"> 
+        </div>
+   
+
+        
+         
+        <div class="kmainSono">
+            
+            
+                  
+            
+                <img class="imageBlu" src="received_380903561241392.jpeg">
+                <img class="imagePnk" src="received_415931014226547.jpeg">
+                <img class="imageBlu" src="received_2512733565577717.jpeg">    
+                
+                 
+                <img class="imageBlu" src="received_908450560744133.jpeg">          
+                <img class="imagePnk" src="received_945369460440762.jpeg">
+                <img class="imageBlu" src="received_772207981035096.jpeg">                
+                 
+
+            
+                <img class="imagePnk" src="received_1105439327574621.jpeg">   
+                <img class="imageBlu" src="received_1594410271329078.jpeg"> 
+                <img class="imagePnk" src="received_7590387284356737.jpeg">  
+
+            
+                <img class="imageBlu" src="received_1065479651414331.jpeg"> 
+                <img class="imagePnk" src="received_1103318244043361.jpeg"> 
+
             
         </div> 
         <div class="kside"></div> 
