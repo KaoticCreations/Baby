@@ -8,23 +8,27 @@
     body{
         display:flex;
         flex-direction: column;
-        width: 768px;
+        width: 380px;
     }
     .kContainrSono{  
         display:flex;
         flex-direction: column; 
-        width: 768px;
+        width: 380px;
+        grid-column: 1;
             
     } 
     .kheaderSono{
-        width: 380px;
-        margin: none;
+        width: 268px;
+        margin-left: 5px;
+        
             
     
     } 
     .kcardSono{
+        display:none;
         width: 380px;
-        margin: none;
+        margin-left: 30px;
+        
             
     
     } 
@@ -32,12 +36,17 @@
         display:flex;
         flex-direction: column;
         width: 380px;
+        
             
     
     }   
     #title{
-        color:#7d7daf;
+        color:#7d7daf;        
         font-size: 50px;
+        
+    }
+    .imageBlu2 {
+        display: block;
         
     }
 }
@@ -91,7 +100,7 @@
 
     .kContainrSono{
         grid-row: 1;
-        grid-column: 2;
+        grid-column: 1;
     
         width:1980px;
         height: fit-content;  
@@ -112,10 +121,9 @@
     .kheaderSono{
     
         width:fit-content;
-        height: fit-content;  
-        padding:60px;
-        margin:auto;
+        height: fit-content;         
         margin-top: 50px;
+        margin-right: 150px;
         margin-bottom: 50px;
     
         
@@ -131,19 +139,22 @@
         margin-top: 50px;
         margin-left: 30px;
     }
-    .kcardSono{        
-                
-        margin: auto;
+    .kcardSono{     
+
+        display:block;
         margin-top: 50px;
+        
+        
         
         
     }
     #title{
         color:#7d7daf;
-        font-size: 75px;
+        font-size: 50px;
+        margin-left: 30px;
         
     }
-    .imageBlu{
+    .imageBlu,.imageBlu2{
     
         width: 600px;
         height: fit-content;
@@ -171,4 +182,7 @@
         border-width: 3px 8px 19px 18px;
         box-shadow: 9px 5px 2px 3px #f3f3f3;
     }
-            
+          
+   .imageBlu2 {
+        display:none;
+    }
