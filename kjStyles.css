@@ -8,6 +8,10 @@
         flex-direction: column;
         width: 780px;
     }
+    .kContainrPhotoSht{   
+        width: 380px;
+            grid-column: 1;
+    }        
     
     .kContainrPhotoSht{
         display:flex;
@@ -25,13 +29,21 @@
         
         
     }
+    .imagetop{
 
+        width:  fit-content;
+        height: fit-content;
+    }
     .imageBlu{
         width:  fit-content;
     }
     .kcardphotosht{
         display:flex;
         flex-direction: column;
+    }
+    #title{
+        color:#7d7daf;
+        font-size: 25px;
     }
 }
 
@@ -56,10 +68,11 @@ body{
     grid-template-rows:  auto auto auto;
     grid-template-columns: 1fr 1fr 1fr  ;
  */
+    grid-column: 2;
 
     width: 1680px;
     height: fit-content;  
-    padding:0px;
+    padding-top:50px;
     
     margin-top: 50px;
     margin:auto;
@@ -116,6 +129,20 @@ body{
     color:#7d7daf;
     font-size: 75px;
 }
+.imagetop{
+
+    width: 600px;
+    height: fit-content;
+    margin-bottom: 50px;
+    
+    border:  solid 3px #3280e6;
+
+    border-bottom: solid 1px #e44ae9;
+    
+    border-radius: 20px ;
+    border-width: 13px 8px 20px 18px;
+    box-shadow: 9px 5px 2px 3px #f3f3f3;
+}
 
 .imageBlu{
     
@@ -128,9 +155,10 @@ body{
     border-bottom: solid 1px #e44ae9;
     
     border-radius: 20px ;
-    border-width: 13px 8px 20px 13px;
+    border-width: 13px 8px 20px 18px;
     box-shadow: 9px 5px 2px 3px #f3f3f3;
 }
+
 .imagePnk{
     
     
@@ -141,6 +169,6 @@ body{
     border-bottom: solid 1px #3280e6;
     
     border-radius: 15px ;
-    border-width: 3px 8px 19px 33px;
+    border-width: 3px 8px 19px 18px;
     box-shadow: 9px 5px 2px 3px #f3f3f3;
 }
