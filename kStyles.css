@@ -55,24 +55,7 @@ body{
     flex-wrap: wrap;
     */
 }
-.kContainrlog{
-    grid-row: 1;
-    grid-column: 2;
 
-    
-    width:fit-content;
-    height: fit-content;  
-    padding:30px;
-    margin:auto;
-    margin-top: 50px;
-    padding-top: 0px;
-
-    background-image: linear-gradient(#f3f3f3 ,#6498d4,#e77ceb );
-    border-radius: 5rem;
-
-    display:flex;
-    flex-wrap: wrap;
-}
 .kContainrDash{
     grid-row: 1;
     grid-column: 2;
@@ -108,38 +91,8 @@ body{
     flex-wrap: wrap;
    
 }
-.kContainrSono{
-    grid-row: 1;
-    grid-column: 2;
 
-    width:1580px;
-    height: fit-content;  
-    padding:0px;
-    margin:auto;
-    margin-top: 50px;
-    padding-bottom: 50px;
 
-    background-image: linear-gradient(#e77ceb ,#6498d4,#6498d4,#e77ceb );
-    border-radius: 5rem;
-
-    display:flex;
-    flex-wrap: wrap;
-
-}
-.kheaderSono{
-    
-    width:fit-content;
-    height: fit-content;  
-    padding:60px;
-    margin:auto;
-    margin-top: 50px;
-
-    background-image: linear-gradient(#e77ceb ,#6498d4,#6498d4,#e77ceb );
-    border-radius: 5rem;
-
-    display:flex;
-    flex-wrap: wrap;
-}
 
 
 
@@ -233,11 +186,16 @@ body{
 .lblphto{
     font-size: 40px;
 }
-
-#lbldash{
-    color: #f3f3f3;
+#lbldashtp{
+    color: #7d7daf;
     margin-left:70px;
-    font-size: 50px;
+    font-size: 75px;
+    
+}
+#lbldash{
+    color: #63638f;
+    margin-left:70px;
+    font-size: 75px;
     
 }
 .sonoimage{
