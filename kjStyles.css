@@ -1,0 +1,146 @@
+*{
+    box-sizing: border-box;
+ }  
+
+@media screen and (max-width: 768px){
+    body{
+        display:flex;
+        flex-direction: column;
+        width: 780px;
+    }
+    
+    .kContainrPhotoSht{
+        display:flex;
+        flex-direction: column;
+        width: 780px;
+        
+    }
+    .kmainphotosht{
+        display:flex;
+        flex-wrap: wrap;
+        gap: 25px;
+        width: 780px;
+
+        margin-top: 75px;
+        
+        
+    }
+
+    .imageBlu{
+        width:  fit-content;
+    }
+    .kcardphotosht{
+        display:flex;
+        flex-direction: column;
+    }
+}
+
+body{
+    max-width: 1680px; 
+    min-width: 586px; 
+    background-color: #7d7daf;    
+    margin-top:0;
+    display:grid;
+    grid-template-columns: 200px 1580px ;    
+    grid-template-rows: 120px 700px 500px auto;
+    margin-top: 0px;
+    
+   
+    
+}
+
+
+.kContainrPhotoSht{   
+/*
+    display: grid;    
+    grid-template-rows:  auto auto auto;
+    grid-template-columns: 1fr 1fr 1fr  ;
+ */
+
+    width: 1680px;
+    height: fit-content;  
+    padding:0px;
+    
+    margin-top: 50px;
+    margin:auto;
+
+    background-image: linear-gradient(#f3f3f3,#6498d4,#e77ceb );
+    border: 2px solid #e44ae9;
+    border-radius: 5rem;
+   
+    
+   
+}
+
+.kheaderPhotoSht{
+    
+    width: 500px;
+    height: fit-content;  
+    padding:60px;
+    padding-top:30px;
+    margin:auto;
+    margin-top: 20px;
+    margin-bottom: 50px;
+
+    background-image: linear-gradient(#6498d4 ,#6498d4,#e77ceb );
+    border-radius: 2rem;
+
+    
+    
+    
+}
+
+.kmainphotosht{
+    
+    margin-left:200px;   
+    
+}
+.kcardphotosht{
+    /*
+    display: grid;    
+    grid-template-rows:  auto auto auto;
+    grid-template-columns: 1fr 1fr 1fr  ;
+*/
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    
+    
+    gap: 100px;
+    margin-bottom: 175px;
+    margin: auto;
+    
+}
+
+#title{
+    color:#7d7daf;
+    font-size: 75px;
+}
+
+.imageBlu{
+    
+    width: fit-content;
+    height: fit-content;
+    margin-bottom: 50px;
+    
+    border:  solid 3px #3280e6;
+
+    border-bottom: solid 1px #e44ae9;
+    
+    border-radius: 20px ;
+    border-width: 13px 8px 20px 13px;
+    box-shadow: 9px 5px 2px 3px #f3f3f3;
+}
+.imagePnk{
+    
+    
+    width: fit-content;
+    margin-bottom: 50px;
+    border:  solid 3px #e44ae9;
+
+    border-bottom: solid 1px #3280e6;
+    
+    border-radius: 15px ;
+    border-width: 3px 8px 19px 33px;
+    box-shadow: 9px 5px 2px 3px #f3f3f3;
+}
