@@ -16,12 +16,12 @@
     .kContainrPhotoSht{
         display:flex;
         flex-direction: column;
-        width: 780px;
+        width:  fit-content;
         
     }
     .kmainphotosht{
         display:flex;
-        flex-wrap: wrap;
+        flex-direction: column;
         gap: 25px;
         width: 780px;
 
@@ -40,16 +40,40 @@
     .kcardphotosht{
         display:flex;
         flex-direction: column;
+        width: 680px;
     }
-    #title{
-        color:#7d7daf;
-        font-size: 25px;
+     #title{
+        
+        font-size: 50px;
+        padding-top:50px;
+        margin-bottom: 100px;
     }
 }
+    @media screen and (max-width: 380px){
+        body{
+            display:flex;
+            flex-direction: column;
+            width: 380px;
+        }
+        .kContainrPhotoSht{   
+            width: 380px;
+                grid-column: 1;
+        }        
+        
+
+    }
+
+
+
+
+
+
 
 body{
     max-width: 1680px; 
-    min-width: 380px; 
+    min-width: 586px;
+    
+    width: 1980px;
     background-color: #7d7daf;    
     margin-top:0;
     display:grid;
@@ -68,13 +92,16 @@ body{
     grid-template-rows:  auto auto auto;
     grid-template-columns: 1fr 1fr 1fr  ;
  */
-    grid-column: 2;
+    grid-column: 2/3;
+    grid-row: 2;
 
-    width: 1680px;
+    width: 1980px;
     height: fit-content;  
-    padding-top:50px;
     
-    margin-top: 50px;
+    align-items: center;
+    
+    
+    
     margin:auto;
 
     background-image: linear-gradient(#f3f3f3,#6498d4,#e77ceb );
@@ -104,8 +131,8 @@ body{
 }
 
 .kmainphotosht{
-    
-    margin-left:200px;   
+    margin:auto;
+     
     
 }
 .kcardphotosht{
@@ -128,12 +155,14 @@ body{
 #title{
     color:#7d7daf;
     font-size: 75px;
+    margin-bottom: 175px;
 }
 .imagetop{
 
     width: 600px;
     height: fit-content;
-    margin-bottom: 50px;
+    margin-top: 250px;
+    margin-bottom: 250px;
     
     border:  solid 3px #3280e6;
 
