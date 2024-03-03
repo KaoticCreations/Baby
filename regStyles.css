@@ -11,8 +11,8 @@
         flex-direction: column;
         width: 768px;
     }
-    .kContainrSono{  
-        
+    .ktainrReg{  
+        width:768px;
             
     } 
     .kheaderSono{
@@ -43,7 +43,7 @@
             flex-direction: column;
             width: 380px;
         }
-        .kContainrSono{  
+        .ktainrReg{  
             
         } 
         .kheaderSono{
