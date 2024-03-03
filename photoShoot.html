@@ -2,87 +2,91 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">   
+     <!-- 
     <link rel="stylesheet" href="kStyles.css">
+    -->
+    <link rel="stylesheet" href="kjStyles.css">
+    <link rel="icon" href="">
     <title>Baby Stubbs-Jones</title>
     
 
 
 </head>
 <body >
-    <div class="kContainr">
+    <div class="knav">
+        <div class="kNavCtrl"  id="kNavCtrl">
+            <button class="openbtn" id="openbtn" onclick="openNav()"> <i class="bi bi-box-arrow-right"></i> Menu </button>  
+        </div>
 
-    
-        <div class="kheader">
+        <div id="mySidebar" class="sidebar">
             
-            <div class="kheadr1">
-                <img src="Sonogram\SmartSelect_20240226_145315_Gallery.jpg" class="sonoimage"/>
-            </div>
-
-            <div class="kheadr2">
-                <label id="title">Photo Shoot</label>
-            </div>
-            <div class="kheadr3">
+            <button class="closebtn" id="menuClose" onclick="closeNav()" ><i class="bi bi-x-circle">CLOSE</i></button>  
             
-            </div>
+            <a href="index.html"><i class="bi bi-door-closed">&nbsp;</i>Log-Out</a>
+            <br/>                    
+            <a href="dashboard.html"><i class="bi bi-speedometer">&nbsp;</i>Dashboard</a>
+            <a href="sonogram.html"><i class="bi bi-speedometer">&nbsp;</i>Sonogram Images</a>
+            <a href="photoShoot.html"><i class="bi bi-cloud-download">&nbsp;</i>Maternity Shoot</a>
+            <a href="registries.html"><i class="bi bi-card-list">&nbsp;</i>Registries</a>             
+                
+            <a href="name.html"><i class="bi bi-cloud-download">&nbsp;</i>Name Recommendations</a>    
+            
         </div>   
-        <div class="knav">
-            <div class="kNavCtrl"  id="kNavCtrl">
-                <button class="openbtn" id="openbtn" onclick="openNav()"> <i class="bi bi-box-arrow-right"></i> Menu </button>  
+
+    </div> 
+    
+    <div class="kContainrPhotoSht">
+        
+        
+       
+
+         <div class="kmainphotosht">
+            
+             <div id="" name="" class="kcardphotosht">
+                <label id="title">Maternity Shoot</label>
+                    <img class="imageBlu" src="baby photo shoot\Internet_20240225_205342_17.jpeg">
+             </div>
+            
+            <div id="" name="" class="kcardphotosht">
+                <img class="imageBlu" src="baby photo shoot\00-nEEpf2K38E8eqx9SJ7tGuGVL-hKczCieBYfJvA4hLpdGugzzecBZ3vZP1DxEMZoQldMTLfbtJ__wYVBQ_4iTow.jpeg.jpg">
+                <img class="imagePnk" src="baby photo shoot\00-nEEpf2K38E8eqx9SJ7tGuGVL-hKczCieBYfJvA4hLpd29W9O9Kv-R8PXv3144PIuV7ntXQOewWgszVPDOQPWWw.jpeg.jpg">
+                <img class="imagePnk" src="baby photo shoot\00-nEEpf2K38E8eqx9SJ7tGuGVL-hKczCieBYfJvA4hLpdhzfp9z8hKdPNxlwvib4CvUnDnu4gHHWpfyYq5WwzmNg.jpeg.jpg">
             </div>
-
-            <div id="mySidebar" class="sidebar">
                 
-                <button class="closebtn" id="menuClose" onclick="closeNav()" ><i class="bi bi-x-circle">CLOSE</i></button>  
+            <div id="" name="" class="kcardphotosht">
+                <img class="imageBlu" src="baby photo shoot\Internet_20240225_205342_18.jpeg">               
+                <img class="imageBlu" src="baby photo shoot\Internet_20240225_205342_19.jpeg">
+                <img class="imagePnk" src="baby photo shoot\Internet_20240225_205342_13.jpeg">   
+            </div>  
+                         
+            <div id="" name="" class="kcardphotosht">
+                <img class="imageBlu" src="baby photo shoot\Internet_20240225_205342_2.jpeg">             
+                <img class="imagePnk" src="baby photo shoot\00-nEEpf2K38E8eqx9SJ7tGuGVL-hKczCieBYfJvA4hLpeGIo4-m1JdkEPzaQxCLgjUUnDnu4gHHWpfyYq5WwzmNg.jpeg.jpg">
+                <img class="imageBlu" src="baby photo shoot\00-nEEpf2K38E8eqx9SJ7tGuGVL-hKczCieBYfJvA4hLpdceQehF6MIbu8VKNY06rSPKwg5ydwHipy3aIZBf9dNYQ.jpeg.jpg">                
+            </div>
                 
-                <a href="index.html"><i class="bi bi-door-closed">&nbsp;</i>Log-Out</a>
-                <br/>                    
-                <a href="orders.html"><i class="bi bi-speedometer">&nbsp;</i>Dashboard</a>
-                <a href="sonogram.html"><i class="bi bi-speedometer">&nbsp;</i>Sonogram Images</a>
-                <a href="photoShoot.html"><i class="bi bi-cloud-download">&nbsp;</i>Photo Shoot</a>
-                <a href="orders.html"><i class="bi bi-card-list">&nbsp;</i>Registries</a>            
-                    
-                <a href="orders.html"><i class="bi bi-cloud-download">&nbsp;</i>Name Recommendations</a>    
+            <div id="" name="" class="kcardphotosht">
+                <img class="imagePnk" src="baby photo shoot\Internet_20240225_205342_22.jpeg">    
+                <img class="imageBlu" src="baby photo shoot\Internet_20240225_205342_16.jpeg">            
+                <img class="imagePnk" src="baby photo shoot\00-nEEpf2K38E8eqx9SJ7tGuGVL-hKczCieBYfJvA4hLpfQbNHgM6ENA9b7_H9pRDDZ4xJ2Twu75QF_jizMkB1ZdA.jpeg.jpg"> 
                 
-            </div>   
-
+            </div>                  
+            
+            <div id="" name="" class="kcardphotosht">
+                
+                <img class="imagePnk" src="baby photo shoot\00-nEEpf2K38E8eqx9SJ7tGuGVL-hKczCieBYfJvA4hLpeF8HdL_EEiZ7FTGRymDB9cqCe7ffHDJpwno-pEcjtJnw.jpeg.jpg">
+                <img class="imagePnk" src="baby photo shoot\Internet_20240225_205342_12.jpeg">
+                <img class="imageBlu" src="baby photo shoot\Internet_20240225_205342_14.jpeg">
+            
+            </div> 
+            
         </div> 
-        <div class="kmain">
 
-            <div class="kcard">
-                <!-- <img class="imageRt" src="baby photo shoot\00-nEEpf2K38E8eqx9SJ7tGuGVL-hKczCieBYfJvA4hLpcH4vcBWR8iUofcsdhgecW2qCe7ffHDJpwno-pEcjtJnw.jpeg.jpg">-->
-               
-                <img class="imageRt" src="00-nEEpf2K38E8eqx9SJ7tGuGVL-hKczCieBYfJvA4hLpd29W9O9Kv-R8PXv3144PIuV7ntXQOewWgszVPDOQPWWw.jpeg.jpg">
-                <img class="imageRt" src="00-nEEpf2K38E8eqx9SJ7tGuGVL-hKczCieBYfJvA4hLpdGugzzecBZ3vZP1DxEMZoQldMTLfbtJ__wYVBQ_4iTow.jpeg.jpg">
-                <img class="imagetp" src="00-nEEpf2K38E8eqx9SJ7tGuGVL-hKczCieBYfJvA4hLpdhzfp9z8hKdPNxlwvib4CvUnDnu4gHHWpfyYq5WwzmNg.jpeg.jpg">
-                <img class="image" src="Internet_20240225_205342_18.jpeg">
+        <div class="kside"></div> 
+        <div class="kfooter"></div> 
 
-            </div>
-            
-
-            <div class="kcard2">                
-                <img class="imagetp" src="Internet_20240225_205342_19.jpeg">
-                <img class="imagetp" src="Internet_20240225_205342_17.jpeg">
-                <img class="imagetp" src="00-nEEpf2K38E8eqx9SJ7tGuGVL-hKczCieBYfJvA4hLpdceQehF6MIbu8VKNY06rSPKwg5ydwHipy3aIZBf9dNYQ.jpeg.jpg">                
-            </div>
-            
-            <div class="kcard">
-                
-                <img class="imagetp" src="00-nEEpf2K38E8eqx9SJ7tGuGVL-hKczCieBYfJvA4hLpdyPsey0miXTvlT3e0jHBq8aAUrgnwgvQnZ_1RWb7NZPA.jpeg.jpg">
-                <img class="image" src="Internet_20240225_205342_22.jpeg">
-                <img class="image" src="Internet_20240225_205342_16.jpeg">
-                <img class="image" src="00-nEEpf2K38E8eqx9SJ7tGuGVL-hKczCieBYfJvA4hLpeGIo4-m1JdkEPzaQxCLgjUUnDnu4gHHWpfyYq5WwzmNg.jpeg.jpg">
-                <img class="image" src="Internet_20240225_205342_14.jpeg">
-                <img class="image" src="00-nEEpf2K38E8eqx9SJ7tGuGVL-hKczCieBYfJvA4hLpeF8HdL_EEiZ7FTGRymDB9cqCe7ffHDJpwno-pEcjtJnw.jpeg.jpg">
-                                               
-                <img class="imageMx" src="Internet_20240225_205342_12.jpeg">
-
-                <img class="image" src="00-nEEpf2K38E8eqx9SJ7tGuGVL-hKczCieBYfJvA4hLpfQbNHgM6ENA9b7_H9pRDDZ4xJ2Twu75QF_jizMkB1ZdA.jpeg.jpg"> 
-                <!-- <img class="image" src=""> -->
-
-            </div>
-
-            
+    </div> 
             
         
             
