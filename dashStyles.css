@@ -43,7 +43,7 @@ body{
     grid-row: 2;
     grid-column: 2;    
     width:fit-content;
-    height: fit-content;  
+    height: 800px;  
     margin:auto ;
     padding: 20px;
     background-image: linear-gradient(#f3f3f3 ,#6498d4,#6498d4,#e77ceb );
@@ -54,14 +54,14 @@ body{
 .kmainDash{  
     grid-row: 2;
     grid-column: 2; 
-    margin:auto ;
-    margin-top: 50px;  
+    
+      
     
 }
 .kcarddash{
     display: flex;
     flex-direction: column;
-    margin:auto ;
+    
 }
 
 .imageDash{
@@ -82,13 +82,13 @@ body{
 
 #lbldashtp{
     color: #7d7daf;
-    margin-left:70px;
+    margin-left:120px;
     font-size: 75px;
     
 }
 #lbldash{
     color: #63638f;
-    margin-left:70px;
+    margin-left:30px;
     font-size: 75px;
     
 }
