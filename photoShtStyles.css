@@ -74,10 +74,10 @@
 
 
 body{
-    max-width: 1680px; 
+    max-width: 1580px; 
     min-width: 586px;
     
-    width: 1580px;
+    width: 1380px;
     background-color: #7d7daf;    
     margin-top:0;
     display:grid;
