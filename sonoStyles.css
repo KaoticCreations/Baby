@@ -85,10 +85,10 @@
     }
 
     body{
-        max-width: 1980px; 
-        min-width: 380px;
+        max-width: 1680px; 
+        min-width: 580px;
         
-        width: 1980px;
+        width: 1380px;
         background-color: #7d7daf;    
         margin-top:0;
         display:grid;
@@ -102,7 +102,7 @@
         grid-row: 1;
         grid-column: 2;
     
-        width:1980px;
+        width:1380px;
         height: fit-content;  
         padding:0px;
         margin: auto;
