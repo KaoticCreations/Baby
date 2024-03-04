@@ -61,12 +61,13 @@ body{
 .kcarddash{
     display: flex;
     flex-direction: column;
+    margin:auto ;
 }
 
 .imageDash{
     /*width: fit-content;*/
     
-    margin-left: 300px ;
+    margin-left: 100px ;
     margin-top: 50px ;
     margin-bottom: 25px;
     border:  solid 3px #a7d7eb;
