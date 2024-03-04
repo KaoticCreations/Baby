@@ -266,16 +266,18 @@ body{
   /* The button used to open the sidebar */
   .openbtn {
 
+   .openbtn {
+
     grid-column: 1;  
     grid-row: 2;   
 
     position: fixed;
     
-    font-size: 24px;
+    font-size: 35px;
     cursor: pointer;
     background-color: transparent;
     color: #f3f3f3;
-    padding-left: 0px;
+    margin-left: 20px;
     border: none;
     text-align: left;
   }
