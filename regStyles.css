@@ -64,10 +64,10 @@
     }
 
     body{
-        max-width: 1980px; 
+        max-width: 1380px; 
         min-width: 380px;
         
-        width: 1380px;
+        width: 1280px;
         background-color: #7d7daf;    
         margin-top:0;
         display:grid;
