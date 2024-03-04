@@ -264,7 +264,7 @@ body{
 }
 
   /* The button used to open the sidebar */
-  .openbtn {
+   .openbtn {
 
     grid-column: 1;  
     grid-row: 1;   
