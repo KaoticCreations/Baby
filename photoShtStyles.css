@@ -85,14 +85,14 @@
 
 
 body{
-    max-width: 1580px; 
+    max-width: 1980px; 
     min-width: 586px;
     
-    width: 1380px;
+    width: 1580px;
     background-color: #7d7daf;    
     margin-top:0;
     display:grid;
-    grid-template-columns: 200px 1580px ;    
+    grid-template-columns: 200px 1380px ;    
     grid-template-rows: 120px 700px 500px auto;
     margin-top: 0px;
     
@@ -110,22 +110,16 @@ body{
     grid-column: 2/3;
     grid-row: 2;
 
-    width: 1480px;
-    height: fit-content;  
-    
+    width: 80%;
+    height: auto;
     align-items: center;
-    
-    
-    
-    
-
     background-image: linear-gradient(#f3f3f3,#6498d4,#e77ceb );
     border: 2px solid #e44ae9;
     border-radius: 5rem;
-   
     
-   
 }
+
+
 
 .kheaderPhotoSht{
     
