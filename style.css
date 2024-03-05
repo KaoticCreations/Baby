@@ -59,16 +59,20 @@
         max-width: 280px;
         width: 280px;
     }
+    
     .kContainrlog{  
         width:100%;
         height:auto;
-        
+        margin-top:50px;        
                     
     } 
     svg{
-    scale: .5;
+    scale: .5;   
     
+    }
     
+    .box{    
+    height: 280px;
     }
 }
 
