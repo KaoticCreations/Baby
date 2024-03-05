@@ -106,6 +106,7 @@
 
         width:100%;
         height: auto;
+        margin-top: .2rem;
         
         
            
@@ -149,6 +150,7 @@
     .kmainlogin{  
         padding-top: 1px;
         width:100%;
+        margin-top: .2rem;
         
     }
     .box{  
@@ -219,7 +221,7 @@ body
     padding:0px;
     
     margin:auto;    
-    margin-top: 2rem;
+    
     
     
     border: 3px #f3f3f3;
