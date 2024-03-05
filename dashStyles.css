@@ -20,9 +20,12 @@
 
 body{
     max-width: 1980px; 
-    min-width: 480px;
+    min-width: 360px;
     
-        justify-content: center;
+    
+    
+    
+    
     margin: auto;
     
     
@@ -32,10 +35,13 @@ body{
 
 .kTainrDash{
 
-    
-    min-width: 360px;   
+    max-width: 1980px;
+    min-width: 480px;   
 
-    margin: auto;
+    width: 480px;
+    width: 50%;
+    height: auto;
+    margin: auto; 
     
     margin-top:150px ;
     
@@ -48,14 +54,12 @@ body{
 
 .kmainDash{  
     width: 100%;
-    height: auto; 
-    margin: auto;
-    
-      
-    
+    height: auto;    
 }
+
 .kcarddash{
-    
+    display: flex;
+    flex-direction: column;
     width: 90%;
     height: auto; 
     margin: auto; 
@@ -65,14 +69,10 @@ body{
 .imageDash{
     /*width: fit-content;*/
 
-    width: 90%;
-    height: auto; 
+    width: 70%;
+    height: auto;    
     
-    
-    
-    
-    border:  solid 3px #a7d7eb;
-    
+    border:  solid 3px #a7d7eb;    
     border-bottom: solid 1px #6498d4;
     
     border-radius: 3px ;
