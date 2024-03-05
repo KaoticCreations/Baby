@@ -12,9 +12,7 @@
 @media screen and (max-width: 1580px){
     body{
            
-        max-width: 1580px;
-        min-width: 1280px;
-        
+       
         
         
     }
@@ -42,8 +40,7 @@
 @media screen and (max-width: 1280px){
     body{
            
-        max-width: 1280px;
-        min-width: 980px;
+        
         
         
         
@@ -66,9 +63,7 @@
 @media screen and (max-width: 780px){
     body{
            
-        max-width: 780px;
-        min-width: 620px;
-        width:100%;
+        
         
         
     }
@@ -101,8 +96,7 @@
 @media screen and (max-width: 480px){
     body{
            
-        max-width: 480px;
-        min-width: 420px;
+        
         
     }
     .kmainlogin{  
@@ -119,8 +113,7 @@
 @media screen and (max-width: 380px){
      body{
            
-        max-width: 380px;
-        min-width: 320px;
+        
         
     }
     .kContainrlog{  
@@ -133,6 +126,10 @@
     } 
     .kmainlogin{  
         width:90%;
+        margin:top 2rem;
+    
+    padding-top: 8rem;
+    padding-bottom: 15rem;
     }
     svg{
     scale: .5;
