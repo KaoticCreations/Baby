@@ -79,15 +79,16 @@
         
     }
     .kContainrlog{          
+        display: flex;
+        flex-wrap: wrap;
         
-        width: 780px;
         height: auto;
         
         margin-top:0px;
            
     } 
     .kmainlogin{  
-        width:60%;
+        width: 80%;
     }
 
 }
@@ -96,8 +97,9 @@
     body{
            
         background-color: #07f5c1; 
-        
-        
+        min-width: 380px; 
+        max-width: 780px;
+        width:100%;
     }
     .kContainrlog{  
         
@@ -137,9 +139,8 @@
     .kContainrlog{  
         
     
+        background-color: #07b2f5; 
     
-    padding-bottom: 5rem;
-    margin-top: 2rem;
         
         width:70%;
                     
@@ -199,7 +200,7 @@
 
 body
 {
-    max-width: 1980px; 
+    max-width: 2500px; 
     min-width: 380px;
     
     
@@ -212,12 +213,12 @@ body
 
 .kContainrlog{  
     min-width: 380px; 
-    width:30%;  
+    width:100%;  
     height:auto;
     padding:0px;
     
     margin:auto;    
-    margin-top: 5rem;
+    margin-top: 2rem;
     
     
     border: 3px #f3f3f3;
@@ -231,7 +232,7 @@ body
     height:auto;
 
     margin:auto;  
-    margin:top 2rem;
+    margin:top 0rem;
     
     padding-top: 3rem;
     padding-bottom: 5rem;
@@ -274,14 +275,14 @@ body
 {
     position: relative;
     
-    width: 100%;
+    width: 580px;
     height: 380px;
-    background: #f5f4f4;
+    background: #04fa42;
     border-radius: 8px;
     overflow: hidden;
         
     margin:auto;
-    margin-top: 0px;
+    
 }
 .box::before
 {
