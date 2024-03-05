@@ -107,23 +107,24 @@
         width:100%;
         height: auto;
         
-        margin-top:0px;
+        
            
     } 
 
     .kmainlogin{  
         width:90%;
+        margin-top:0px;
     }
 
     svg{
     scale: .5;
     
     }
-    .couple {
-        font-size: 25px;
+    .couple label {
+        font-size: 3rem;
     }
-    .titlelogin {
-        font-size: 1rem;
+    .titlelogin label{
+        font-size: 2rem;
     }
     
 }
@@ -154,7 +155,7 @@
         width:60%; 
     }
     .couple label {
-        font-size: 3rem;
+        font-size: .5rem;
     }
     .titlelogin label{
         font-size: 2rem;
@@ -190,7 +191,7 @@
     .titlelogin label{
         font-size: 25px;
     }
-    .couple {
+    .couple label{
         font-size: 1rem;
     }
     
@@ -213,7 +214,7 @@ body
 
 .kContainrlog{  
     min-width: 380px; 
-    width:100%;  
+    width:90%;  
     height:auto;
     padding:0px;
     
@@ -228,14 +229,14 @@ body
 
 .kmainlogin{  
     width:90%;   
-     
+     display:block;
     height:auto;
 
     margin:auto;  
     margin:top 0rem;
     
-    padding-top: 3rem;
-    padding-bottom: 5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     
 }
 
