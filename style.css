@@ -10,6 +10,7 @@
 
 @media screen and (max-width: 780px){
     body{
+        background-color: #ffffff;
            
         max-width: 780px;
         width: 768px;
@@ -34,6 +35,7 @@
 @media screen and (max-width: 480px){
      body{
            
+         background-color: #000066;
         max-width: 480px;
         width: 280px;
     }
