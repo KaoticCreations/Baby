@@ -147,11 +147,11 @@
     } 
     .kmainlogin{  
         padding-top: 1px;
-        width:80%;
+        width:100%;
         
     }
     .box{  
-        width:80%;
+        width:60%; 
     }
     .couple label {
         font-size: 3rem;
@@ -275,7 +275,8 @@ body
 {
     position: relative;
     
-    width: 580px;
+    width:33%; 
+    min-width: 380px;
     height: 380px;
     background: #04fa42;
     border-radius: 8px;
