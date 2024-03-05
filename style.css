@@ -40,13 +40,14 @@
     .kContainrlog{  
         display:flex;
         flex-direction: column; 
+        width:100%;
         
     } 
     svg{
-    scale: .5;
-    
-    
+    scale: .5;    
     }
+    .box{    
+    height: 280px;
 }
 
 
