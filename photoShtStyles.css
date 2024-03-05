@@ -165,12 +165,12 @@ body{
 }
 .imagetop{
 
-    width: 600px;
-    height: fit-content;
+    width: 40%;
+    height: auto;
     margin-top: 250px;
     margin-bottom: 250px;
     
-    border:  solid 3px #3280e6;
+    border:  double 3px #3280e6;
 
     border-bottom: solid 1px #e44ae9;
     
@@ -181,11 +181,11 @@ body{
 
 .imageBlu{
     
-    width: fit-content;
-    height: fit-content;
+    width: 25%;
+    height: auto;
     margin-bottom: 50px;
     
-    border:  solid 3px #3280e6;
+    border:  double 3px #3280e6;
 
     border-bottom: solid 1px #e44ae9;
     
@@ -197,9 +197,10 @@ body{
 .imagePnk{
     
     
-    width: fit-content;
+    width: 25%;
+    height: auto;
     margin-bottom: 50px;
-    border:  solid 3px #e44ae9;
+    border:  double 3px #e44ae9;
 
     border-bottom: solid 1px #3280e6;
     
