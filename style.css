@@ -32,14 +32,21 @@
     margin-top: 15px;
     margin-left: 30px;
     }
+    .titlelogin label{
+        font-size: 3rem;
+    }
     
 }
+@media screen and (max-width: 480px){
+    .titlelogin label{
+        font-size: 2rem;
+    }
+}
 
-
-@media screen and (max-width: 380px){
+@media screen and (max-width: 480px){
      body{
            
-        max-width: 380px;
+        max-width: 480px;
         
     }
     .kContainrlog{  
@@ -54,6 +61,10 @@
     
     
     }
+    .titlelogin label{
+        font-size: 2rem;
+    }
+    
 }
 
 
@@ -76,7 +87,7 @@ body
     padding:0px;
     
     margin:auto;
-    margin-top: 15px;
+    margin-top: 15rem;
     
     
     border: 3px #f3f3f3;
@@ -95,20 +106,15 @@ body
 }
 
 
-#bt{
-    font-size: 25px;
-    margin-top: 0px;
-    color: #63638f;    
-    text-align: center;
-    
-}
 .titlelogin{
     
     display:flex;
     flex-direction: column;
     text-align: center;
     padding-bottom:10px;
+    font-size: 4rem;
     
+    color: #63638f;   
     margin-bottom: 20px;
 }
 #lblLogin{
