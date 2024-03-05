@@ -78,14 +78,14 @@ body
     
     display: flex;
     justify-content: center;
-    margin: auto;
+    
       
 }
 
 .kContainrlog{  
     width:80%;
     height:auto;
-    padding:0px;
+    
     
     margin:auto;
     margin-top:200px;
