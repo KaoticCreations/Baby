@@ -32,10 +32,10 @@
 }
 
 
-@media screen and (max-width: 380px){
+@media screen and (max-width: 480px){
      body{
            
-        max-width: 380px;
+        max-width: 480px;
         width: 368px;
     }
     .kContainrlog{  
