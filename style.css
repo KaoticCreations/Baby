@@ -127,7 +127,6 @@
 }
 
 
-
 @media screen and (max-width: 480px){
     body{
           background-color: #f5e507; 
@@ -136,20 +135,34 @@
     }
     .kContainrlog{  
         
+    
+    
+    padding-bottom: 5rem;
+    margin-top: 2rem;
         
-        width:90%;
+        width:70%;
                     
-    } 
+    }  
     .kmainlogin{  
+        padding-top: 1px;
+        width:80%;
+        
+    }
+    .box{  
         width:80%;
     }
-    .couple {
-        font-size: 25px;
+    .couple label {
+        font-size: 3rem;
     }
-    .titlelogin {
-        font-size: 5px;
+    .titlelogin label{
+        font-size: 2rem;
     }
 }
+
+
+
+
+
 
 @media screen and (max-width: 380px){
      body{
@@ -188,10 +201,9 @@
 
 
 
-body
-{
+body{
     max-width: 1980px; 
-    min-width: 480px;
+    min-width: 380px;
     
     
     justify-content: center;
@@ -200,15 +212,14 @@ body
     
       
 }
-
 .kContainrlog{  
-    min-width: 480px; 
+    min-width: 380px; 
     width:30%;  
     height:auto;
-    padding:0px;
+    
     
     margin:auto;    
-    margin-top: 5rem;
+    margin-top: 2rem;
     
     
     border: 3px #f3f3f3;
