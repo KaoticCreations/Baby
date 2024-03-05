@@ -8,28 +8,61 @@
 }
 
 
-
-@media screen and (max-width: 1580px){
+@media screen and (min-width: 1820px){
     body{
            
-       
+        background-color: #8207f5; 
+        
         
         
     }
     .kContainrlog{  
         
         
-        
+        width:80%;
         height: auto;
         
         margin-top:0px;
            
     } 
     .kmainlogin{  
-        width:60%;
+        width:80%;
     }
 
 }
+
+
+@media screen and (max-width: 1820px){
+    body{
+           
+        background-color: #f50776; 
+        
+        
+        
+    }
+    .kContainrlog{  
+        
+        
+        width:800px;
+        height: auto;
+        
+        margin-top:0px;
+           
+    } 
+    .kmainlogin{  
+        width:80%;
+    }
+    .couple, label{
+        color: #838a40;
+        font: size 25px;
+    }
+    .titlelogin, label{
+        color: #8a6140;
+        font: size 25px;
+    }
+}
+
+
 
 
 
@@ -40,15 +73,14 @@
 @media screen and (max-width: 1280px){
     body{
            
-        
+        background-color: #f59607; 
         
         
         
     }
-    .kContainrlog{  
+    .kContainrlog{          
         
-        
-        width:50%;
+        width: 780px;
         height: auto;
         
         margin-top:0px;
@@ -63,14 +95,14 @@
 @media screen and (max-width: 780px){
     body{
            
-        
+        background-color: #07f5c1; 
         
         
     }
     .kContainrlog{  
         
-        
-        width:60%;
+
+        width:100%;
         height: auto;
         
         margin-top:0px;
@@ -86,37 +118,66 @@
     
     }
     .couple {
-        font-size: 3.5rem;
-    }
-    .titlelogin {
-        font-size: 2.5rem;
-    }
-    
-}
-@media screen and (min-width: 480px){
-    body{
-           
-        
-        
-    }
-     .kContainrlog{  
-        
-        
-        width:100%;
-        height: auto;
-        
-        margin-top:0px;
-           
-    } 
-    .kmainlogin{  
-        width:80%;
-    }
-    .couple {
-        font-size: 1.5rem;
+        font-size: 25px;
     }
     .titlelogin {
         font-size: 1rem;
     }
+    
+}
+
+
+
+@media screen and (max-width: 480px){
+    body{
+          background-color: #f5e507; 
+        
+        
+    }
+    .kmainlogin{  
+        width:80%;
+    }
+    .couple {
+        font-size: 25px;
+    }
+    .titlelogin {
+        font-size: 5px;
+    }
+}
+
+@media screen and (max-width: 380px){
+     body{
+        background-color: #07b2f5; 
+        
+        
+    }
+    .kContainrlog{  
+        display:flex;
+        flex-direction: column; 
+        margin:auto;
+        margin-top:5px;
+        width:90%;
+                    
+    } 
+    .kmainlogin{  
+        width:90%;
+        margin:top 2rem;
+    
+    padding-top: 8rem;
+    padding-bottom: 15rem;
+    }
+    svg{
+    scale: .5;
+    
+    
+    }
+    .titlelogin label{
+        font-size: 25px;
+    }
+    .couple {
+        font-size: 1rem;
+    }
+    
 }
 
 
@@ -124,7 +185,7 @@
 body
 {
     max-width: 1980px; 
-    min-width: 480px;
+    min-width: 420px;
     
     
     justify-content: center;
@@ -135,13 +196,12 @@ body
 }
 
 .kContainrlog{  
- min-width: 380px; 
-
-    width:40%;
+    min-width: 480px; 
+    width:30%;  
     height:auto;
     padding:0px;
     
-    margin:auto;
+    margin:auto;    
     margin-top: 5rem;
     
     
@@ -151,7 +211,7 @@ body
 }
 
 .kmainlogin{  
-    width:50%;   
+    width:90%;   
      
     height:auto;
 
@@ -199,7 +259,7 @@ body
 {
     position: relative;
     
-    width: 90%;
+    width: 100%;
     height: 380px;
     background: #f5f4f4;
     border-radius: 8px;
