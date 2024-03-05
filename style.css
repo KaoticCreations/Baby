@@ -13,11 +13,12 @@
         background-color: #ffffff;
            
         max-width: 780px;
-        width: 768px;
+        
     }
     .kContainrlog{  
         display:flex;
-        flex-direction: column;       
+        flex-direction: column;   
+        width: 780px;
              
     } 
     svg{
@@ -37,13 +38,13 @@
            
          background-color: #000066;
         max-width: 480px;
-        width: 280px;
+        
     }
     .kContainrlog{  
         
         display:flex;
         flex-direction: column; 
-        width:100%;
+        width: 480px;
         margin-top:25px;
         
     } 
@@ -62,13 +63,14 @@
          background-color: #ff0000;
            
         max-width: 280px;
-        width: 280px;
+        
     }
     
     .kContainrlog{  
         width:100%;
         height:auto;
-        margin-top:50px;        
+        margin-top:50px;    
+        width: 280px;
                     
     } 
     svg{
@@ -96,7 +98,7 @@ body
 }
 
 .kContainrlog{  
-    width:50%;
+    width:100%;
     height:auto;
     
     
@@ -104,7 +106,7 @@ body
     margin-top:200px;
     
     
-    border: 3px dashed #f3f3f3;
+    border: 3px double #f3f3f3;
     background-image: linear-gradient(#f3f3f3 ,#6498d4,#e77ceb );
     border-radius: 5rem;    
 }
