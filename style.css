@@ -90,7 +90,7 @@
 body
 {
     max-width: 1980px;
-        width: 1980px;
+        
     display: flex;
     justify-content: center;
     
@@ -98,7 +98,7 @@ body
 }
 
 .kContainrlog{  
-    width:40%;
+    width: 1980px;
     height:auto;
     
     
@@ -112,7 +112,7 @@ body
 }
 
 .kmainlogin{  
-    width:100%;
+    width:30%;
     height:auto;
     margin:auto;  
     margin:top 2rem;
