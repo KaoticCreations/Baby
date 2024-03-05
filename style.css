@@ -21,7 +21,7 @@
     .kContainrlog{  
         
         
-        width:50%;
+        
         height: auto;
         
         margin-top:0px;
@@ -75,7 +75,7 @@
     .kContainrlog{  
         
         
-        width:80%;
+        width:60%;
         height: auto;
         
         margin-top:0px;
@@ -106,7 +106,7 @@
         
     }
     .kmainlogin{  
-        width:66%;
+        width:80%;
     }
     .couple {
         font-size: 3rem;
@@ -132,7 +132,7 @@
                     
     } 
     .kmainlogin{  
-        width:386px;
+        width:90%;
     }
     svg{
     scale: .5;
