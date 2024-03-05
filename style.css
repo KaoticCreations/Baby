@@ -50,24 +50,7 @@
     }
 }
 
-@media screen and (max-width: 280px){
-     body{
-           
-        max-width: 280px;
-        width: 280px;
-    }
-    .kContainrlog{  
-        display:flex;
-        flex-direction: column; 
-        margin:auto;
-                    
-    } 
-    svg{
-    scale: .5;
-    
-    
-    }
-}
+
 
 
 
