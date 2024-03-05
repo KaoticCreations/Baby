@@ -10,20 +10,15 @@
 
 @media screen and (max-width: 768px){
     body{
-        /*
-        display:flex;
-        flex-direction: column;
-        */
-        grid-template-columns: 200px 580px ;    
+           
         max-width: 768px;
         width: 768px;
     }
     .kContainrlog{  
         display:flex;
         flex-direction: column; 
-        width: 768px;
-        grid-column: 1;
-        grid-row: 2;
+        
+        
             
     } 
 }
@@ -40,15 +35,12 @@ body
 }
 
 .kContainrlog{  
-
-    grid-row:2;
-
-    width:fit-content;
-    height: fit-content;
+    width:80%;
+    height:auto;
     padding:0px;
     
-    margin-top: 100px;
-    padding-top: 0px;
+    margin:.auto;
+    
     border: 3px dashed#f3f3f3;
     background-image: linear-gradient(#f3f3f3 ,#6498d4,#e77ceb );
     border-radius: 5rem;    
@@ -106,8 +98,8 @@ body
     position: absolute;
     top: -50%;
     left: -50%;
-    width: 380px;
-    height: 420px;
+    width: 80%;
+    height: auto;
     background: linear-gradient(0deg,transparent,transparent,#6498d4,#6498d4,#6498d4);
     z-index: 1;
     transform-origin: bottom right;
@@ -122,8 +114,8 @@ body
     position: absolute;
     top: -50%;
     left: -50%;
-    width: 380px;
-    height: 420px;
+    width: 80%;
+    height: auto;
     background: linear-gradient(0deg,transparent,transparent,#f04af0,#6498d4,#f04af0);
     z-index: 1;
     transform-origin: bottom right;
@@ -141,8 +133,8 @@ body
     position: absolute;
     top: -50%;
     left: -50%;
-    width: 380px;
-    height: 420px;
+    width: 80%;
+    height: auto;
     background: linear-gradient(0deg,transparent,transparent,#de5ae2,#de5ae2,#de5ae2);
     z-index: 1;
     transform-origin: bottom right;
@@ -155,8 +147,8 @@ body
     position: absolute;
     top: -50%;
     left: -50%;
-    width: 380px;
-    height: 420px;
+    width: 80%;
+    height: auto;
     background: linear-gradient(0deg,transparent,transparent,#de5ae2,#de5ae2,#de5ae2);
     z-index: 1;
     transform-origin: bottom right;
@@ -350,7 +342,9 @@ body
     scale: 0.85;
 }
 svg{
-    scale: 1.5;
+    
+    width: 20%;
+    height: auto;
     margin-bottom: 0px;
     margin-top: 15px;
     margin-left: 30px;
