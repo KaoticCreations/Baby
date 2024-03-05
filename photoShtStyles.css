@@ -7,27 +7,24 @@
         /*
         display:flex;
         flex-direction: column;
-        */
-
-        grid-template-columns: 200px 580px ;    
+        */           
         width: 780px;
+        height: auto;
     }
-    .kContainrPhotoSht{   
-        width: 680px;
-            grid-column: 1;
-    }        
-    
     .kContainrPhotoSht{
         display:flex;
         flex-direction: column;
-        width:  fit-content;
-        
+        width: 80%;
+        height: auto;
+           
     }
     .kmainphotosht{
         display:flex;
         flex-direction: column;
         gap: 25px;
-        width: 780px;
+        width: 80%;
+        height: auto;
+        
 
         margin-top: 75px;
         
@@ -36,21 +33,23 @@
     .imagetop{
 
         width:  fit-content;
-        height: fit-content;
+        height: auto;
     }
     .imageBlu{
         width:  fit-content;
+        height: auto;
     }
     .kcardphotosht{
         display:flex;
         flex-direction: column;
-        width: 680px;
+        width: 80%;
+        height: auto;
     }
      #title{
         
         font-size: 50px;
-        padding-top:50px;
-        margin-bottom: 100px;
+        padding-top:10px;
+        margin-bottom: 30px;
     }
 }
     @media screen and (max-width: 380px){
@@ -58,11 +57,49 @@
             display:flex;
             flex-direction: column;
             width: 380px;
+            height: auto;
         }
-        .kContainrPhotoSht{   
-            width: 380px;
-                grid-column: 1;
-        }        
+         
+    .kContainrPhotoSht{
+        display:flex;
+        flex-direction: column;
+        width: 80%;
+        height: auto;
+           
+    }
+    .kmainphotosht{
+        display:flex;
+        flex-direction: column;
+        gap: 25px;
+        width: 80%;
+        height: auto;
+        
+
+        margin-top: 75px;
+        
+        
+    }
+    .imagetop{
+
+        width:  fit-content;
+        height: auto;
+    }
+    .imageBlu{
+        width:  fit-content;
+        height: auto;
+    }
+    .kcardphotosht{
+        display:flex;
+        flex-direction: column;
+        width: 80%;
+        height: auto;
+    }
+     #title{
+        
+        font-size: 50px;
+        padding-top:10px;
+        margin-bottom: 30px;
+    }       
         
 
     }
