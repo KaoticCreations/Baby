@@ -74,7 +74,7 @@
     }
     .kContainrlog{  
         
-        min-width: 680px;
+        
         width:80%;
         height: auto;
         
@@ -161,7 +161,8 @@ body
 }
 
 .kContainrlog{  
-    
+ min-width: 520px; 
+
     width:40%;
     height:auto;
     padding:0px;
