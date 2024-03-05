@@ -8,35 +8,93 @@
 }
 
 
+
+@media screen and (max-width: 1580px){
+    body{
+           
+        max-width: 1580px;
+        min-width: 1280px;
+        
+        
+        
+    }
+    .kContainrlog{  
+        
+        
+        width:50%;
+        height: auto;
+        
+        margin-top:0px;
+           
+    } 
+    .kmainlogin{  
+        width:60%;
+    }
+
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 1280px){
+    body{
+           
+        max-width: 1280px;
+        min-width: 980px;
+        
+        
+        
+    }
+    .kContainrlog{  
+        
+        
+        width:50%;
+        height: auto;
+        
+        margin-top:0px;
+           
+    } 
+    .kmainlogin{  
+        width:60%;
+    }
+
+}
+
 @media screen and (max-width: 780px){
     body{
            
         max-width: 780px;
-        min-width: 680px;
+        min-width: 620px;
+        width:100%;
+        
         
     }
     .kContainrlog{  
-        display:flex;
-        flex-direction: column; 
+        
 
-        width:90%;
-        margin:auto;
-        margin-top:5px;
+        width:80%;
+        height: auto;
+        
+        margin-top:0px;
            
     } 
 
     .kmainlogin{  
-        width:66%;
+        width:90%;
     }
 
     svg{
     scale: .5;
-    margin-bottom: 0px;
-    margin-top: 15px;
-    margin-left: 30px;
+    
     }
-    .titlelogin label{
-        font-size: 3rem;
+    .couple {
+        font-size: 3.5rem;
+    }
+    .titlelogin {
+        font-size: 2.5rem;
     }
     
 }
@@ -50,7 +108,10 @@
     .kmainlogin{  
         width:66%;
     }
-    .titlelogin label{
+    .couple {
+        font-size: 3rem;
+    }
+    .titlelogin {
         font-size: 2rem;
     }
 }
@@ -89,9 +150,9 @@
 body
 {
     max-width: 1980px; 
-    min-width: 386px;
+    min-width: 480px;
     
-    display: flex;
+    
     justify-content: center;
     margin: auto;
     display: block;
@@ -101,6 +162,7 @@ body
 
 .kContainrlog{  
     
+    width:40%;
     height:auto;
     padding:0px;
     
@@ -114,7 +176,7 @@ body
 }
 
 .kmainlogin{  
-    width:33%;   
+    width:50%;   
      
     height:auto;
 
@@ -127,17 +189,27 @@ body
 }
 
 
-.titlelogin{
+.titlelogin, .couple{
     
     display:flex;
     flex-direction: column;
     text-align: center;
-    padding-bottom:10px;
-    font-size: 4rem;
+
+    
+    
+    font-size: 3rem;
     
     color: #63638f;   
     margin-bottom: 20px;
 }
+.couple{
+    
+    font-size: 4rem;
+
+    margin-bottom:30px;
+    color: #63638f;  
+}
+
 #lblLogin{
     font-size: 50px;
     margin-top: 0px;
@@ -411,7 +483,7 @@ body
     scale: 0.85;
 }
 svg{
-    scale: 1.5;
+    scale: 1.25;
     margin-bottom: 0px;
     margin-top: 15px;
     margin-left: 0px;
