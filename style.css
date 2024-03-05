@@ -12,20 +12,23 @@
     body{
            
         max-width: 780px;
+        min-width: 680px;
         
     }
     .kContainrlog{  
         display:flex;
         flex-direction: column; 
 
-        width:100%;
+        width:90%;
         margin:auto;
-        margin-top: 5px;
-        
-        
-        
-            
+        margin-top:5px;
+           
     } 
+
+    .kmainlogin{  
+        width:66%;
+    }
+
     svg{
     scale: .5;
     margin-bottom: 0px;
@@ -38,25 +41,38 @@
     
 }
 @media screen and (max-width: 480px){
+    body{
+           
+        max-width: 480px;
+        min-width: 420px;
+        
+    }
+    .kmainlogin{  
+        width:66%;
+    }
     .titlelogin label{
         font-size: 2rem;
     }
 }
 
-@media screen and (max-width: 480px){
+@media screen and (max-width: 380px){
      body{
            
-        max-width: 480px;
+        max-width: 380px;
+        min-width: 320px;
         
     }
     .kContainrlog{  
         display:flex;
         flex-direction: column; 
         margin:auto;
-        width:100%;
-        margin-top: 5px;
+        margin-top:5px;
+        width:90%;
                     
     } 
+    .kmainlogin{  
+        width:386px;
+    }
     svg{
     scale: .5;
     
@@ -78,6 +94,7 @@ body
     display: flex;
     justify-content: center;
     margin: auto;
+    display: block;
     
       
 }
@@ -88,7 +105,7 @@ body
     padding:0px;
     
     margin:auto;
-    margin-top: 15rem;
+    margin-top: 5rem;
     
     
     border: 3px #f3f3f3;
@@ -97,12 +114,15 @@ body
 }
 
 .kmainlogin{  
-    width:90%;
-    
+    width:33%;   
+     
     height:auto;
+
     margin:auto;  
     margin:top 2rem;
-    padding-top: 5rem;
+    
+    padding-top: 8rem;
+    padding-bottom: 15rem;
     
 }
 
