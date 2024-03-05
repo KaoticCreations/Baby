@@ -21,6 +21,13 @@
         
             
     } 
+    svg{
+    scale: 1.5;
+    margin-bottom: 0px;
+    margin-top: 15px;
+    margin-left: 30px;
+    
+}
 }
 
 @media screen and (max-width: 380px){
@@ -34,6 +41,13 @@
         flex-direction: column;        
                     
     } 
+    svg{
+    scale: .5;
+    margin-bottom: 0px;
+    margin-top: 15px;
+    margin-left: 30px;
+    
+    }
 }
 
 
@@ -356,9 +370,7 @@ body
     scale: 0.85;
 }
 svg{
-    
-    width: 30%;
-    height: auto;
+    scale: 1.5;
     margin-bottom: 0px;
     margin-top: 15px;
     margin-left: 30px;
@@ -372,7 +384,8 @@ svg{
 .icon{
     display:flex;
     flex-wrap: wrap;
-    
+    width:80%;
+    height:auto;
     margin-top: 40px;
 
     
@@ -384,5 +397,6 @@ svg{
     margin-top: 0px;
     padding-bottom: 50px;
 }
+
 
 
