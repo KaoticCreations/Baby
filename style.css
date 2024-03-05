@@ -156,11 +156,11 @@
     .box{  
         width:60%; 
     }
-    .couple label {
-        font-size: .5rem;
+   .couple label {
+        font-size: 2.5rem;
     }
     .titlelogin label{
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 }
 
