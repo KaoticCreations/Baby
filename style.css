@@ -31,10 +31,10 @@
 
 
 
-@media screen and (max-width: 480px){
+@media screen and (max-width: 380px){
      body{
            
-        max-width: 480px;
+        max-width: 380px;
         width: 368px;
     }
     .kContainrlog{  
@@ -98,14 +98,13 @@ body
     margin-top:200px;
     
     
-    border: 3px dashed#f3f3f3;
+    border: 3px dashed #f3f3f3;
     background-image: linear-gradient(#f3f3f3 ,#6498d4,#e77ceb );
     border-radius: 5rem;    
 }
 
 .kmainlogin{  
-    width:80%;
-    height:auto;
+    
     margin:auto;  
     margin:top 2rem;
     
