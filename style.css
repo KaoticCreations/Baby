@@ -230,7 +230,7 @@ body
 }
 
 
-.titlelogin, .couple{
+.titlelogin{
     
     display:flex;
     flex-direction: column;
@@ -238,14 +238,16 @@ body
 
     
     
-    font-size: 3rem;
+    font-size: .5rem;
     
     color: #63638f;   
     margin-bottom: 20px;
 }
 .couple{
-    
-    font-size: 4rem;
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: .5rem;
 
     margin-bottom:30px;
     color: #63638f;  
