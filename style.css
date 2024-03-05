@@ -10,112 +10,98 @@
 
 @media screen and (max-width: 780px){
     body{
-        background-color: #ffffff;
            
         max-width: 780px;
-        
+        width: 768px;
     }
     .kContainrlog{  
         display:flex;
-        flex-direction: column;   
-        width: 780px;
-             
+        flex-direction: column; 
+        margin:auto;
+        
+        
+            
     } 
     svg{
     scale: 1.5;
     margin-bottom: 0px;
     margin-top: 15px;
-    margin-left: 5px;
+    margin-left: 30px;
     }
     
 }
 
 
-
-
-@media screen and (max-width: 480px){
+@media screen and (max-width: 380px){
      body{
            
-         background-color: #000066;
-        max-width: 480px;
-        
+        max-width: 380px;
+        width: 368px;
     }
     .kContainrlog{  
-        
         display:flex;
         flex-direction: column; 
-        width: 480px;
-        margin-top:25px;
-        
-    } 
-    svg{
-    scale: .5;   
-        margin-left: 5px;
-    }
-    .box{    
-    height: 280px;
-    }
-}
-
-
-@media screen and (max-width: 280px){
-     body{
-         background-color: #ff0000;
-           
-        max-width: 280px;
-        
-    }
-    
-    .kContainrlog{  
-        width:100%;
-        height:auto;
-        margin-top:50px;    
-        width: 280px;
+        margin:auto;
                     
     } 
     svg{
-    scale: .5;   
+    scale: .5;
     
-    }
     
-    .box{    
-    height: 280px;
     }
 }
 
-
+@media screen and (max-width: 280px){
+     body{
+           
+        max-width: 280px;
+        width: 200px;
+    }
+    .kContainrlog{  
+        display:flex;
+        flex-direction: column; 
+        max-width: 380px;
+        margin-left: 0px;
+                    
+    } 
+    svg{
+    scale: .5;
+    
+    
+    }
+}
 
 
 
 body
 {
-    max-width: 1980px;
-        
+    
     display: flex;
     justify-content: center;
-    
+    margin: auto;
       
 }
 
 .kContainrlog{  
-    width: 1980px;
+    width:33%;
     height:auto;
-    
+    padding:0px;
     
     margin:auto;
-    margin:top 2rem;
+    margin-top: 15rem;
     
     
-    border: 3px double #f3f3f3;
+    border: 3px dashed#f3f3f3;
     background-image: linear-gradient(#f3f3f3 ,#6498d4,#e77ceb );
     border-radius: 5rem;    
 }
 
 .kmainlogin{  
-    width:30%;
+    width:90%;
     height:auto;
     margin:auto;  
     margin:top 2rem;
+    padding-top: 5rem;
     
 }
 
