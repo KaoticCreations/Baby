@@ -8,10 +8,10 @@
 }
 
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 780px){
     body{
            
-        max-width: 768px;
+        max-width: 780px;
         width: 768px;
     }
     .kContainrlog{  
@@ -23,7 +23,20 @@
     } 
 }
 
+@media screen and (max-width: 380px){
+     body{
+           
+        max-width: 380px;
+        width: 368px;
+    }
+    .kContainrlog{  
+        display:flex;
+        flex-direction: column;        
+                    
+    } 
+}
 
+}
 
 body
 {
