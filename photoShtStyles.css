@@ -224,9 +224,9 @@ body{
     
     
     
-    border:  solid 3px #3280e6;
+    border:  double 3px #3280e6;
 
-    border-bottom: double 1px #e44ae9;
+    border-bottom: solid 1px #e44ae9;
     
     border-radius: 20px ;
     border-width: 13px 8px 20px 18px;
@@ -235,7 +235,7 @@ body{
 
 .imageBlu{
     
-    width: 40%;
+    width: fit-content;
     height: auto;
     margin-bottom: 50px;
     
@@ -253,9 +253,9 @@ body{
     
     width: fit-content;
     margin-bottom: 50px;
-    border:  solid 3px #e44ae9;
+    border:  double 3px #e44ae9;
 
-    border-bottom: double 1px #3280e6;
+    border-bottom: solid 1px #3280e6;
     
     border-radius: 15px ;
     border-width: 3px 8px 19px 18px;
