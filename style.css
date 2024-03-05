@@ -134,6 +134,12 @@
         
         
     }
+    .kContainrlog{  
+        
+        
+        width:90%;
+                    
+    } 
     .kmainlogin{  
         width:80%;
     }
@@ -185,7 +191,7 @@
 body
 {
     max-width: 1980px; 
-    min-width: 420px;
+    min-width: 480px;
     
     
     justify-content: center;
