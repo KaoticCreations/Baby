@@ -52,7 +52,7 @@ body
     height:auto;
     padding:0px;
     
-    margin:.auto;
+    margin:auto;
     
     border: 3px dashed#f3f3f3;
     background-image: linear-gradient(#f3f3f3 ,#6498d4,#e77ceb );
