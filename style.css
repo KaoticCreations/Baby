@@ -15,8 +15,8 @@
         width: 768px;
     }
     .kContainrlog{  
-        display:flex;
-        flex-direction: column; 
+        
+        width:66%;
         margin:auto;
         
         
@@ -51,25 +51,7 @@
     }
 }
 
-@media screen and (max-width: 280px){
-     body{
-           
-        max-width: 280px;
-        width: 200px;
-    }
-    .kContainrlog{  
-        display:flex;
-        flex-direction: column; 
-        max-width: 380px;
-        margin-left: 0px;
-                    
-    } 
-    svg{
-    scale: .5;
-    
-    
-    }
-}
+
 
 
 
