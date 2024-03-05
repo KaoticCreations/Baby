@@ -17,7 +17,7 @@
     .kContainrlog{  
         display:flex;
         flex-direction: column; 
-        margin:auto;
+        
         
         
             
@@ -41,8 +41,7 @@
     .kContainrlog{  
         display:flex;
         flex-direction: column; 
-        margin:auto;
-                    
+        
     } 
     svg{
     scale: .5;
