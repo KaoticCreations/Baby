@@ -99,14 +99,23 @@
         
         
     }
+     .kContainrlog{  
+        
+        
+        width:100%;
+        height: auto;
+        
+        margin-top:0px;
+           
+    } 
     .kmainlogin{  
         width:80%;
     }
     .couple {
-        font-size: 3rem;
+        font-size: 1.5rem;
     }
     .titlelogin {
-        font-size: 2rem;
+        font-size: 1rem;
     }
 }
 
