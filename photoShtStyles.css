@@ -4,47 +4,21 @@
 
 @media screen and (max-width: 780px){
     body{
-        /*
-        display:flex;
-        flex-direction: column;
-        */           
+              
         width: 780px;
         height: auto;
     }
     .kContainrPhotoSht{
-        display:flex;
-        flex-direction: column;
+        
         width: 80%;
         height: auto;
            
     }
-    .kmainphotosht{
-        display:flex;
-        flex-direction: column;
-        gap: 25px;
-        width: 80%;
-        height: auto;
+    
         
-
-        margin-top: 75px;
+                
         
-        
-    }
-    .imagetop{
-
-        width:  fit-content;
-        height: auto;
-    }
-    .imageBlu{
-        width:  fit-content;
-        height: auto;
-    }
-    .kcardphotosht{
-        display:flex;
-        flex-direction: column;
-        width: 80%;
-        height: auto;
-    }
+    
      #title{
         
         font-size: 50px;
