@@ -2,7 +2,7 @@
     box-sizing: border-box;
  }  
 
-@media screen and (max-width: 780px){
+@media screen and (min-width: 780px){
 
     body{
         background-color: #3280e6;
@@ -60,7 +60,7 @@
         margin-bottom: 0px;
     }
 }
-    @media screen and (max-width: 380px){
+    @media screen and (min-width: 380px){
         body{
             display:flex;
             flex-direction: column;
