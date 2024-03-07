@@ -508,14 +508,14 @@ svg{
     */
 
 }
-@media screen and (max-height: 980px){
+@media screen and (max-height: 780px){
     body{
         height:100%;
     }
 
     .kmain{  
             
-        padding-top: 1rem;
+        padding-top: 5rem;
         
     
     }
@@ -523,7 +523,7 @@ svg{
      .box{
          width:90%;
          height:20rem;
-         margin-top: 3rem;
+         margin-top: 5rem;
      }
  
      .kaotic{
@@ -531,7 +531,7 @@ svg{
      
          font-size: .5rem;
          
-         padding-bottom:0rem ;
+         padding-bottom:1.75rem ;
      }
      
      
@@ -556,7 +556,7 @@ svg{
     
         scale: 1.125;
         margin-bottom: 0px;
-        margin-top: 1rem;
+        margin-top: 5rem;
     }
  }
 
