@@ -17,31 +17,34 @@ body
 {
     max-width: 2500px; 
     min-width: 380px;
+    background-image: url(https://www.photopills.com/sites/default/files/tutorials/2020/sunrise-cover.jpg);
+    background-image: url(https://i0.wp.com/digital-photography-school.com/wp-content/uploads/2021/03/sunset-photography-tips-1.jpg?resize=1500%2C1000&ssl=1);
+    background-position: center;
+    background-size: cover;
+    
+
+    
+}
+.ktainer{   
+    display: block;
+    
 
     background-image: url(https://www.photopills.com/sites/default/files/tutorials/2020/sunrise-cover.jpg);
     background-image: url(https://i0.wp.com/digital-photography-school.com/wp-content/uploads/2021/03/sunset-photography-tips-1.jpg?resize=1500%2C1000&ssl=1);
     background-position: center;
     background-size: cover;
-}
-.ktainer{
-    justify-content: center;
-    margin: auto;
-
-      
-    
     
 
 }
 .kmain{  
      width:90%;   
-     display:block;
+     
      height:auto;    
 
-     margin:auto; 
-      
+     margin:auto;      
+    padding-top: 10rem;
+     
     
-    padding-top: 5rem;
-    padding-bottom: 3rem;
 
 }
 
@@ -57,16 +60,12 @@ body
 
 
 .babyNme{    
-    font-size: 4rem;
-
-    margin-bottom:30px;
+    font-size: 4rem;    
     color: #47336d;  
 }
 .titlelogin h4 {
     
-    font-size: 4rem;
-
-    margin-bottom:20px;
+    font-size: 4rem;    
     color: #47336d; 
 }
 
@@ -98,8 +97,8 @@ body
 {
     position: relative;
     
-    width:33%; 
-    min-width: 280px;
+    width:40rem; 
+    
     height: 380px;
     background: #0f6bb6;
     border-radius: 8px;
@@ -311,6 +310,10 @@ form .inputbox[type="submit"]:active
     opacity: 0.8;
     text-align: center;
 }
+.LogAction{
+    margin:auto;
+
+}
 
 .action_btn
 {
@@ -319,7 +322,7 @@ form .inputbox[type="submit"]:active
     color: #f3f3f3;
     padding: 0.5rem 1rem;
     border:none;
-    outline:none;
+    outline:#d2f11c;
     border-radius: 20px;
     font-size: 1.5rem;
     font-weight: bold;
@@ -327,7 +330,7 @@ form .inputbox[type="submit"]:active
     text-decoration: none;
 
     text-align: center;
-    margin-top: 120px;
+    
 }
 .action_btn2
 {
@@ -379,7 +382,7 @@ svg{
     
     scale: 1.25;
     margin-bottom: 0px;
-    margin-top: 15px;
+    margin-top: 15rem;
     margin-left: 3rem;
     
 }
@@ -388,6 +391,8 @@ svg{
     
     font-size: .75rem;
     padding-left:1rem ;
+    
+    padding-bottom:5rem ;
 }
 /*------------------------form---------------------------*/
 
@@ -396,10 +401,63 @@ svg{
 /*------------------------MEDIA---------------------------*/
 
 
-@media screen and (max-width: 480px){
+@media screen and (max-width: 860px){
+
+
+    .box{
+        width:70%;
+    }
+
+    svg{    
+        margin-top: 18.5rem;  
+
+    }
+
+    .kaotic{   
+    
+        font-size: .75rem;
+        padding-left:1rem ;
+        padding-bottom:5rem ;
+
+    }
     
     .titlelogin h4{
-        font-size: 1.8rem;
+        font-size: 2.5rem;
+    }
+    .titlelogin h4 span{
+        font-size: 3.5rem;
+   }
+   
+   
+    
+   .babyNme h4 {
+    font-size: 2.5rem;
+    }
+    .babyNme h4 span{
+    font-size: 3.5rem;
+   }
+}
+
+
+
+@media screen and (max-width: 480px){
+
+    .box{
+        width:90%;
+        height:30rem;
+    }
+
+    .kaotic{
+    
+    
+        font-size: .625rem;
+        
+        padding-bottom:1rem ;
+    }
+    
+    
+    .titlelogin h4{
+        font-size: 2.5rem;
     }
     .titlelogin h4 span{
         font-size: 3.5rem;
@@ -416,9 +474,15 @@ svg{
 }
 
 @media screen and (max-width: 380px){
-    
-   
 
+
+    .box{
+        width:90%;
+        
+    }
+    
+   /*
+    height:30rem;
 .titlelogin h4{
     font-size: 2rem;
     }
@@ -434,6 +498,8 @@ svg{
     .babyNme h4 span{
     font-size: 3rem;
     }
+
+    */
 
 }
 
