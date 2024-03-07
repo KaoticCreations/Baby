@@ -513,6 +513,9 @@ svg{
 @media screen and (max-height: 640px){
     body{
         height:100%;
+    }
+        
+
 }
     
 
