@@ -475,10 +475,16 @@ svg{
 }
 
 @media screen and (max-width: 380px){
-
+      .kmain{  
+            
+       padding-top: 0rem;
+       
+   
+   }
 
     .box{
         width:90%;
+        margin-top: 5rem;
         
     }
     
