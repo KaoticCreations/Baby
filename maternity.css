@@ -220,9 +220,6 @@ h4 span
 /*-----SECTION 1-   media---*/
 
 
-
-
-
 @media screen and (max-width:768px) {
     .kaos{
         display: flex;
@@ -251,7 +248,7 @@ h4 span
 
 /*-----SECTION 2----*/
 
-
+/*--------------------------------------------------------------*/
 
 
 .Ktainer{
@@ -279,6 +276,54 @@ h4 span
     justify-content: center;
     text-align: center;
 }
+/*--------------------------------------------------------------*/
+
+.kcard{
+    border:  solid 3px #e44ae9;
+
+    border-bottom: solid 1px #3280e6;
+    
+    border-radius: 15px ;
+    border-width: 3px 8px 19px 18px;
+    box-shadow: 9px 5px 2px 3px #f3f3f3;
+    transition: 0.4s;
+
+    width: fit-content;
+    height: fit-content;
+    background: transparent;
+    text-align: center;
+    font-size: 16px;
+    font-family: sans-serif;
+    float:left;
+    margin:3rem;
+    margin-bottom:7rem;
+
+    
+}
+
+.kcard:hover{
+    box-shadow: 0 8px 16px 0 rgb(3, 3, 250);
+    scale:2;
+    height: fit-content;   
+    
+}
+
+
+@media screen and (max-width:1080px) {
+
+    .kcard{
+/*        height: 500px;*/
+    }
+    .kcard:hover{
+        box-shadow: 0 8px 16px 0 rgb(3, 3, 250);
+        scale:2;
+        
+        
+        
+    }
+
+}
+/*--------------------------------------------------------------*/
 
 .card, .card2{
     border:  solid 3px #e44ae9;
@@ -308,6 +353,8 @@ h4 span
     
     
 }
+
+
 @media screen and (max-width:1080px) {
 
     .card{
@@ -323,9 +370,7 @@ h4 span
 
 }
 
-
-
-
+/*--------------------------------------------------------------*/
 
 
 .btn_toc
@@ -388,6 +433,10 @@ h4 span
 
 
 .imagetop{
+    display: block;
+    width: 1000px;
+    height: 700px;
+    margin-left: 0rem;
     
     border:  solid 3px #3280e6;
 
@@ -399,14 +448,15 @@ h4 span
 
 }
 .imagetop:hover{
-    margin-top: 200px;
+    margin-top: 10rem;
     scale: 1.5;
 }
 
 .imageBlu{
+    display: block;
     
-    width: 500px;
-    height: 700px;
+    width: 300px;
+    height: 400px;
     
     
     border:  solid 3px #3280e6;
@@ -417,11 +467,12 @@ h4 span
 }
 
 .imageBlu2{
+    display: block;
     
     max-width: 600px;
-    max-height: 760px;
+    max-height: 1060px;
     width:100%;
-    height: auto;
+    height:auto;
     margin-bottom: 50px;
     
     border:  solid 3px #3280e6;
@@ -430,12 +481,16 @@ h4 span
     
     
 }
+.imageBlu2:hover{
+    
+    scale: .5;
+}
 
 .imagePnk{
+    display: block;
+    width: 300px;
+    height: 400px;
     
-    max-height: 760px;
-    max-width: 600px;
-    width: 400px;
     height: auto;
     
     
