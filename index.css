@@ -474,7 +474,7 @@ svg{
    }
 }
 
-@media screen and (max-width: 380px){
+@media screen and (min-width: 380px){
       .kmain{  
             
        padding-top: 0rem;
