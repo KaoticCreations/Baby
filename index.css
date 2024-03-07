@@ -7,6 +7,12 @@
 
 }
 
+
+
+
+
+
+
 body
 {
     max-width: 2500px; 
@@ -100,7 +106,7 @@ body
     overflow: hidden;
         
     margin:auto;
-    margin-top: 5rem;
+    margin-top: 2rem;
     
 }
 .box::before
@@ -190,7 +196,7 @@ form
     inset: 4px;
     background-image: linear-gradient(#7a7baf,#5a5ca8, #5a5ca8, #7a7baf, #b364ac,#7a7baf,#5a5ca8);
     
-    padding: 50px 40px;
+    padding: 10px 60px;
     border-radius: 8px;
     z-index: 2;
     display: flex;
@@ -387,4 +393,51 @@ svg{
 
 
 
-/*------------------------form---------------------------*/
+/*------------------------MEDIA---------------------------*/
+
+
+@media screen and (max-width: 480px){
+    
+    .titlelogin h4{
+        font-size: 1.5rem;
+    }
+    .titlelogin h4 span{
+        font-size: 3.5rem;
+   }
+
+   
+    
+   .babyNme h4 {
+    font-size: 2.5rem;
+    }
+    .babyNme h4 span{
+    font-size: 3.5rem;
+   }
+}
+
+@media screen and (max-width: 380px){
+    
+   
+
+.titlelogin h4{
+    font-size: 2rem;
+    }
+
+    .titlelogin h4 span{
+        font-size: 3rem;
+    }
+
+
+    .babyNme h4{
+        font-size: 2rem;
+    }
+    .babyNme h4 span{
+    font-size: 3rem;
+    }
+
+}
+
+
+
+   
+
