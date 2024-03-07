@@ -17,7 +17,7 @@ body
 {
     
     max-width: 2500px; 
-    min-width: 480px;
+    min-width: 380px;
     
     background-image: url(https://www.photopills.com/sites/default/files/tutorials/2020/sunrise-cover.jpg);
     background-image: url(https://i0.wp.com/digital-photography-school.com/wp-content/uploads/2021/03/sunset-photography-tips-1.jpg?resize=1500%2C1000&ssl=1);
@@ -97,7 +97,7 @@ body
     overflow: hidden;
         
     margin:auto;
-    margin-top: 3rem;
+    margin-top: 12rem;
     
 }
 .box::before
@@ -187,7 +187,7 @@ form
     inset: 4px;
     background-image: linear-gradient(#7a7baf,#5a5ca8, #5a5ca8, #7a7baf, #b364ac,#7a7baf,#5a5ca8,#f5e3a7);
     
-    padding: 10px 20px;
+    padding: 10px 0px;
     border-radius: 8px;
     z-index: 2;
     display: flex;
@@ -374,7 +374,7 @@ svg{
     
     scale: 1.25;
     margin-bottom: 0px;
-    margin-top: 5rem;
+    margin-top: 15rem;
     margin-left: 3rem;
     
 }
@@ -393,13 +393,11 @@ svg{
 /*------------------------MEDIA---------------------------*/
 
 
-
-
 @media screen and (max-width: 860px){
     .body{
         display: flex;
         flex-wrap: wrap;
-    }   
+    }
 
     .box{
         width:70%;
@@ -514,55 +512,116 @@ svg{
     */
 
 }
+@media screen and (max-height: 1080px){
+    body
+{
+   display:flex;
+    flex-wrap: wrap;
+    
+    
+}
 
+    .kmain{  
+            
+        padding-top: 2rem;
+        
+    
+    }
+ 
+     .box{
+         
+         height:26rem;
+         margin-top: 2rem;
+     }
+ 
+     .kaotic{
+     
+     
+         font-size: .5rem;
+         
+         padding-bottom:1.75rem ;
+     }
+     
+     
+     .titlelogin h4{
+         font-size: 1.5rem;
+     }
+     .titlelogin h4 span{
+         font-size: 2.5rem;
+    }
+ 
+    
+     
+    .babyNme h4 {
+        font-size: 1.5rem;
+     }
+     .babyNme h4 span{
+        font-size: 2.5rem;
+    }
 
-@media screen and (max-height: 720px){
-  
-  
-      .kmain{  
-              
-          
-          
-      
-      }
-   
-       .box{
-           
-           height:26rem;
-           margin-top: 2rem;
-       }
-   
-       .kaotic{
-       
-       
-           font-size: .5rem;
-           
-           padding-bottom:0rem ;
-       }
-       
-       
-       .titlelogin h4{
-           font-size: 1.5rem;
-       }
-       .titlelogin h4 span{
-           font-size: 2.5rem;
-      }
-   
-      
-       
-      .babyNme h4 {
-          font-size: 1.5rem;
-       }
-       .babyNme h4 span{
-          font-size: 2.5rem;
-      }
-  
-      svg{   
-      
-      
-          scale: 1.125;
-          margin-bottom: 0px;
-          margin-top: 4.5rem;
-      }
-   
-  }
+    svg{   
+    
+    
+        scale: 1.125;
+        margin-bottom: 0px;
+        margin-top: 5rem;
+    }
+ 
+}
+
+@media screen and (min-height: 380px){
+  body
+{
+   display:flex;
+    flex-wrap: wrap;
+    
+    
+}
+
+    .kmain{  
+            
+        padding-top: 2rem;
+        
+    
+    }
+ 
+     .box{
+         
+         height:26rem;
+         margin-top: 2rem;
+     }
+ 
+     .kaotic{
+     
+     
+         font-size: .5rem;
+         
+         padding-bottom:.75rem ;
+     }
+     
+     
+     .titlelogin h4{
+         font-size: 1.5rem;
+     }
+     .titlelogin h4 span{
+         font-size: 2.5rem;
+    }
+ 
+    
+     
+    .babyNme h4 {
+        font-size: 1.5rem;
+     }
+     .babyNme h4 span{
+        font-size: 2.5rem;
+    }
+
+    svg{   
+    
+    
+        scale: 1.125;
+        margin-bottom: 0px;
+        margin-top: 6rem;
+    }
+ 
+}
