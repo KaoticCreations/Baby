@@ -184,7 +184,7 @@ form
     position: absolute;
     
     inset: 4px;
-    background-image: linear-gradient(#7a7baf,#5a5ca8, #5a5ca8, #7a7baf, #b364ac,#7a7baf,#5a5ca8);
+    background-image: linear-gradient(#7a7baf,#5a5ca8, #5a5ca8, #7a7baf, #b364ac,#7a7baf,#5a5ca8,#f5e3a7);
     
     padding: 10px 0px;
     border-radius: 8px;
@@ -313,7 +313,7 @@ form .inputbox[type="submit"]:active
     color: #f3f3f3;
     padding: 0.5rem 1rem;
     border:none;
-    outline:#d2f11c;
+    outline:none;
     border-radius: 20px;
     font-size: 1.5rem;
     font-weight: bold;
@@ -508,22 +508,20 @@ svg{
     */
 
 }
-@media screen and (max-height: 860px){
-    body{
-        height:100%;
-    }
+@media screen and (max-height: 780px){
+  
 
     .kmain{  
             
-        padding-top: 5rem;
+        padding-top: 2rem;
         
     
     }
  
      .box{
-         width:90%;
-         height:20rem;
-         margin-top: 5rem;
+         
+         height:26rem;
+         margin-top: 2rem;
      }
  
      .kaotic{
@@ -558,7 +556,7 @@ svg{
         margin-bottom: 0px;
         margin-top: 5rem;
     }
- }
-
+ 
+}
    
 
