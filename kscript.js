@@ -6,8 +6,8 @@
 /* Set the width of the sidebar to 250px and the left margin of the page content to 250px */
 
 function openNav() {
-  document.getElementById("mySidebar").style.width = "280px"; 
-  document.getElementById("menuClose").style.marginLeft ="280px"; 
+  document.getElementById("mySidebar").style.width = "70%"; 
+  document.getElementById("menuClose").style.marginLeft ="20%"; 
   document.getElementById("menuClose").style.display = "block";
   document.getElementById("menuClose").style.transition="0.5s";
   document.getElementById("mySidebar").style.height = "auto";
