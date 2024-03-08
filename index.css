@@ -362,9 +362,10 @@ form .inputbox[type="submit"]:active
 
 /*------------------------form---------------------------*/
 .kfooter{
+    display: flex;
+    flex-wrap: wrap;
     
-    margin: auto;
-    justify-content: center;
+    justify-content: baseline;
 
     
 }
@@ -380,9 +381,19 @@ svg{
 }
 .kaotic{
     
+    display: block;
     text-decoration: none;
     font-size: .75rem;
     padding-left:1rem ;
+    
+    
+}
+
+.kaotic img{
+    
+    text-decoration: none;
+    margin:auto;
+   
     
     
 }
@@ -424,7 +435,7 @@ svg{
     
         font-size: .75rem;
         padding-left:1rem ;
-        padding-bottom:5rem ;
+        
 
     }
     
@@ -449,7 +460,10 @@ svg{
 
 @media screen and (max-width: 580px){
 
-
+.body {
+    max-width:980px;
+    max-height:100%;
+}
 
     .kmain{  
             
@@ -460,7 +474,7 @@ svg{
 
     .box{
         width:90%;
-        height:30rem;
+        height: 20rem;
         margin-top: 5rem;
     }
 
@@ -483,7 +497,8 @@ svg{
    
     
    .babyNme h4 {
-    font-size: 2.5rem;
+    /*font-size: 2.5rem;*/
+    scale: .625;
     }
     .babyNme h4 span{
     font-size: 3.5rem;
