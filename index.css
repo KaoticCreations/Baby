@@ -362,10 +362,8 @@ form .inputbox[type="submit"]:active
 
 /*------------------------form---------------------------*/
 .kfooter{
-    display: flex;
-    flex-wrap: wrap;
     
-    justify-content: baseline;
+    
 
     
 }
