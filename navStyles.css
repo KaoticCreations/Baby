@@ -24,11 +24,11 @@
     position: fixed; /* Stay in place */
     z-index: 1; /* Stay on top */
 
-    top: 180px; /* Margin from the top*/
+    top: 7rem; /* Margin from the top*/
     left: 0;
     background-color:#7a7baf; /* Black*/
     overflow-x: hidden; /* Disable horizontal scroll */
-    padding-top: 60px; /* Place content 60px from the top */
+    padding-top: 20px; /* Place content 60px from the top */
     transition: 0.5s;  /*0.5 second transition effect to slide in the sidebar */
 
     border-right: solid 1px #6498d4;
@@ -55,25 +55,31 @@
     padding:5px;
     border:  solid 3px #e77ceb;
     border-radius: 10px;
-    width: 420px; 
+    width: 100%; 
   }
   
   /* Position and style the close button (top right corner) */
-  .sidebar .closebtn {
-    color: #91bae7;
+  .closebtn #menuClose  {
+    display:none;
+    color: #711285; 
     border: none;
     background-color: transparent;
+
+    position: fixed;
     
+    font-size: 3rem;
+    cursor: pointer;
+    background-color: transparent;
     
-    padding-left: 60px;
-    padding-right: 80px;
-    padding-bottom: 3%;
-    padding-top: 5%;
-    text-decoration: none;
-    font-size: 30px
+    margin-left: 0px;
+    margin-top: 7rem;
+    border: none;
+    text-align: left;
+    transition: 0.5s;
   }
 
-  .closebtn:hover {
+  
+  .closebtn #menuClose:hover {
     cursor: pointer;
     color: #e77ceb;
     border: none;
@@ -91,19 +97,19 @@
     cursor: pointer;
     background-color: transparent;
     color: #17375e;
-    margin-left: 20px;
-    margin-top: 10rem;
+    margin-left: 0px;
+    margin-top: 7rem;
     border: none;
     text-align: left;
   }
   
 
   .openbtn:hover {
-    color:#e77ceb;
+    color:#711285;
   }
   
   /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
-  #main {
+  .kTainr {
     transition: margin-left .5s; /* If you want a transition effect */
     padding: 20px;
   }
@@ -122,3 +128,4 @@
   @media screen and (max-width: 1280px){
  
   }
+
