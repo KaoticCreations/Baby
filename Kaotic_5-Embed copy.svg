@@ -8,49 +8,49 @@
 <!--***************************************************************************************************************************-->
 	<g>
 		
-			<polygon fill-rule="evenodd" clip-rule="evenodd" fill="000066" stroke="#17375e" stroke-width="0.5237" stroke-miterlimit="10" points="
+			<polygon fill-rule="evenodd" clip-rule="evenodd" fill="#ffffff" stroke="#ffffff" stroke-width="0.5237" stroke-miterlimit="10" points="
 			122.222,62.006 90.541,61.989 106.413,4.344 		"/>
-		<polyline fill-rule="evenodd" clip-rule="evenodd" fill="#ffffff" points="106.413,4.098 90.604,61.761 106.329,61.753 		"/>
+		<polyline fill-rule="evenodd" clip-rule="evenodd" fill="#e44ae9" points="106.413,4.098 90.604,61.761 106.329,61.753 		"/>
 	</g>
 	<g>
 		
-			<polygon fill-rule="evenodd" clip-rule="evenodd" fill="000066" stroke="#17375e" stroke-width="0.5237" stroke-miterlimit="10" points="
+			<polygon fill-rule="evenodd" clip-rule="evenodd" fill="#3280e6" stroke="#17375e" stroke-width="0.5237" stroke-miterlimit="10" points="
 			150.358,87.361 127.765,65.154 179.476,35.138 		"/>
 		<polyline fill-rule="evenodd" clip-rule="evenodd" fill="#ffffff" points="179.647,34.963 127.968,65.035 139.194,76.044 		"/>
 	</g>
 	<g>
 		
-			<polygon fill-rule="evenodd" clip-rule="evenodd" fill="000066" stroke="#17375e" stroke-width="0.5237" stroke-miterlimit="10" points="
+			<polygon fill-rule="evenodd" clip-rule="evenodd" fill="#ffffff" stroke="#17375e" stroke-width="0.5237" stroke-miterlimit="10" points="
 			151.851,123.76 151.821,92.079 209.489,107.868 		"/>
-		<polyline fill-rule="evenodd" clip-rule="evenodd" fill="#ffffff" points="209.733,107.866 152.048,92.143 152.079,107.866 		"/>
+		<polyline fill-rule="evenodd" clip-rule="evenodd" fill="#e44ae9" points="209.733,107.866 152.048,92.143 152.079,107.866 		"/>
 	</g>
 	<g>
 		
-			<polygon fill-rule="evenodd" clip-rule="evenodd" fill="000066" stroke="#4056A6" stroke-width="0.5237" stroke-miterlimit="10" points="
+			<polygon fill-rule="evenodd" clip-rule="evenodd" fill="#3280e6" stroke="#4056A6" stroke-width="0.5237" stroke-miterlimit="10" points="
 			127.601,150.555 150.149,128.299 179.37,180.463 		"/>
 		<polyline fill-rule="evenodd" clip-rule="evenodd" fill="#ffffff" points="179.544,180.637 150.265,128.508 139.083,139.564 		"/>
 	</g>
 	<g>
 		
-			<polygon fill-rule="evenodd" clip-rule="evenodd" fill="000066" stroke="#4056A6" stroke-width="0.5237" stroke-miterlimit="10" points="
+			<polygon fill-rule="evenodd" clip-rule="evenodd" fill="#ffffff" stroke="#4056A6" stroke-width="0.5237" stroke-miterlimit="10" points="
 			90.958,152.998 122.64,153.014 106.768,210.66 		"/>
-		<polyline fill-rule="evenodd" clip-rule="evenodd" fill="#ffffff" points="106.768,210.904 122.577,153.242 106.852,153.25 		"/>
+		<polyline fill-rule="evenodd" clip-rule="evenodd" fill="#e44ae9" points="106.768,210.904 122.577,153.242 106.852,153.25 		"/>
 	</g>
 	<g>
 		
-			<polygon fill-rule="evenodd" clip-rule="evenodd" fill="000066" stroke="#4056A6" stroke-width="0.5237" stroke-miterlimit="10" points="
+			<polygon fill-rule="evenodd" clip-rule="evenodd" fill="#3280e6" stroke="#4056A6" stroke-width="0.5237" stroke-miterlimit="10" points="
 			63.551,128.648 85.932,151.072 33.933,180.586 		"/>
 		<polyline fill-rule="evenodd" clip-rule="evenodd" fill="#ffffff" points="33.759,180.76 85.726,151.189 74.605,140.07 		"/>
 	</g>
 	<g>
 		
-			<polygon fill-rule="evenodd" clip-rule="evenodd" fill="000066" stroke="#4056A6" stroke-width="0.5237" stroke-miterlimit="10" points="
+			<polygon fill-rule="evenodd" clip-rule="evenodd" fill="#ffffff" stroke="#4056A6" stroke-width="0.5237" stroke-miterlimit="10" points="
 			61.262,91.948 61.291,123.631 3.621,107.841 		"/>
-		<polyline fill-rule="evenodd" clip-rule="evenodd" fill="#ffffff" points="3.377,107.841 61.063,123.566 61.031,107.843 		"/>
+		<polyline fill-rule="evenodd" clip-rule="evenodd" fill="#e44ae9" points="3.377,107.841 61.063,123.566 61.031,107.843 		"/>
 	</g>
 	<g>
 		
-			<polygon fill-rule="evenodd" clip-rule="evenodd" fill="ffffff" stroke="#4056A6" stroke-width="0.5237" stroke-miterlimit="10" points="
+			<polygon fill-rule="evenodd" clip-rule="evenodd" fill="#3280e6" stroke="#4056A6" stroke-width="0.5237" stroke-miterlimit="10" points="
 			85.697,64.584 63.251,86.943 33.785,34.917 		"/>
 		<polyline fill-rule="evenodd" clip-rule="evenodd" fill="#ffffff" points="33.612,34.744 63.135,86.738 74.264,75.628 		"/>
 	</g>
@@ -58,7 +58,7 @@
 <!--***************************************************************************************************************************-->
 
 
-	<circle fill="#000066" stroke="#4056A6" stroke-width="1.1346" stroke-miterlimit="10" cx="107.391" cy="107.491" r="53.803"/>
+	<circle fill="#3280e6" stroke="#e44ae9" stroke-width="2.1346" stroke-miterlimit="10" cx="107.391" cy="107.491" r="53.803"/>
 	<!--***************************************************************************************************************************-->
 	<g>
 		<defs>
@@ -4141,7 +4141,7 @@ h8IX6UPhC/Sh8IX6UPhC/Sh8IX6UPhC/Sh8IX6UPhC/Sh8IX6UPhC/Sh8IX6UPhC/Sh8IX6UPhC/
 			</image>
 		</g>
 	</g>
-	<path fill="#4CB5E7" d="M144.888,78.915c0.008,0.056,0.008,0.125,0.094,0.118c0.01,0,0.023-0.016,0.025-0.025
+	<path fill="#ff8c1a" d="M144.888,78.915c0.008,0.056,0.008,0.125,0.094,0.118c0.01,0,0.023-0.016,0.025-0.025
 		C145.013,78.921,144.944,78.923,144.888,78.915c-0.01-0.059-0.008-0.125-0.094-0.12c-0.012,0-0.025,0.015-0.025,0.023
 		C144.763,78.906,144.829,78.904,144.888,78.915z M99.231,143.92c-0.443-1.65-0.738-3.336-0.573-5.037
 		c0.197-2.025,0.133-4.08,0.582-6.08c0.02-0.092,0.035-0.184,0.029-0.275c-0.093-1.455,0.006-2.92-0.278-4.367
@@ -4513,8 +4513,8 @@ h8IX6UPhC/Sh8IX6UPhC/Sh8IX6UPhC/Sh8IX6UPhC/Sh8IX6UPhC/Sh8IX6UPhC/Sh8IX6UPhC/
 		c-0.027,0.027-0.052,0.052-0.078,0.078l-0.006-0.005c0.024-0.027,0.051-0.053,0.076-0.079L105.056,79.946z"/>
 	<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="108.064" y1="118.2246" x2="108.064" y2="100.6055">
 		<stop  offset="0" style="stop-color:#ACADB0"/>
-		<stop  offset="0.2765" style="stop-color:#DADBDC"/>
-		<stop  offset="0.4301" style="stop-color:#FBFDFF"/>
+		<stop  offset="0.2765" style="stop-color:#ff8c1a"/>
+		<stop  offset="0.4301" style="stop-color:#5500ff"/>
 		<stop  offset="0.5053" style="stop-color:#E5E5E6"/>
 		<stop  offset="0.6351" style="stop-color:#C9C9CB"/>
 		<stop  offset="0.7627" style="stop-color:#B6B7B9"/>
