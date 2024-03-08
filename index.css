@@ -1,94 +1,578 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
-    
-    <link rel="stylesheet" href="index.css">
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins'sans-serif;
 
-    <link rel="icon" href="">
-    
-    <title>Baby JonesRef</title>   
+}
 
-</head>
-<body >
+
+
+
+
+
+
+body
+{
     
-            <div class="kmain">
-                <div id="" name="" class="babyNme">
-                    <h4><span>Baby</span> Jones</h4>  
-                    <h4>2024</h4>               
-                </div>
-                <div id="" name="" class="titlelogin">
-                    <h4>Celebrating your <span>Sunrise!</span></h4>
-            </div>
+    max-width: 2500px; 
+    min-width: 480px;
+    
+    background-image: url(https://www.photopills.com/sites/default/files/tutorials/2020/sunrise-cover.jpg);
+    background-image: url(https://i0.wp.com/digital-photography-school.com/wp-content/uploads/2021/03/sunset-photography-tips-1.jpg?resize=1500%2C1000&ssl=1);
+    background-position: center;
+    background-size: cover;
 
     
-            <div class="box">
-                <span class="borderline"></span>
-                <form>
-                    
-                    <label id="lblLogin">Login</label>
+}
+.ktainer{   
+   
+}
+.kmain{  
+     width:90%;   
+     
+     height:auto;    
 
-                    
-                    <div class="inputbox">
-                        <input type="text" required="required">
-                        <span>Email</span>
-                        <i></i>
-                    </div>
-                    <div class="inputbox">
-                        <input type="password" required="required">
-                        <span>Password</span>
-                        <i></i>
-                    </div>
-                    <div class="links">
-                        <a href="#">Forgot Password</a>
-                        <a href="#">signup for announcements</a>
+     margin:auto;      
+    padding-top: 2rem;
+    
+
+}
+
+
+
+
+.titlelogin, .babyNme{
+    
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+.babyNme{    
+    font-size: 4rem;    
+    color: #47336d;  
+}
+.titlelogin h4 {
+    
+    font-size: 4rem;    
+    color: #47336d; 
+}
+
+.titlelogin h4 span,.babyNme h4 span{
+    
+    font-size: 4.5rem;
+
+    margin-bottom:20px;
+    color: #da903c; 
+}
+
+
+#lblLogin{
+    font-size: 50px;
+    margin-top: 0px;
+    color: #47336d;
+    text-decoration: none;
+    text-align: center;
+}
+.links{
+    display:none;
+}
+
+
+
+
+
+.box
+{
+    position: relative;
+    
+    width:40rem; 
+    
+    height: 380px;
+    background: #0f6bb6;
+    border-radius: 8px;
+    overflow: hidden;
         
-                    </div>
-                    <div id="" name="" class="LogAction">
-                        <a href="dashboard.html" class="action_btn">Team Boy</a>
-                        
-                        <a href="dashboard.html" class="action_btn2">Team Girl</a> 
-                    </div>                  
-                                           
-                </form>
-            </div>
-            
-        </div> 
+    margin:auto;
+    margin-top: 3rem;
+    
+}
+.box::before
+{
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 80%;
+    height: 380px;
+    background: linear-gradient(0deg,transparent,transparent,#6498d4,#da903c,#6498d4);
+    z-index: 1;
+    transform-origin: bottom right;
+    animation: animate 6s linear infinite;
+    animation-delay: -3s;
+}
 
-        
-        <div class="kside"></div> 
+
+.box::after
+{
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 80%;
+    height: 380px;
+    background: linear-gradient(0deg,transparent,transparent,#f04af0,#da903c,#f04af0);
+    z-index: 1;
+    transform-origin: bottom right;
+    animation: animate 6s linear infinite;
+}
+.borderline
+{
+    position: absolute;
+    top: 0;
+    inset: 0;
+}
+.borderline::before
+{
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 80%;
+    height: 380px;
+    background: linear-gradient(0deg,transparent,transparent,#de5ae2,#da903c,#de5ae2);
+    z-index: 1;
+    transform-origin: bottom right;
+    animation: animate 6s linear infinite;
+    animation-delay: 1.5s;
+}
+.borderline::after
+{
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 80%;
+    height: 380px;
+    background: linear-gradient(0deg,transparent,transparent,#de5ae2,#de5ae2,#de5ae2);
+    z-index: 1;
+    transform-origin: bottom right;
+    animation: animate 6s linear infinite;
+    animation-delay: -4.5s;
+}
+@keyframes animate
+{
+    0%
+    {
+        transform: rotate(0deg);
+
+    }
+    100%
+    {
+        transform: rotate(360deg);
+    }
+} 
+/*------------------------BoX Animations---------------------------*/
+
+/*------------------------form---------------------------*/
 
 
-        <div class="kfooter">
-            <div class="icon" >               
-                
-                
-                <svg viewBox=" 0,0,50,50" width="50" height="50" style="display: block;" >
-            
-                    <circle x="25" y="25" cx="25" cy="25" r="15" stroke="#33adff" stroke-width="1" fill="000000" />
-            
-                    <polygon points="0,25 25,30.5   50,25  25,18.5 0,25 " stroke="#33adff" stroke-width="1" fill="000000" />
-                    
-            
-                </svg>
-                
-            </div>
-            <div id="" name="" class=" kaotic" >
-                <h1><span class="iconlable">Build your Web Designs with <a href="https://kaotic120.github.io/KaoticCreation/index">Kaotic Creations &reg;</span></h1>
-                    
-        
-            </div> 
-             
-        </div> 
-        
+form
+{
+    position: absolute;
+    
+    inset: 4px;
+    background-image: linear-gradient(#7a7baf,#5a5ca8, #5a5ca8, #7a7baf, #b364ac,#7a7baf,#5a5ca8,#f5e3a7);
+    
+    padding: 10px 20px;
+    border-radius: 8px;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+
+}
+
+ form .inputbox
+{
+    display:none;
+    position: relative;
+    width: 300;
+    margin-top: 30px;
+
+}
+
+ form .inputbox input
+{
+    position: relative;
+    width: 100%;
+    padding: 20px 0px 10px;
+    background: transparent;
+    outline: none;
+    border: none;
+    box-shadow: none;
+    color: #23242a;
+    font-size: 1em;
+    letter-spacing: 0.05em;
+    transition: 0.5s;
+    z-index: 10;
+}
+ form .inputbox span
+{
+    position: absolute;
+    left: 0;
+    padding: 20px 0px 10px;
+    pointer-events: none;
+    color: #f5e507;
+    font-size: 1 em;
+    letter-spacing: 0.05em;
+    transition: 0.05;
+
+}
+ form .inputbox input:valid-span,
+ form .inputbox input:focus-span
+{
+    
+    color: #fff;
+    font-size: 0.75em;
+    transform: translateY(-34px);
+    
 
     
+}
+ form .inputbox i
+{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background: #fff;
+    border-radius: 4px;
+    overflow: hidden;
+    transition: 0.5s;
+    pointer-events: none;
+}
+
+form .inputbox input:valid-i,
+ form .inputbox input:focus-i
+{
+    height: 44px;    
+
+    
+}
+ form links 
+{
+    display:flex;
+    justify-content: space-between;
+    
+}
+ form links a
+{
+    margin: 10px 0;
+    font-size: 0.75em;
+    color: #8f8f8f;
+    text-decoration: none;
+    
+
+}
+ form links a:hover,
+ form links a:nth-child(2)
+{    
+    color: #fff;
+}
+ form input[type="submit"]
+{
+    border: none;
+    outline: none;
+    padding: 9px 25px;
+    background: #fff;
+    cursor:pointer ;
+    border-radius: 4px;
+    font-weight: 600;
+    width: 100px;
+    margin-top: 10px;
+
+
+}
+form .inputbox[type="submit"]:active
+{
+    opacity: 0.8;
+    text-align: center;
+}
+.LogAction{
+    margin:auto;
+
+}
+
+.action_btn
+{
+
+    background-color: #6498d4;
+    color: #f3f3f3;
+    padding: 0.5rem 1rem;
+    border:none;
+    outline:none;
+    border-radius: 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+
+    text-align: center;
+    
+}
+.action_btn2
+{
+    background-color: #e77ceb;
+    color: #f3f3f3;
+    padding: 0.5rem 1rem;
+    border:none;
+    outline:none;
+    border-radius: 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+
+    text-align: center;
+    margin-top: 1rem;
+}
+.action_btn:hover
+{
+    scale:1.05;
+    color:  #2d65a5 ;
+}
+.action_btn:active
+{
+    scale: 0.85;
+}
+ .action_btn2:hover
+{
+    scale:1.05;
+    color:  rgb(143, 32, 143) ;
+}
+.action_btn2:active
+{
+    scale: 0.85;
+}
+
+
+/*------------------------form---------------------------*/
+.kfooter{
+    
+    margin: auto;
+    justify-content: center;
+
+    
+}
+svg{
+    
+    
+    
+    scale: 1.25;
+    margin-bottom: 0px;
+    margin-top: 5rem;
+    margin-left: 3rem;
+    
+}
+.kaotic{
+    
+    text-decoration: none;
+    font-size: .75rem;
+    padding-left:1rem ;
+    
+    
+}
+
+.kaotic,  span a{
+    
+    text-decoration: none;
+
+
+}
+
+
+
+/*------------------------form---------------------------*/
+
+
+
+/*------------------------MEDIA---------------------------*/
+
+
+
+
+@media screen and (max-width: 860px){
+    .body{
+        display: flex;
+        flex-wrap: wrap;
+    }   
+
+    .box{
+        width:70%;
+    }
+
+    svg{    
+        margin-top: 18.5rem;  
+
+    }
+
+    .kaotic{   
+    
+        font-size: .75rem;
+        padding-left:1rem ;
+        padding-bottom:5rem ;
+
+    }
+    
+    .titlelogin h4{
+        font-size: 2.5rem;
+    }
+    .titlelogin h4 span{
+        font-size: 3.5rem;
+   }
+   
    
     
-    
-    
+   .babyNme h4 {
+    font-size: 2.5rem;
+    }
+    .babyNme h4 span{
+    font-size: 3.5rem;
+   }
+}
 
-<script></script>
-<script src="kscript.js"></script>
-</html>
+
+
+@media screen and (max-width: 580px){
+
+
+
+    .kmain{  
+            
+       padding-top: 0rem;
+       
+   
+   }
+
+    .box{
+        width:90%;
+        height:30rem;
+        margin-top: 5rem;
+    }
+
+    .kaotic{
+    
+    
+        font-size: .625rem;
+        
+        padding-bottom:1rem ;
+    }
+    
+    
+    .titlelogin h4{
+        font-size: 2.5rem;
+    }
+    .titlelogin h4 span{
+        font-size: 3.5rem;
+   }
+
+   
+    
+   .babyNme h4 {
+    font-size: 2.5rem;
+    }
+    .babyNme h4 span{
+    font-size: 3.5rem;
+   }
+}
+
+@media screen and (max-width: 480px){
+    .kmain{  
+            
+        padding-top: 0rem;
+        
+    
+    }
+
+    .box{
+        width:90%;
+        margin-top: 5rem;
+    }
+    
+   /*
+    height:30rem;
+.titlelogin h4{
+    font-size: 2rem;
+    }
+
+    .titlelogin h4 span{
+        font-size: 3rem;
+    }
+
+
+    .babyNme h4{
+        font-size: 2rem;
+    }
+    .babyNme h4 span{
+    font-size: 3rem;
+    }
+
+    */
+
+}
+
+
+@media screen and (max-height: 720px){
+  
+  
+      .kmain{  
+              
+          
+          
+      
+      }
+   
+       .box{
+           
+           height:26rem;
+           margin-top: 2rem;
+       }
+   
+       .kaotic{
+       
+       
+           font-size: .5rem;
+           
+           padding-bottom:0rem ;
+       }
+       
+       
+       .titlelogin h4{
+           font-size: 1.5rem;
+       }
+       .titlelogin h4 span{
+           font-size: 2.5rem;
+      }
+   
+      
+       
+      .babyNme h4 {
+          font-size: 1.5rem;
+       }
+       .babyNme h4 span{
+          font-size: 2.5rem;
+      }
+  
+      svg{   
+      
+      
+          scale: 1.125;
+          margin-bottom: 0px;
+          margin-top: 4.5rem;
+      }
+   
+  }
