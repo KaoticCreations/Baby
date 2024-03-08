@@ -1,29 +1,32 @@
 body{
     
-    max-width: 100%; 
-    min-width: 280px;
-    min-height: 180px;
-    border: .3rem double #000066;
     
+    max-width: 2460px;   
+    
+    /*border: .3rem double #000066;   */
+    background-color: #7d7daf; 
     
 }
 .ktainer{
 
-    width:100%;
+    width:50%;
     margin: auto;
     
     
 
 }
 .kcarddash {
-    display:block;
-    
-    
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    ;
+    background-color: #f3f3f3; 
 
     
 }
 .kcarddash img{
-    width:45%;
+    width:50%;    
+    border-radius: 30%;
     
     margin: auto;   
 
