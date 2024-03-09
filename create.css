@@ -1,0 +1,484 @@
+
+@import url();
+body{
+    
+    
+    background-color: #7d7daf;
+    
+   
+    min-width: 480px;
+    max-width: 2500px;
+}
+.kmain{
+    /*
+    display: grid;    
+    grid-template-rows: auto auto auto auto auto auto auto;
+    grid-template-columns: repeat(auto-fit,minmax(100px,1fr)) ;
+*/
+    
+    margin: auto;
+    margin-top: 3rem;
+    width:100%;
+    
+   
+    border-radius: 3rem 3rem 3rem 3rem;
+    
+    
+}
+
+
+
+/*-----header----*/
+
+/*--------------------------------------------*/
+   
+.banner{
+    
+    width:100%
+    
+    
+}
+
+.banner h4{    
+    margin:  0;
+    padding: 0;
+    
+    color: #f3f3f3;
+    font-size: 3rem;
+    border:solid;
+    border-bottom:solid;
+    border-width: 3px;
+    border-color:#7d7daf;
+     
+ 
+    text-align: center;  
+    
+    background-image: linear-gradient(#f3f3f3,#6498d4,#e77ceb,#f3f3f3 );   
+}
+.banner h3{
+    
+    margin:  0;
+    padding: 0;
+    
+    color: #2d2268;
+    font-size: 2rem;
+    border:solid;
+    border-width: 3px;
+    border-color: #7d7daf;
+    
+ 
+    text-align: center;  
+    background-image: linear-gradient( #f3f3f3,#f3f3f3,#f3f3f3);   
+    
+}
+.banner h4 span
+{
+    color: #2d2268;
+    font-size: 4rem;
+}
+
+/**********************************************/
+.kBanner1
+{
+    width:60%
+}
+    
+.homeTop{
+    
+    width:100%
+}
+
+.homeTop h4{    
+    margin:  0;
+    padding: 0;
+    
+    color: #be3bca;
+    font-size: 3rem;
+    border:solid;
+    border-width: 3px;
+    border-color:#7d7daf;
+     
+ 
+    text-align: center;  
+    
+    background-image: linear-gradient(#f3f3f3,#6498d4,#e77ceb,#f3f3f3 );   
+}
+.homeTop h3{
+    
+    margin:  0;
+    padding: 0;
+    
+    color: #711285;
+    font-size: 2rem;
+    border:solid;
+    border-width: 3px;
+    border-color: #7d7daf;
+    
+ 
+    text-align: center;  
+    background-image: linear-gradient( #f3f3f3,#f3f3f3,#f3f3f3);   
+    
+}
+.homeTop h4 span
+{
+    color:#2d2268;
+    font-size: 4rem;
+}
+/*-----header----*/
+
+
+
+
+/*---------------------Main---------------------*/
+/*-----SECTION 1----*/
+.kBanner {
+    display:flex;
+    flex-direction: row;
+   
+}
+
+
+.kBanner2 img {   
+    width: 600px;
+    height: auto;
+    margin: auto;
+    margin-top: 6rem;
+    margin-right:0 ;
+   
+}
+.kBanner1 {   
+    
+    margin:auto;     
+        
+}
+/*-----SECTION 1-   media---*/
+
+
+    /*
+    .kBanner1 {
+        
+        padding-top:20px;
+        padding-bottom:20px;
+        margin:auto;  
+         
+    }
+    */  
+        
+    
+
+/*-----SECTION 1--        border: 2rem,0rem,2rem,0rem;    --*/
+/*-----SECTION 2----*/
+/*--------------------------------------------------------------*/
+
+.Ktainr{
+    
+    
+    color: rgb(20, 39, 51);
+    
+    height: auto;       
+    justify-content: center;
+    display:flex;
+    flex-wrap: wrap ;
+    margin-top: 15rem;
+    border: solid 5px #3280e6 ;
+    border-width: 2rem 0rem 2rem 0rem;
+    border-radius: 5rem;
+  
+
+    
+    
+}
+.wrap{    
+    justify-content: center;
+    display: block;
+    
+}
+
+.Ktainer h4{
+    font-size: 2rem;
+    justify-content: center;
+    text-align: center;
+}
+/*--------------------------------------------------------------*/
+.kcard{
+    border:  solid 3px #e44ae9;
+    border-bottom: solid 1px #3280e6;
+    
+    border-radius: 15px ;
+    border-width: 3px 8px 19px 18px;
+    box-shadow: 9px 5px 2px 3px #f3f3f3;
+    transition: 0.4s;
+    width:auto;
+    height: auto;
+    background: transparent;
+    text-align: center;
+    font-size: 16px;
+    font-family: sans-serif;
+    float:left;
+    margin:3rem;
+    margin-bottom:7rem;
+    
+}
+.kcard:hover{
+    box-shadow: 0 8px 16px 0 rgb(3, 3, 250);
+    scale:2;
+    margin: auto;
+    height: fit-content;   
+    
+}
+
+@media screen and (max-width:1080px) {
+    .kcard{
+/*        height: 500px;*/
+    }
+    .kcard:hover{
+        box-shadow: 0 8px 16px 0 rgb(3, 3, 250);
+        scale:1.5;
+        
+        
+        
+    }
+}
+/*--------------------------------------------------------------*/
+.card, .kcard2{
+    border:  solid 3px #3280e6;
+    border-bottom: solid 1px #e44ae9;
+    
+    border-radius: 15px ;
+    border-width: 3px 8px 19px 18px;
+    box-shadow: 9px 5px 2px 3px #f3f3f3;
+    transition: 0.4s;
+    width: fit-content;
+    height: fit-content;
+    background: transparent;
+    text-align: center;
+    font-size: 16px;
+    font-family: sans-serif;
+    float:left;
+    margin:10px;
+    
+}
+.card:hover{
+    box-shadow: 0 8px 16px 0 #fa03fa;
+    scale:1.5;
+    height: auto;
+    
+    
+}
+
+@media screen and (max-width:1080px) {
+    .card{
+/*        height: 500px;*/
+    }
+    .card:hover{
+        box-shadow: 0 8px 16px 0 rgb(3, 3, 250);
+        scale:2;
+        
+        
+        
+    }
+}
+/*--------------------------------------------------------------*/
+
+.btn_toc
+{
+    display: none;
+    background-color: chocolate;
+    color:#0b2046;
+    padding: 12px 20px;
+    border-radius: 2rem;
+}
+/*-----SECTION 2----*/
+/*---------------------Main---------------------*/
+
+
+/*-----SECTION 3----*/
+.getNameOut{
+    grid-row: 6/7;
+    grid-column: 1/6;
+    margin:auto;
+    width:100%;
+    background-image: linear-gradient(black, rgb(83, 82, 82)10%,black);
+    color:antiquewhite;
+    font-size: 2rem;
+    text-align: center;
+    border:solid;
+    border-width: 5px 0 0 0;
+    border-color: antiquewhite;
+}
+
+
+
+/*-----Kcard---------------------------------------------------*/
+
+
+
+
+
+
+.imagetop{  
+    
+    border:  solid 3px #3280e6;
+    border-bottom: solid 1px #e44ae9;
+    
+    border-radius: 30px ;
+    border-width: 13px 8px 20px 18px;
+    box-shadow: 9px 5px 2px 3px #f3f3f3;
+}
+.imagetop:hover{
+    margin-top: 20%;
+    margin-right: 20%;
+    scale: 1.5;
+}
+.imageBlu{
+    display: block;
+    
+    width: 300px;
+    
+    height: 400px;
+    height: auto;
+    
+    
+    border:  solid 3px #3280e6;
+    border-bottom: solid 1px #e44ae9;
+    
+    
+}
+.imageBlu2{
+    display: block;
+    
+    max-width: 480px;
+    
+    width:100%;
+    height:auto;
+    
+    
+    border:  solid 3px #3280e6;
+    border-bottom: solid 1px #e44ae9;    
+    
+}
+
+.imageBlu2:hover{
+    box-shadow: 0 8px 16px 0 rgb(3, 3, 250);
+    scale:1;
+    
+    
+    
+}
+
+.imagePnk{
+    display: block;
+    width: 300px;
+    
+    
+    height: auto;  
+    
+    border:  solid 3px #3280e6;
+    
+    border-bottom: solid 13px #e44ae9;
+    
+    
+    
+    
+}
+.card, .imagePnk2{
+    display: block;
+    width: 300px;
+    
+    
+    height: auto;  
+    
+    border:  solid 3px #3280e6;
+    
+    border-bottom: solid 13px #e44ae9;
+    background-image: linear-gradient(#f3f3f3,#6498d4,#e77ceb,#f3f3f3 ); 
+    
+    
+    
+}
+.wrap2{
+    width: 100%;
+    margin: auto;
+    margin-left: 50px;
+}
+.wrap3{
+    margin: auto;
+    margin-left: 50px;
+}
+.card_descript2 h4{
+    margin: auto;
+    font-size: 3rem;
+}
+.card_descript2:hover {
+    display: none;
+    margin: auto;
+    font-size: 3rem;
+    
+}
+/*-----Kcard---------------------------------------------------*/
+
+@media screen and (max-width:1280px) {
+    .ktainr{
+        display:block;
+    }
+    .kBanner{
+        display: flex;
+        flex-direction: column;
+    }
+    .kBanner1{
+        width:100%;
+        display: none;
+    }
+    .kBanner2{
+        width:100%;
+        margin: auto;
+        margin-left: 20;
+        justify-content: center;
+        
+    }
+    .kBanner3{
+        width:100%;
+        
+    }
+
+
+
+    .kcard{
+            /*        height: 500px;*/
+        }
+    .kcard:hover{
+            box-shadow: 0 8px 16px 0 rgb(3, 3, 250);
+            
+            
+            
+            
+    }
+
+    .kcard2:hover{
+        box-shadow: 0 8px 16px 0 #fa03fa;
+        scale:2;
+        
+        
+        
+    }
+
+
+
+
+}
+@media screen and (max-width:768px) {
+    .kmain{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .kBanner{
+       
+    }
+    .kBanner img{
+        padding-top:20px;
+        padding-bottom:20px;
+        width: 450px;   
+        height: 400px; 
+        margin:auto;        
+    }
+}
