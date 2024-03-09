@@ -1,11 +1,14 @@
 body{
     
-    
+    background-color: #f3f3f3; 
     max-width: 2460px;   
     
-    /*border: .3rem double #000066;   */
+    /*
+    border: .3rem double #000066; 
     background-color: #7d7daf; 
+    */
     
+        
 }
 .ktainer{
 
