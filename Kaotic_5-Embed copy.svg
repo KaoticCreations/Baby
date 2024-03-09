@@ -10,11 +10,11 @@
 		
 			<polygon fill-rule="evenodd" clip-rule="evenodd" fill="#ffffff" stroke="#ffffff" stroke-width="0.5237" stroke-miterlimit="10" points="
 			122.222,62.006 90.541,61.989 106.413,4.344 		"/>
-		<polyline fill-rule="evenodd" clip-rule="evenodd" fill="#e44ae9" points="106.413,4.098 90.604,61.761 106.329,61.753 		"/>
+		<polyline fill-rule="evenodd" clip-rule="evenodd" fill="#da903c" points="106.413,4.098 90.604,61.761 106.329,61.753 		"/>
 	</g>
 	<g>
 		
-			<polygon fill-rule="evenodd" clip-rule="evenodd" fill="#3280e6" stroke="#17375e" stroke-width="0.5237" stroke-miterlimit="10" points="
+			<polygon fill-rule="evenodd" clip-rule="evenodd" fill="#47336d" stroke="#17375e" stroke-width="0.5237" stroke-miterlimit="10" points="
 			150.358,87.361 127.765,65.154 179.476,35.138 		"/>
 		<polyline fill-rule="evenodd" clip-rule="evenodd" fill="#ffffff" points="179.647,34.963 127.968,65.035 139.194,76.044 		"/>
 	</g>
@@ -22,11 +22,11 @@
 		
 			<polygon fill-rule="evenodd" clip-rule="evenodd" fill="#ffffff" stroke="#17375e" stroke-width="0.5237" stroke-miterlimit="10" points="
 			151.851,123.76 151.821,92.079 209.489,107.868 		"/>
-		<polyline fill-rule="evenodd" clip-rule="evenodd" fill="#e44ae9" points="209.733,107.866 152.048,92.143 152.079,107.866 		"/>
+		<polyline fill-rule="evenodd" clip-rule="evenodd" fill="#da903c" points="209.733,107.866 152.048,92.143 152.079,107.866 		"/>
 	</g>
 	<g>
 		
-			<polygon fill-rule="evenodd" clip-rule="evenodd" fill="#3280e6" stroke="#4056A6" stroke-width="0.5237" stroke-miterlimit="10" points="
+			<polygon fill-rule="evenodd" clip-rule="evenodd" fill="#47336d" stroke="#4056A6" stroke-width="0.5237" stroke-miterlimit="10" points="
 			127.601,150.555 150.149,128.299 179.37,180.463 		"/>
 		<polyline fill-rule="evenodd" clip-rule="evenodd" fill="#ffffff" points="179.544,180.637 150.265,128.508 139.083,139.564 		"/>
 	</g>
@@ -34,11 +34,11 @@
 		
 			<polygon fill-rule="evenodd" clip-rule="evenodd" fill="#ffffff" stroke="#4056A6" stroke-width="0.5237" stroke-miterlimit="10" points="
 			90.958,152.998 122.64,153.014 106.768,210.66 		"/>
-		<polyline fill-rule="evenodd" clip-rule="evenodd" fill="#e44ae9" points="106.768,210.904 122.577,153.242 106.852,153.25 		"/>
+		<polyline fill-rule="evenodd" clip-rule="evenodd" fill="#da903c" points="106.768,210.904 122.577,153.242 106.852,153.25 		"/>
 	</g>
 	<g>
 		
-			<polygon fill-rule="evenodd" clip-rule="evenodd" fill="#3280e6" stroke="#4056A6" stroke-width="0.5237" stroke-miterlimit="10" points="
+			<polygon fill-rule="evenodd" clip-rule="evenodd" fill="#47336d" stroke="#4056A6" stroke-width="0.5237" stroke-miterlimit="10" points="
 			63.551,128.648 85.932,151.072 33.933,180.586 		"/>
 		<polyline fill-rule="evenodd" clip-rule="evenodd" fill="#ffffff" points="33.759,180.76 85.726,151.189 74.605,140.07 		"/>
 	</g>
@@ -46,11 +46,11 @@
 		
 			<polygon fill-rule="evenodd" clip-rule="evenodd" fill="#ffffff" stroke="#4056A6" stroke-width="0.5237" stroke-miterlimit="10" points="
 			61.262,91.948 61.291,123.631 3.621,107.841 		"/>
-		<polyline fill-rule="evenodd" clip-rule="evenodd" fill="#e44ae9" points="3.377,107.841 61.063,123.566 61.031,107.843 		"/>
+		<polyline fill-rule="evenodd" clip-rule="evenodd" fill="#da903c" points="3.377,107.841 61.063,123.566 61.031,107.843 		"/>
 	</g>
 	<g>
 		
-			<polygon fill-rule="evenodd" clip-rule="evenodd" fill="#3280e6" stroke="#4056A6" stroke-width="0.5237" stroke-miterlimit="10" points="
+			<polygon fill-rule="evenodd" clip-rule="evenodd" fill="#47336d" stroke="#4056A6" stroke-width="0.5237" stroke-miterlimit="10" points="
 			85.697,64.584 63.251,86.943 33.785,34.917 		"/>
 		<polyline fill-rule="evenodd" clip-rule="evenodd" fill="#ffffff" points="33.612,34.744 63.135,86.738 74.264,75.628 		"/>
 	</g>
@@ -4515,8 +4515,8 @@ h8IX6UPhC/Sh8IX6UPhC/Sh8IX6UPhC/Sh8IX6UPhC/Sh8IX6UPhC/Sh8IX6UPhC/Sh8IX6UPhC/
 		<stop  offset="0" style="stop-color:#ACADB0"/>
 		<stop  offset="0.2765" style="stop-color:#ff8c1a"/>
 		<stop  offset="0.4301" style="stop-color:#5500ff"/>
-		<stop  offset="0.5053" style="stop-color:#E5E5E6"/>
-		<stop  offset="0.6351" style="stop-color:#C9C9CB"/>
+		<stop  offset="0.5053" style="stop-color:#3280e6"/>
+		<stop  offset="0.6351" style="stop-color:#e44ae9"/>
 		<stop  offset="0.7627" style="stop-color:#B6B7B9"/>
 		<stop  offset="0.886" style="stop-color:#ABADB0"/>
 		<stop  offset="1" style="stop-color:#A7A9AC"/>
