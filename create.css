@@ -4,10 +4,13 @@ body{
     
     
     background-color: #7d7daf;
-    
-   
+    max-width: 2280px; 
+    min-width: 620px;
+    height: auto; 
+   /*
     min-width: 580px;
     max-width: 2500px;
+    */
 }
 .kmain{
     /*
@@ -15,7 +18,9 @@ body{
     grid-template-rows: auto auto auto auto auto auto auto;
     grid-template-columns: repeat(auto-fit,minmax(100px,1fr)) ;
 */
-    
+    width: 2280px; 
+    height: 1604px;  
+
     margin: auto;
     margin-top: 3rem;
     width:100%;
