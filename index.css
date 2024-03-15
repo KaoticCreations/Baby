@@ -17,45 +17,43 @@ body
 {
     /*border: .3rem double #000066;   */
     
-    max-width: 2460px; 
-    min-width: 280px;  
-    
     background-image: url(https://www.photopills.com/sites/default/files/tutorials/2020/sunrise-cover.jpg);
     background-image: url(https://i0.wp.com/digital-photography-school.com/wp-content/uploads/2021/03/sunset-photography-tips-1.jpg?resize=1500%2C1000&ssl=1);
-   background-position: center;
+    background-position: center;
     background-size: cover;
+
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+
+    
     
 }
-.ktainr{   
-
-    max-width: 100%; 
-    height:auto; 
-    margin:auto; 
-    background-image: url(https://www.photopills.com/sites/default/files/tutorials/2020/sunrise-cover.jpg);
-    background-image: url(https://i0.wp.com/digital-photography-school.com/wp-content/uploads/2021/03/sunset-photography-tips-1.jpg?resize=1500%2C1000&ssl=1);
-   background-position: center;
-    background-size: cover;
-   
-}
-.kmain{  
-     width:100%;   
-     
-     height:auto;    
-
-     margin:auto;      
-    padding-top: 2rem;
-    
-
+.kTainr{  
+    margin: auto;
+    display:flex;
+    flex-direction: column;
+    width:auto;
 }
 
 
 
-
-.titlelogin, .babyNme{
-    
+.kheadr{
     display:flex;
     flex-direction: column;
     text-align: center;
+    margin-top: 0rem;
+}
+
+.kmain{
+    margin-top: .5rem;
+    margin: auto;
+    justify-content: center;
+}
+
+.kAbyss{
+    margin: auto;
+
 }
 
 
@@ -63,19 +61,36 @@ body
     font-size: 4rem;    
     color: #47336d;  
 }
-.titlelogin h4 {
+.titlelogin{
+    margin-bottom: 1rem;
+}
+
+#title1 {
     
     font-size: 4rem;    
     color: #47336d; 
 }
 
-.titlelogin h4 span,.babyNme h4 span{
+#title1 span,.babyNme h4 span{
     
     font-size: 4.5rem;
 
     margin-bottom:20px;
     color: #da903c; 
 }
+
+#title2  {
+    padding-top:30px;
+    /*text-decoration: underline;*/
+    font-size: 3.5rem;
+    color: #da903c; 
+    
+}
+
+
+
+
+
 
 
 #lblLogin{
@@ -89,23 +104,34 @@ body
     display:none;
 }
 
+.login{
+    margin:auto;
+    
+    
+    
+    
 
+}
 
 
 
 .box
 {
+    
     position: relative;
     
-    width:40rem; 
+    width:380px; 
+    height: 400px; 
     
-    height: 380px;
+    
+    
+    
     background: #0f6bb6;
     border-radius: 8px;
     overflow: hidden;
         
     margin:auto;
-    margin-top: 3rem;
+    margin-top: .5rem;
     
 }
 .box::before
@@ -115,7 +141,7 @@ body
     top: -50%;
     left: -50%;
     width: 80%;
-    height: 380px;
+    height: 300px;
     background: linear-gradient(0deg,transparent,transparent,#6498d4,#da903c,#6498d4);
     z-index: 1;
     transform-origin: bottom right;
@@ -131,7 +157,7 @@ body
     top: -50%;
     left: -50%;
     width: 80%;
-    height: 380px;
+    height: 300px;
     background: linear-gradient(0deg,transparent,transparent,#f04af0,#da903c,#f04af0);
     z-index: 1;
     transform-origin: bottom right;
@@ -150,7 +176,7 @@ body
     top: -50%;
     left: -50%;
     width: 80%;
-    height: 380px;
+    height: 300px;
     background: linear-gradient(0deg,transparent,transparent,#de5ae2,#da903c,#de5ae2);
     z-index: 1;
     transform-origin: bottom right;
@@ -164,7 +190,7 @@ body
     top: -50%;
     left: -50%;
     width: 80%;
-    height: 380px;
+    height: 300px;
     background: linear-gradient(0deg,transparent,transparent,#de5ae2,#de5ae2,#de5ae2);
     z-index: 1;
     transform-origin: bottom right;
@@ -203,16 +229,18 @@ form
 
 }
 
- form .inputbox
+ .inputbox
 {
-    display:none;
+    display:block;
     position: relative;
     width: 300;
     margin-top: 30px;
-
+    margin-right: 30px;
+    font-size: 1.5rem;
+    
 }
 
- form .inputbox input
+ .inputbox input
 {
     position: relative;
     width: 100%;
@@ -222,29 +250,29 @@ form
     border: none;
     box-shadow: none;
     color: #23242a;
-    font-size: 1em;
+    font-size: 1.5rem;
     letter-spacing: 0.05em;
     transition: 0.5s;
     z-index: 10;
 }
- form .inputbox span
+ .inputbox span
 {
     position: absolute;
     left: 0;
     padding: 20px 0px 10px;
     pointer-events: none;
     color: #f5e507;
-    font-size: 1 em;
+    font-size: 1em;
     letter-spacing: 0.05em;
     transition: 0.05;
 
 }
- form .inputbox input:valid-span,
- form .inputbox input:focus-span
+ .inputbox input:valid-span,
+ .inputbox input:focus-span
 {
     
     color: #fff;
-    font-size: 0.75em;
+    font-size: 2.75rem;
     transform: translateY(-34px);
     
 
@@ -312,10 +340,12 @@ form .inputbox[type="submit"]:active
 }
 .LogAction{
     margin:auto;
+    margin-top: 60px;
+     
 
 }
 
-.action_btn
+.Log_btn
 {
 
     background-color: #6498d4;
@@ -332,7 +362,7 @@ form .inputbox[type="submit"]:active
     text-align: center;
     
 }
-.action_btn2
+.Log_btn2
 {
     background-color: #e77ceb;
     color: #f3f3f3;
@@ -348,68 +378,69 @@ form .inputbox[type="submit"]:active
     text-align: center;
     margin-top: 1rem;
 }
-.action_btn:hover
+.Log_btn:hover
 {
-    scale:1.05;
+    scale:1.5;
     color:  #2d65a5 ;
 }
-.action_btn:active
+.Log_btn:active
 {
     scale: 0.85;
 }
- .action_btn2:hover
+ .Log_btn2:hover
 {
     scale:1.05;
     color:  rgb(143, 32, 143) ;
 }
-.action_btn2:active
+.Log_btn2:active
 {
     scale: 0.85;
 }
 
 
 /*------------------------form---------------------------*/
-.kfooter{
-    
+
+
+.kaotiCreations{
 
     
-    justify-content: center;
-
+    margin-left: -25rem;    
+   /* text-decoration: none;
+   
+   display:flex;
+    flex-wrap: wrap;
     
-}
-svg{
-    
-    
-    
-    scale: 1.25;
-    margin-bottom: 0px;
-    margin-top: 5rem;
-    margin-left: 3rem;
-    
-}
-.kaotic{
-    
-    display: block;
-    text-decoration: none;
+    */
     font-size: .75rem;
-    padding-left:1rem ;
-    
-    
+   
 }
+
 
 .kaotic img{
     
-    text-decoration: none;
-    margin:auto;
-   
+
     
-    
+   /* margin:auto;*/
+    scale: .625;
+    margin-right:0px; 
+     
 }
 
-.kaotic,  span a{
-    
-    text-decoration: none;
+.Creations  label{    
+    display:block;
+    margin-left:0; 
 
+}
+.Creations label span{
+    color: #23242a;
+    text-decoration: underline;
+ }
+.Creations,  label span a{
+    color: #23242a;
+
+    /*padding-top: 2rem;*/
+    font-size: 1.5rem;
+    margin-left:0px; 
 
 }
 
@@ -423,179 +454,21 @@ svg{
 
 
 
+@media screen and (max-height: 1380px){
+}
 
-@media screen and (max-width: 860px){
-    .body{
-        display: flex;
-        flex-wrap: wrap;
-    }   
+@media screen and (max-height: 780px){
 
-    .box{
-        width:70%;
-    }
+}
 
-    svg{    
-        margin-top: 18.5rem;  
-
-    }
-
-    .kaotic{   
-    
-        font-size: .75rem;
-        padding-left:1rem ;
-        
-
-    }
-    
-    .titlelogin h4{
-        font-size: 2.5rem;
-    }
-    .titlelogin h4 span{
-        font-size: 3.5rem;
-   }
-   
-   
-    
-   .babyNme h4 {
-    font-size: 2.5rem;
-    }
-    .babyNme h4 span{
-    font-size: 3.5rem;
-   }
+@media screen and (max-height: 480px){
 }
 
 
 
-@media screen and (max-width: 580px){
 
-.body {
-    max-width:980px;
-    max-height:100%;
+/*
+
+@media screen and (max-height: 1080px){
 }
-
-    .kmain{  
-            
-       padding-top: 0rem;
-       
-   
-   }
-
-    .box{
-        width:90%;
-        height: 20rem;
-        margin-top: 5rem;
-    }
-
-    .kaotic{
-    
-    
-        font-size: .625rem;
-        
-        padding-bottom:1rem ;
-    }
-    
-    
-    .titlelogin h4{
-        font-size: 2.5rem;
-    }
-    .titlelogin h4 span{
-        font-size: 3.5rem;
-   }
-
-   
-    
-   .babyNme h4 {
-    /*font-size: 2.5rem;*/
-    scale: .625;
-    }
-    .babyNme h4 span{
-    font-size: 3.5rem;
-   }
-}
-
-@media screen and (max-width: 480px){
-    .kmain{  
-            
-        padding-top: 0rem;
-        
-    
-    }
-
-    .box{
-        width:90%;
-        margin-top: 5rem;
-    }
-    
-   /*
-    height:30rem;
-.titlelogin h4{
-    font-size: 2rem;
-    }
-
-    .titlelogin h4 span{
-        font-size: 3rem;
-    }
-
-
-    .babyNme h4{
-        font-size: 2rem;
-    }
-    .babyNme h4 span{
-    font-size: 3rem;
-    }
-
-    */
-
-}
-
-
-@media screen and (max-height: 720px){
-  
-  
-      .kmain{  
-              
-          
-          
-      
-      }
-   
-       .box{
-           
-           height:26rem;
-           margin-top: 2rem;
-       }
-   
-       .kaotic{
-       
-       
-           font-size: .5rem;
-           
-           padding-bottom:0rem ;
-       }
-       
-       
-       .titlelogin h4{
-           font-size: 1.5rem;
-       }
-       .titlelogin h4 span{
-           font-size: 2.5rem;
-      }
-   
-      
-       
-      .babyNme h4 {
-          font-size: 1.5rem;
-       }
-       .babyNme h4 span{
-          font-size: 2.5rem;
-      }
-  
-      svg{   
-      
-      
-          scale: 1.125;
-          margin-bottom: 0px;
-          margin-top: 4.5rem;
-      }
-   
-  }
+*/
