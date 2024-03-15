@@ -22,14 +22,13 @@
     height: fit-content; /* 100% Full-height */
     width: 0; /* 0 width - change this with JavaScript */
     position: fixed; /* Stay in place */
-    max-width: 480px; 
     z-index: 1; /* Stay on top */
 
-    top: 7rem; /* Margin from the top*/
+    top: 180px; /* Margin from the top*/
     left: 0;
     background-color:#7a7baf; /* Black*/
     overflow-x: hidden; /* Disable horizontal scroll */
-    padding-top: 20px; /* Place content 60px from the top */
+    padding-top: 60px; /* Place content 60px from the top */
     transition: 0.5s;  /*0.5 second transition effect to slide in the sidebar */
 
     border-right: solid 1px #6498d4;
@@ -56,31 +55,25 @@
     padding:5px;
     border:  solid 3px #e77ceb;
     border-radius: 10px;
-    width: 100%; 
+    width: 420px; 
   }
   
   /* Position and style the close button (top right corner) */
-  .closebtn #menuClose  {
-    display:none;
-    color: #711285; 
+  .sidebar .closebtn {
+    color: #91bae7;
     border: none;
     background-color: transparent;
-
-    position: fixed;
     
-    font-size: 3rem;
-    cursor: pointer;
-    background-color: transparent;
     
-    margin-left: 0px;
-    margin-top: 7rem;
-    border: none;
-    text-align: left;
-    transition: 0.5s;
+    padding-left: 60px;
+    padding-right: 80px;
+    padding-bottom: 3%;
+    padding-top: 5%;
+    text-decoration: none;
+    font-size: 30px
   }
 
-  
-  .closebtn #menuClose:hover {
+  .closebtn:hover {
     cursor: pointer;
     color: #e77ceb;
     border: none;
@@ -98,19 +91,19 @@
     cursor: pointer;
     background-color: transparent;
     color: #17375e;
-    margin-left: 0px;
-    margin-top: 7rem;
+    margin-left: 20px;
+    margin-top: 10rem;
     border: none;
     text-align: left;
   }
   
 
   .openbtn:hover {
-    color:#711285;
+    color:#e77ceb;
   }
   
   /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
-  .kTainr {
+  #main {
     transition: margin-left .5s; /* If you want a transition effect */
     padding: 20px;
   }
@@ -129,4 +122,3 @@
   @media screen and (max-width: 1280px){
  
   }
-
