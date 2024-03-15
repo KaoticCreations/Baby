@@ -1,298 +1,73 @@
- *{
-    box-sizing: border-box;
- }  
-@media screen and (max-width: 368px){
-    .kContainr{
-        display:flex;
-        flex-wrap: wrap;
-    }
-    .kmain{
-        display:flex;
-        flex-direction: column;
-        
-    }
-    .imagetp{
-        background-color: aquamarine;
-    }
-}
-   
-body{
-    max-width: 1980px; 
-    background-color: #7a7baf;    
+.body{
     
-    display:grid;
-    grid-template-columns: 200px 1580px ;    
-    grid-template-rows: 120px 700px 500px auto;
    
-    
 }
 
-.kContainr{
-    grid-row: 1;
-    grid-column: 2;
+.kTainr{
+    /*background-color: #7d7daf;*/
+    /*
+    display:flex;
+    flex-wrap: wrap;
+    */
+    display: grid;
+    grid-template-columns: 280px auto 280px;
+    grid-template-rows: 180px auto 200px;
 
-    
-    width:1480px;
-    height: fit-content;  
-    padding:10px;
     margin:auto;
-    margin-top: 50px;
+    min-width: 380px;
+    max-width: 2250px;
 
-    background-image: linear-gradient(#6498d4 ,#6498d4,#e77ceb ,#6498d4,#e77ceb );
-    border-radius: 5rem;
+    width:auto;
+    height: auto;
+    
 
-    display:flex;
-    flex-wrap: wrap;
-    /*
-    display:grid;
-    grid-template-columns: 300px 1680px ;
-    grid-template-columns: repeat(auto-fit,minmax(100px,1fr)) ;
-    grid-template-rows: 120px 700px 500px auto;
-    */
-    /*
+   
 
-    display:flex;
-    flex-wrap: wrap;
-    */
 }
 
-
-
-
-
-
-
-
-.kheader{
-    
-    grid-column: 1/2;
-    grid-row: 1;
-
-    position:fixed; 
-    padding-top: 25px;
-    margin-left: 120px;
-    margin-bottom: 30px;   
-    
-    width: 1680px;
-    height: 100px;    
-    
-    background-color: #7a7baf;
-
-    border-bottom: solid 1px #6498d4;
-    
-    border-radius: 3px 8px 4rem 4rem;
-    border-width: 3px 8px 9px 0px;
-    box-shadow: 0px 5px 2px 3px #e77ceb;
-    
-
-    display:grid;
-    grid-template-columns: 400px 700px 400px;
-    grid-template-rows: 40px 80px;
-
-    display:none;
-
-}
 .knav{
+   /* background-color: #c3e01b;*/
     grid-column: 1;
     grid-row: 2;
+    
 
 }
-.kmain{   
-        
-    margin-top: 50px;  
-    margin-left: 0px;
+
+.kheadr{
+  /*  background-color: #7e4803;*/
+    grid-column: 2/3;
+    grid-row: 1;
+    margin: auto;
+    
+
+}
+
+.kmain{
+   /* background-color: #2a2ae2;*/
+    grid-column: 2;
+    grid-row: 2;
+
+    display:flex;
+    flex-wrap: wrap;
+    height:auto;
+    margin: auto;
+
 }
 
 .kside{
-    grid-column: 2;
-    grid-row: 3;
-    
-}
-.kfooter{
-    grid-column:2/3;
-    grid-row: 2/3;
-
-}
-
-.kcard{
-    display: flex;
-    flex-wrap: wrap ;    
-}
-
-.kcard img{
-    
-    width:200;
-    
-
-    
-    
-    
-}
-.kcard2{       
-    object-fit: fill;
-   
-}
-
-.kcardphotosht1{
-    display: grid;    
-    grid-template-rows:  auto auto auto;
-    grid-template-columns: 500px 500px 500px  ;
-    
-}
-.kcardPs1{
-    grid-row: 1;
-    align-items: center;
-    
-    
-}
-
-.kcardcntrSono{
-    margin-left:520px;
-}
-.lblphto{
-    font-size: 40px;
-}
-
-
-
-.image{
-    /*width: fit-content;*/
-    
-    margin-right: 25px;
-    margin-bottom: 25px;
-    border:  solid 3px #a7d7eb;
-
-    border-bottom: solid 1px #6498d4;
-    
-    border-radius: 3px ;
-    border-width: 33px 28px 19px 33px;
-    box-shadow: 0px 1px 2px 3px #e77ceb;
-    
-}
-.imageDash2{
-    width: 300px;
-    height:380px;
-    margin-right: 25px;
-    margin-bottom: 25px;
-    border:  solid 3px #a7d7eb;
-
-    border-bottom: solid 1px #6498d4;
-    
-    border-radius: 3px ;
-    border-width: 33px 28px 19px 33px;
-    box-shadow: 0px 1px 2px 3px #e77ceb;
-    opacity: 25%;
-}
-
-
-.kheadr2{
-    grid-column: 2;
-    font-size: 40px;
-    color: #f3f3f3;
-    
+    /*background-color: #01632d;*/
+    grid-column: 3;
+    grid-row: 1/4;
     margin: auto;
-    
-    
+
 }
-/***-----------{  Knav  }--------------*/
-.knavlog{
-    grid-column: 1;
-   max-width: 250px;   
-}
+.kAbyss{
+    /*background-color: #410541;*/
+    grid-column: 2/3;
+    grid-row: 3;
+    margin: auto;
 
-
-/* The sidebar menu */
-.sidebar {
-    height: 600px; /* 100% Full-height */
-    width: 0; /* 0 width - change this with JavaScript */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Stay on top */
-    top: 180px;
-    left: 0;
-    background-color:#7a7baf; /* Black*/
-    overflow-x: hidden; /* Disable horizontal scroll */
-    padding-top: 60px; /* Place content 60px from the top */
-    transition: 0.5s;  /*0.5 second transition effect to slide in the sidebar */
-
-    border-right: solid 1px #6498d4;
-    border-top: solid 1px #6498d4;
-    border-radius: 4rem 4rem 4rem 4rem;
-    border-width: 3px 8px 9px 0px;
-    box-shadow: 0px 5px 2px 3px #e77ceb;
-  }
-  
-  /* The sidebar links */
-  .sidebar a {
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    font-size: 35px;
-    color:#f3f3f3;
-    display: block;
-    /*transition: 0.3s;*/
-  }
-  
-  /* When you mouse over the navigation links, change their color */
-  .sidebar a:hover {
-    box-shadow: 0px 5px 2px 3px #6498d4;
-    color: #e77ceb;
-    padding:5px;
-    border:  solid 3px #e77ceb;
-    border-radius: 10px;
-    width: 320px; 
-  }
-  
-  /* Position and style the close button (top right corner) */
-  .sidebar .closebtn {
-    color: #91bae7;
-    border: none;
-    background-color: transparent;
     
-    
-    padding-left: 60px;
-    padding-right: 80px;
-    padding-bottom: 3%;
-    padding-top: 5%;
-    text-decoration: none;
-    font-size: 35px
-  }
 
-  .closebtn:hover {
-    cursor: pointer;
-    color: #e77ceb;
-    border: none;
-    padding-bottom: 15px;
 }
 
-  /* The button used to open the sidebar */
-   .openbtn {
-
-    grid-column: 1;  
-    grid-row: 1;   
-
-    position: fixed;
-    
-    font-size: 35px;
-    cursor: pointer;
-    background-color: transparent;
-    color: #f3f3f3;
-    margin-left: 20px;
-    border: none;
-    text-align: left;
-  }
-  
-
-  .openbtn:hover {
-    color:#e77ceb;
-  }
-  
-  /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
-  #main {
-    transition: margin-left .5s; /* If you want a transition effect */
-    padding: 20px;
-  }
-  
-  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
-  @media screen and (max-height: 450px) {
-    .sidebar {padding-top: 15px;}
-    .sidebar a {font-size: 18px;}
-  }
