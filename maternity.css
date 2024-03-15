@@ -2,34 +2,59 @@
 @import url();
 
 body{
+    display: block;
     
-    
-    background-color: #7d7daf;
-    
-   
-    min-width: 480px;
+    min-width: 380px;
     max-width: 2500px;
 }
 
-.kaos{
+
+.kTainr{
+    
+    
+    display: block;
+    display:flex;    
+    flex-direction: column;
+}
+.kmain{
     /*
     display: grid;    
     grid-template-rows: auto auto auto auto auto auto auto;
     grid-template-columns: repeat(auto-fit,minmax(100px,1fr)) ;
 */
-
+    
     
     margin: auto;
-    margin-top: 3rem;
-    width:100%;
+    margin-top: 2rem;
+    
 
     
-   
+
+    background-image: linear-gradient(#f3f3f3,#6498d4,#e77ceb,#f3f3f3 );   
+   /*border:  solid #2d2268 ;*/
+   border: .5rem 0px .25rem 0px;
     border-radius: 3rem 3rem 3rem 3rem;
     
     
 }
+.kmainsect1{
+    display: flex;
+    flex-wrap: nowrap;
+    margin: auto;
+    margin-top: 5rem;
+    
+}
+.kmainbannr{
+    display:flex;
+    
+    flex-direction: column;
+    
+    
+}
+.kheadr{
+    background-image: linear-gradient(#f3f3f3,#6498d4,#e77ceb,#f3f3f3 );   
 
+}
 
 
 
@@ -38,7 +63,7 @@ body{
 
 /*--------------------------------------------*/
    
-.banner{
+.kBanner{
     
     width:100%
     
@@ -101,11 +126,16 @@ body{
     
 .homeTop{
     
-    width:100%
+    width:100%;
+}
+.homeTop2{
+    
+    width:fit-content;
+    margin: auto;
 }
 
 
-.homeTop h4{    
+.homeTop h4, .homeTop2 h4{    
 
     margin:  0;
     padding: 0;
@@ -144,7 +174,7 @@ body{
 
 }
 
-.homeTop h4 span
+.homeTop h4 span, .homeTop2 h4
 {
     color:#2d2268;
     font-size: 4rem;
@@ -167,15 +197,7 @@ body{
 
 
 
-.kBanner2 img {   
 
-    width: 600px;
-    height: auto;
-    margin: auto;
-    margin-top: 6rem;
-    margin-right:0 ;
-   
-}
 
 .kBanner1 {   
     
@@ -205,7 +227,7 @@ body{
 /*-----SECTION 2----*/
 
 /*--------------------------------------------------------------*/
-
+/*
 
 .Ktainer{
     
@@ -271,6 +293,54 @@ body{
 /*        height: 500px;*/
     }
     .kcard:hover{
+        box-shadow: 0 8px 16px 0 rgb(3, 3, 250);
+        scale:1.5;
+        
+        
+        
+    }
+
+}
+
+
+.kcardtop{
+    border:  solid 3px #e44ae9;
+
+    border-bottom: solid 1px #3280e6;
+    
+    border-radius: 15px ;
+    border-width: 3px 8px 19px 18px;
+    box-shadow: 9px 5px 2px 3px #f3f3f3;
+    transition: 0.4s;
+
+    width: fit-content;
+    height: fit-content;
+    background: transparent;
+    text-align: center;
+    font-size: 16px;
+    font-family: sans-serif;
+    float:left;
+    margin:3rem;
+    margin-bottom:7rem;
+
+    
+}
+
+.kcardtop:hover{
+    box-shadow: 0 8px 16px 0 rgb(3, 3, 250);
+    scale:1;
+    margin: auto;
+    height: fit-content;   
+    
+}
+
+
+@media screen and (max-width:1080px) {
+
+    .kcardtop{
+/*        height: 500px;*/
+    }
+    .kcardtop:hover{
         box-shadow: 0 8px 16px 0 rgb(3, 3, 250);
         scale:1.5;
         
@@ -374,6 +444,9 @@ body{
 
 
 .imagetop{  
+
+    width: 900px;
+    height: auto;
     
     border:  solid 3px #3280e6;
 
@@ -437,6 +510,21 @@ body{
     
     
     
+}
+
+.imagePnktop{
+
+    display: block;
+    width: 600px;
+    
+    
+    height: auto;  
+    
+    border:  solid 3px #3280e6;
+    
+    border-bottom: solid 13px #e44ae9;
+    
+
 }
 .wrap2{
     width: 100%;
