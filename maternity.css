@@ -13,8 +13,9 @@ body{
     
     
     display: block;
+/*
     display:flex;   
-    flex-direction: column;
+    flex-direction: column;*/
 }
 .kmain{
     /*
