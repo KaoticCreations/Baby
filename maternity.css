@@ -537,6 +537,11 @@ body{
 }
 
 @media screen and (max-width:768px) {
+
+    .kmainsect1{
+        
+        flex-wrap: wrap;
+    }
     .kaos{
         display: flex;
         flex-wrap: wrap;
@@ -545,6 +550,7 @@ body{
        
 
     }
+    
     .kBanner img{
         padding-top:20px;
         padding-bottom:20px;
