@@ -2,20 +2,20 @@
 @import url();
 
 body{
-    display: block;
     
-    min-width: 380px;
-    max-width: 2500px;
+    
+    
 }
 
 
 .kTainr{
-    
-    
+    min-width: 380px;
+    max-width: 3500px;
+    width: 100%;
     display: block;
-/*
     display:flex;   
-    flex-direction: column;*/
+    flex-direction: column;
+    display: block;
 }
 .kmain{
     /*
@@ -39,6 +39,31 @@ body{
     
     
 }
+.kAbyss{
+    background-image: linear-gradient(#f3f3f3,#6498d4,#e77ceb,#f3f3f3 );  
+    
+}
+
+.final{
+    margin-left: 20%;
+    margin-right: 20%;
+
+    margin-bottom: 20%;
+    
+}
+.finalImage{
+    background-image: linear-gradient(#f3f3f3,#6498d4,#e77ceb,#f3f3f3 );  
+    width:100%;
+    height:auto;
+    margin: auto;
+
+    border: solid  #e77ceb;
+    
+    border-radius: 30rem ;
+
+    border-width: 3px 8px 19px 18px;
+    box-shadow: 9px 5px 2px 3px #3280e6;
+}
 .kmainsect1{
     display: flex;
     flex-wrap: nowrap;
@@ -55,8 +80,11 @@ body{
 }
 .kheadr{
     background-image: linear-gradient(#f3f3f3,#6498d4,#e77ceb,#f3f3f3 );  
-    margin: auto; 
+    
     text-align: center;
+
+    font-size: 3rem;
+    
 
 }
 .kBannertitle{
@@ -212,7 +240,7 @@ body{
 }
 
 
-.kcard{
+.kcard,.kcardtop2{
     border:  solid 3px #3280e6;
     
     border-bottom: solid 1px #e44ae9;
@@ -244,12 +272,18 @@ body{
     height: fit-content;  
     opacity: 100%;   
     background-color: #3280e6;
+    
+    
+}
+.kcardtop2{
+    box-shadow: 0 16px 16px 8px #ad24c9;
+    scale:1.5;
+    
+    height: fit-content;  
+    opacity: 100%;   
+    background-color: #3280e6;
     margin: auto;
-    
-    
 
-    
-    
 }
 
 
@@ -260,8 +294,7 @@ body{
     }
     .kcard:hover{
         box-shadow: 0 8px 16px 0 rgb(3, 3, 250);
-        scale:1.5;
-        
+        scale:1.5;      
         
         
     }
@@ -294,7 +327,7 @@ body{
 
 .kcardtop:hover{
     box-shadow: 0 8px 16px 0 rgb(3, 3, 250);
-    scale:1;
+    scale:1.25;
     margin: auto;
     height: fit-content;  
     margin-left:50%;
@@ -335,8 +368,9 @@ body{
     font-size: 16px;
     font-family: sans-serif;
    /* float:left;*/
-    margin:auto;
+    margin:2rem;
     margin-bottom: 13px;
+    
 
     
 }
@@ -366,13 +400,12 @@ body{
     
 }
 
-.kcard1:hover{
+.kcard1,.kcard2:hover{
     box-shadow: 0 8px 16px 0 rgb(3, 3, 250);
     scale:1.5;
     height: auto;
     background-color: #be3bca;
-    margin-left:50%;
-    margin-right:50%;
+    
     
 }
 
@@ -383,10 +416,9 @@ body{
 /*        height: 500px;*/
     }
     .kcard1:hover{
-        box-shadow: 0 8px 16px 0 rgb(3, 3, 250);
-        scale:2;       
-        margin-left:50%;
-    margin-right:50%; 
+        
+           
+        
     }
 }
 
@@ -436,13 +468,13 @@ body{
     width: 900px;
     height: auto;
     
-    border:  solid 3px #3280e6;
+    
 
     border-bottom: solid 1px #e44ae9;
     
     border-radius: 30px ;
     border-width: 13px 8px 20px 18px;
-    box-shadow: 9px 5px 2px 3px #f3f3f3;
+    box-shadow: 9px 5px 2px 3px #3280e6;
 
 }
 .imagetop:hover{
@@ -487,6 +519,34 @@ body{
     
 }
 
+.imageBlu3{
+    display: block;
+    
+    max-width: 1300px;
+    
+    width:100%;
+    height:auto;
+    
+    
+    border:  solid 3px #3280e6;
+    border-bottom: solid 1px #e44ae9;    
+    
+}
+.imageBlutop{
+    display: block;    
+    width: 600px;   
+    
+    height: auto;
+    margin:2rem;
+    
+    
+    border:  solid 3px #3280e6;
+    border-radius: 15px;
+    border-bottom: solid 1px #e44ae9;
+    
+    
+}
+
 
 .imagePnk{
     display: block;
@@ -507,13 +567,14 @@ body{
 .imagePnktop{
 
     display: block;
+    margin:2rem;
+    
     width: 600px;
-    
-    
     height: auto;  
     
     border:  solid 3px #3280e6;
     
+    border-radius: 15px;
     border-bottom: solid 13px #e44ae9;
     
 
