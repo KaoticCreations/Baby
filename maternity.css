@@ -30,7 +30,8 @@ body{
 
     
 
-    background-image: linear-gradient(#f3f3f3,#6498d4,#e77ceb,#f3f3f3 );   
+    background-image: linear-gradient(#f3f3f3,#6498d4,#e77ceb,#f3f3f3 ); 
+    
    /*border:  solid #2d2268 ;*/
    border: .5rem 0px .25rem 0px;
     border-radius: 3rem 3rem 3rem 3rem;
@@ -186,8 +187,8 @@ body{
 
 
 
-/*---------------------Main---------------------*/
-/*-----SECTION 1----*/
+/*---------------------Banner ---------------------*/
+
 .kBanner {
     display:flex;
     flex-direction: row;
@@ -196,69 +197,17 @@ body{
 }
 
 
-
-
-
 .kBanner1 {   
     
     margin:auto;     
         
 }
-/*-----SECTION 1-   media---*/
 
-
-
-    /*
-    .kBanner1 {
-        
-        padding-top:20px;
-        padding-bottom:20px;
-        margin:auto;  
-         
-
-    }
-    */  
-        
-    
-
-
-/*-----SECTION 1----*/
-
-/*-----SECTION 2----*/
-
-/*--------------------------------------------------------------*/
-/*
-
-.Ktainer{
-    
-
-    
-    color: rgb(20, 39, 51);
-    
-    height: auto;       
-    
-    justify-content: center;
-    display:flex;
-    flex-wrap: wrap ;
-    
-}
-.wrap{    
-    justify-content: center;
-    display: block;
-}
-
-
-.Ktainer h4{
-    font-size: 2rem;
-    justify-content: center;
-    text-align: center;
-}
-/*--------------------------------------------------------------*/
 
 .kcard{
-    border:  solid 3px #e44ae9;
-
-    border-bottom: solid 1px #3280e6;
+    border:  solid 3px #3280e6;
+    
+    border-bottom: solid 1px #e44ae9;
     
     border-radius: 15px ;
     border-width: 3px 8px 19px 18px;
@@ -271,18 +220,26 @@ body{
     text-align: center;
     font-size: 16px;
     font-family: sans-serif;
-    float:left;
+    /*float:left;*/
     margin:3rem;
     margin-bottom:7rem;
-
+    
+    /* opacity: 700%;  */
     
 }
 
 .kcard:hover{
-    box-shadow: 0 8px 16px 0 rgb(3, 3, 250);
-    scale:2;
+    box-shadow: 0 16px 16px 8px #ad24c9;
+    scale:1.5;
+    
+    height: fit-content;  
+    opacity: 100%;   
+    background-color: #3280e6;
     margin: auto;
-    height: fit-content;   
+    
+    
+
+    
     
 }
 
@@ -330,7 +287,9 @@ body{
     box-shadow: 0 8px 16px 0 rgb(3, 3, 250);
     scale:1;
     margin: auto;
-    height: fit-content;   
+    height: fit-content;  
+    margin-left:50%;
+    margin-right:50%; 
     
 }
 
@@ -367,8 +326,9 @@ body{
     text-align: center;
     font-size: 16px;
     font-family: sans-serif;
-    float:left;
+   /* float:left;*/
     margin:10px;
+
     
 }
 
@@ -376,7 +336,9 @@ body{
     box-shadow: 0 8px 16px 0 rgb(3, 3, 250);
     scale:1.5;
     height: auto;
-    
+    background-color: #be3bca;
+    margin-left:50%;
+    margin-right:50%;
     
 }
 
@@ -388,12 +350,10 @@ body{
     }
     .card:hover{
         box-shadow: 0 8px 16px 0 rgb(3, 3, 250);
-        scale:2;
-        
-        
-        
+        scale:2;       
+        margin-left:50%;
+    margin-right:50%; 
     }
-
 }
 
 /*--------------------------------------------------------------*/
@@ -437,12 +397,6 @@ body{
 
 /*-----Kcard---------------------------------------------------*/
 
-
-
-
-
-
-
 .imagetop{  
 
     width: 900px;
@@ -465,20 +419,24 @@ body{
 }
 
 .imageBlu{
-    display: block;
-    
-    width: 300px;
-
+    display: block;    
+    width: 400px;
     
     height: 400px;
     height: auto;
+    margin:2rem;
     
     
     border:  solid 3px #3280e6;
-
+    border-radius: 15px;
     border-bottom: solid 1px #e44ae9;
     
     
+}
+.imageBlu:hover{
+    
+
+   
 }
 
 .imageBlu2{
@@ -498,14 +456,14 @@ body{
 
 .imagePnk{
     display: block;
-    width: 300px;
-    
-    
+    width: 400px;   
     height: auto;  
     
     border:  solid 3px #3280e6;
     
     border-bottom: solid 13px #e44ae9;
+
+    margin:2rem;
     
     
     
