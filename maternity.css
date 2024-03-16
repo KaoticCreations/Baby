@@ -2,7 +2,7 @@
 @import url();
 
 body{
-    
+    background-image: linear-gradient(#f3f3f3,#6498d4,#e77ceb,#f3f3f3 ); 
     
     
 }
@@ -27,13 +27,9 @@ body{
     
     margin-top: 2rem;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap; 
     
     
-    
-    
-
-    background-image: linear-gradient(#f3f3f3,#6498d4,#e77ceb,#f3f3f3 ); 
     
    /*border:  solid #2d2268 ;*/
    border: .5rem 0px .25rem 0px;
@@ -53,22 +49,18 @@ body{
     margin-top: 5rem;
     
 }
-.kmainbannr{
-    display:flex;
-    
-    flex-direction: column;
-    
-    
-}
+
 .kheadr{
     background-image: linear-gradient(#f3f3f3,#6498d4,#e77ceb,#f3f3f3 );  
     
     text-align: center;
 
     font-size: 3rem;
-    font-family: "Mogra", system-ui;
+    
     font-family: "Trade Winds", system-ui;
     font-family: "Salsa", cursive;
+    font-family: "Mogra", system-ui;
+    
     font-weight: 400;
     font-style: normal;
     color: #2d2268;
@@ -144,7 +136,7 @@ body{
 .kBanner1
 {
 
-    width:60%
+    width:40%
 }
 /*
     
