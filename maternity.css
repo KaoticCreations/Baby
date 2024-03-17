@@ -1,707 +1,100 @@
+.body{
+      
+    margin-left: 50%;
 
-@import url();
-
-body{
-    background-image: linear-gradient(#f3f3f3,#6498d4,#e77ceb,#f3f3f3 ); 
     
     
 }
-
-
-.kTainr{
-    min-width: 380px;
-    max-width: 3500px;
-    width: 100%;
-    display: block;
-    
-    
-}
-.kmain{
-    /*
-    display: grid;    
-    grid-template-rows: auto auto auto auto auto auto auto;
-    grid-template-columns: repeat(auto-fit,minmax(100px,1fr)) ;
-*/
-    
-    
-    
-    margin-top: 2rem;
-    display: flex;
-    flex-wrap: wrap; 
-    
-    
-    
-   /*border:  solid #2d2268 ;*/
-   border: .5rem 0px .25rem 0px;
-    border-radius: 3rem 3rem 3rem 3rem;
-    
-    
-}
-.kAbyss{
-    background-image: linear-gradient(#f3f3f3,#6498d4,#e77ceb,#f3f3f3 );  
-    
-}
-
-.kmainsect1{
-    display: flex;
-    flex-wrap: nowrap;
-    margin: auto;
-    margin-top: 5rem;
-    
-}
-
 .kheadr{
+
+    
+    
+    width: 100%;
     background-image: linear-gradient(#f3f3f3,#6498d4,#e77ceb,#f3f3f3 );  
     
-    text-align: center;
-
-    font-size: 3rem;
+    
+    font-size: 5rem;
     
     font-family: "Trade Winds", system-ui;
     font-family: "Salsa", cursive;
-    font-family: "Mogra", system-ui;
-    
+    font-family: "Mogra", system-ui;    
     font-weight: 400;
     font-style: normal;
-    color: #2d2268;
-    
+    color: #2d2268;  
+  
+  }
 
-}
-.kBannertitle{
-    text-align: center;
-}
-
-
-/*-----header----*/
-
-
-/*--------------------------------------------*/
-   
-.kBanner{
-    
-    width:100%
-    
-    
-}
-
-
-.banner h4{    
-
-    margin:  0;
-    padding: 0;
-    
-    color: #f3f3f3;
-    font-size: 3rem;
-
-    border:solid;
-    border-bottom:solid;
-    border-width: 3px;
-    border-color:#7d7daf;
-     
- 
-    text-align: center;  
-    
-    background-image: linear-gradient(#f3f3f3,#6498d4,#e77ceb,#f3f3f3 );   
-
-}
-
-.banner h3{
-    
-    margin:  0;
-    padding: 0;
-    
-    color: #2d2268;
-    font-size: 2rem;
-
-    border:solid;
-    border-width: 3px;
-    border-color: #7d7daf;
-
-    
- 
-    text-align: center;  
-    background-image: linear-gradient( #f3f3f3,#f3f3f3,#f3f3f3);   
-    
-
-}
-
-.banner h4 span
-{
-    color: #2d2268;
-    font-size: 4rem;
-}
-
-
-/**********************************************/
-.kBanner1
-{
-
-    width:40%
-}
-/*
-    
-.kBanner{
-    
-    width:100%;
-}
-*/
-.kBanner2{
-    
-    width:fit-content;
+  .kheadr1{
     margin: auto;
+  }
+
+  .kheadr1 span{
+    color: #7d0788;
+  }
+
+.Kbanner{
+    
+    
+    
 }
 
 
-.kBanner h4, .kBanner2 h4{    
-
-    margin:  0;
-    padding: 0;
+.kBanner1{
     
-    color: #be3bca;
-    font-size: 3rem;
-
-    border:solid;
-    border-width: 3px;
-    border-color:#7d7daf;
-     
- 
-    text-align: center;  
-    
-    background-image: linear-gradient(#f3f3f3,#6498d4,#e77ceb,#f3f3f3 );   
-
 }
 
-.kBanner h3{
+.kTainr{
     
-    margin:  0;
-    padding: 0;
-    
-    color: #711285;
-    font-size: 2rem;
-
-    border:solid;
-    border-width: 3px;
-    border-color: #7d7daf;
-
-    
- 
-    text-align: center;  
-    background-image: linear-gradient( #f3f3f3,#f3f3f3,#f3f3f3);   
-    
-
 }
 
-.kBanner h4 span
-{
-    color:#2d2268;
-    font-size: 4rem;
+
+.knav{
+    
+    
 }
 
-.kBanner2 h4{
-    font-family: "Trade Winds", system-ui;
-    font-family: "Mogra", system-ui;
 
-    font-weight: 400;
-    font-style: normal;
-    color: #2d2268;
+
+.kmain{
+   
+
 }
-/*-----header----*/
-
-
-
-
-
-/*---------------------Banner ---------------------*/
-
-.kBanner {
+.krow{
     display:flex;
-    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    /*
+    display: block;
+    margin: auto;
+    */
+
+}
+
+.KcardMain{
+    
+}
+.kside{
+    
+
+}
+.kAbyss{
    
 
-}
-
-
-.kBanner1 {   
-    
-    margin:auto;     
-        
-}
-
-
-.kcard,.kcardtop2{
-    border:  solid 3px #3280e6;
-    
-    border-bottom: solid 1px #e44ae9;
-    
-    border-radius: 15px ;
-    border-width: 3px 8px 19px 18px;
-    box-shadow: 9px 5px 2px 3px #f3f3f3;
-    transition: 0.4s;
-
-    width: 33%;
-    height: fit-content;
-    background: transparent;
-    text-align: center;
-    font-size: 16px;
-    font-family: sans-serif;
-    /*float:left;*/
-    
-    margin:3rem;
-    margin-bottom:7rem;
-    
-    /* opacity: 700%;  */
-    
-}
-
-.kcard120{
-    border:  solid 3px #3280e6;
-    
-    border-bottom: solid 1px #e44ae9;
-    
-    border-radius: 15px ;
-    border-width: 3px 8px 19px 18px;
-    box-shadow: 9px 5px 2px 3px #f3f3f3;
-    transition: 0.4s;
-
-    width: 33%;
-    height: fit-content;
-    background: transparent;
-    text-align: center;
-    font-size: 16px;
-    font-family: sans-serif;
-    /*float:left;*/
-    
-    margin:3rem;
-    margin-bottom:7rem;
-    
-    /* opacity: 700%;  */
-    
-}
-
-.kcard:hover{
-    box-shadow: 0 16px 16px 8px #ad24c9;
-    scale:1.5;
-    
-    height: fit-content;  
-    opacity: 100%;   
-    background-color: #3280e6;
-    
-    
-}
-
-.kcard120:hover{
-    border: solid 5px #2d2268;
-    box-shadow: 0 16px 16px 8px #ad24c9;
-    scale:1.5;
-    
-    height: fit-content;  
-    opacity: 100%;   
-    background-color: #3280e6;
-    
-    
-}
-/*
-.kcardtop2{
-    box-shadow: 0 16px 16px 8px #ad24c9;
-    scale:1.5;
-    
-    height: fit-content;  
-    opacity: 100%;   
-    background-color: #3280e6;
-    margin: auto;
-
-}
-*/
-
-@media screen and (max-width:1080px) {
-
-    .kcard{
-/*        height: 500px;*/
-    }
-    .kcard:hover{
-        box-shadow: 0 8px 16px 0 rgb(3, 3, 250);
-        scale:1.5;      
-        
-        
-    }
-
-}
-
-
-.kcardtop{
-    border:  solid 3px #e44ae9;
-
-    border-bottom: solid 1px #3280e6;
-    
-    border-radius: 15px ;
-    border-width: 3px 8px 19px 18px;
-    box-shadow: 9px 5px 2px 3px #f3f3f3;
-    transition: 0.4s;
-
-    width: fit-content;
-    height: fit-content;
-    background: transparent;
-    text-align: center;
-    font-size: 16px;
-    font-family: sans-serif;
-    
-    margin:3rem;
-    margin-bottom:7rem;
-
-    
-}
-
-.kcardtop:hover{
-    box-shadow: 0 8px 16px 0 rgb(3, 3, 250);
-    scale:1.25;
-    margin: auto;
-    height: fit-content;  
-    margin-left:50%;
-    margin-right:50%; 
-    
-}
-
-
-@media screen and (max-width:1080px) {
-
-    .kcardtop{
-/*        height: 500px;*/
-    }
-    .kcardtop:hover{
-        box-shadow: 0 8px 16px 0 rgb(3, 3, 250);
-        scale:1.5;
-        
-        
-        
-    }
-
-}
-/*--------------------------------------------------------------*/
-.kcard2{
-    border:  solid 3px #e44ae9;
-    border-bottom: solid 1px #3280e6;    
-    border-radius: 15px ;
-    border-width: 3px 8px 19px 18px;
-    box-shadow: 9px 5px 2px 3px #f3f3f3;
-    transition: 0.4s;
-
-
-    width: 30%;
-    height: auto;
-    background: transparent;
-    text-align: center;
-    font-size: 16px;
-    font-family: sans-serif;
-   /* float:left;*/
-    margin:2rem;
-    /*margin-bottom: 13px;*/
-    
-
-    
-}
-.kcard1{
-    border:  solid 3px #e44ae9;
-
-
-    border-bottom: solid 1px #3280e6;
-    
-    border-radius: 15px ;
-    border-width: 3px 8px 19px 18px;
-    box-shadow: 9px 5px 2px 3px #f3f3f3;
-    transition: 0.4s;
-
-    width: 100%;
-    height: fit-content;
-    color: #711285;
-    background: transparent;
-    text-align: center;
-    font-size: 50px;
-    font-family:   sans-serif;
-    font-weight: 800;
-   /* float:left;*/
-    margin:auto;
-    margin-bottom: 3px;
-
-    
-}
-
-.kcard1,.kcard2:hover{
-    box-shadow: 0 8px 16px 0 rgb(3, 3, 250);
-    scale:1.5;
-    height: auto;
-    background-color: #be3bca;
-    
-    
-}
-
-
-@media screen and (max-width:1080px) {
-
-    .kcard1{
-/*        height: 500px;*/
-    }
-    .kcard1:hover{
-        
-           
-        
-    }
-}
-
-/*--------------------------------------------------------------*/
-
-
-.btn_toc
-{
-    display: none;
-    background-color: chocolate;
-    color:#0b2046;
-    padding: 12px 20px;
-    border-radius: 2rem;
-}
-
-/*-----SECTION 2----*/
-/*---------------------Main---------------------*/
-
-
-
-/*-----SECTION 3----*/
-
-.getNameOut{
-
-    grid-row: 6/7;
-    grid-column: 1/6;
-    margin:auto;
-    width:100%;
-
-    background-image: linear-gradient(black, rgb(83, 82, 82)10%,black);
-    color:antiquewhite;
-    font-size: 2rem;
-    text-align: center;
-
-    border:solid;
-    border-width: 5px 0 0 0;
-    border-color: antiquewhite;
-}
-
-
-
-
-/*-----Kcard---------------------------------------------------*/
-
-.imagetop{  
-
-    width: 100%;
-    height: auto;
-    
-    
-
-    border-bottom: solid 1px #e44ae9;
-    
-    border-radius: 30px ;
-    border-width: 13px 8px 20px 18px;
-    box-shadow: 9px 5px 2px 3px #3280e6;
-
-}
-.imagetop:hover{
-    margin-top: 20%;
-    margin-right: 20%;
-
-    scale: 1.5;
-}
-
-.imageBlu{
-    display: block;    
-    width: 100%;
-    
-    
-    height: auto;
-    margin:2rem;
-    
-    
-    border:  solid 3px #3280e6;
-    border-radius: 15px;
-    border-bottom: solid 1px #e44ae9;
-    
-    
-}
-.imageBlu:hover{
-    
-
-   
-}
-
-.imageBlu2{
-    display: block;
-    
-    max-width: 600px;
-    
-    width:100%;
-    height:auto;
-    
-    
-    border:  solid 3px #3280e6;
-    border-bottom: solid 1px #e44ae9;    
-    
-}
-
-.imageBlu3{
-    display: block;
-    
-    max-width: 1300px;
-    
-    width:100%;
-    height:auto;
-    
-    
-    border:  solid 3px #3280e6;
-    border-bottom: solid 1px #e44ae9;    
-    
-}
-.imageBlutop{
-    display: block;    
-    width: 600px;   
-    
-    height: auto;
-    margin:2rem;
-    
-    
-    border:  solid 3px #3280e6;
-    border-radius: 15px;
-    border-bottom: solid 1px #e44ae9;
-    
-    
-}
-
-
-.imagePnk{
-    display: block;
-    width:100%; 
-    height: auto;  
-    
-    border:  solid 3px #3280e6;
-    
-    border-bottom: solid 13px #e44ae9;
-
-    margin:2rem;
-    
-    
-    
-    
-}
-
-.imagePnktop{
-
-    display: block;
-    margin:2rem;
-    
-    width: 600px;
-    height: auto;  
-    
-    border:  solid 3px #3280e6;
-    
-    border-radius: 15px;
-    border-bottom: solid 13px #e44ae9;
     
 
 }
-.wrap2{
-    width: 100%;
-    margin: auto;
-    margin-left: 50px;
-}
-.wrap3{
-    margin: auto;
-    margin-left: 50px;
-}
-.card_descript2 h4{
-    margin: auto;
-    font-size: 3rem;
-
-}
-
-.card_descript2:hover {
-    display: none;
-    margin: auto;
-    font-size: 3rem;
-    rotate: .3;
-}
-/*-----Kcard---------------------------------------------------*/
 
 
-@media screen and (max-width:1080px) {
+/*------------------MEDIA---------------------------------*/
 
-    .kheadr{
-        
+@media screen and (max-width:380px) {
 
-    }
-    .kmainsect1{
-        display: flex;
-
-        flex-wrap: wrap;
-        margin: auto;
-    }
-    .kBanner{
-        display:flex;
-        flex-wrap: wrap;
+    .krow{
+        display: block;
         margin: auto;
 
     }
-    .kBanner1{
-        width:100%;
-    }
-    .kBanner img{
-        padding-top:20px;
-        padding-bottom:20px;
-        width: 900px;   
-        height: auto; 
-        margin:auto;        
-
-    }
-    
-    
 
 
-}
 
-@media screen and (max-width:768px) {
-    
-    .kmainsect1{
-        display: flex;
-
-        flex-wrap: wrap;
-        margin: auto;
-    }
-    .kBanner{
-       
-
-    }
-    .imagetop {
-        padding-top:20px;
-        padding-bottom:20px;
-        width: 650px;   
-        height: 400px; 
-        margin:auto;        
-
-    }
-}
-
-
-@media screen and (max-width:68px) {
-    
-    .kmainsect1{
-
-        flex-wrap: wrap;
-    }
-    .kBanner{
-       
-
-    }
-    .kBanner img{
-        padding-top:20px;
-        padding-bottom:20px;
-        width: 450px;   
-        height: 400px; 
-        margin:auto;        
-
-    }
 }
