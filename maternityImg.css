@@ -16,238 +16,151 @@
     font-weight: 400;
     font-style: normal;
   }
+
+
+
+
+
+
+
+  .kBanner1{
+    margin: 0;
+    margin-top:  5%;
+    padding: 0;
+    
+    color: #791e7c;
+    font-size: 3rem;
+
+    border:solid;
+    border-width: 3px;
+    border-radius: 30px;
+    border-color:#7d7daf;
+     
+ 
+      
+    font-family: "Salsa", cursive;
+    font-weight: 400;
+    font-style: normal;
+
+    width:fit-content;
+    height: fit-content;
+    background-image: linear-gradient(#f3f3f3,#6498d4,#e77ceb,#f3f3f3 );   
+    text-align: center;
+  }
   
-
-
-.final{
-    margin-left: 20%;
-    margin-right: 20%;
-
-    margin-bottom: 5rem;
-    
-}
-.final1{
-    margin-left: 5%;
-    margin-right: 5%;    
-    
-    margin-bottom: 5rem;
-    width: 60%; 
-    
-    box-shadow: 0px 5px 2px 3px #000066;
-}
-.final2{
-    margin-left: 5%;
-    margin-right: 5%;
-    
-    margin-bottom: 5rem;
-    width: 800px; 
-}
-
-.final3{
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-top: 10%;
-    margin-bottom: 5rem;
-    
-    width: 700px; 
-    
-}
-
-.finalImage{
-    background-image: linear-gradient(#f3f3f3,#6498d4,#e77ceb,#f3f3f3 );  
-    width:100%;
-    
-    
+.kBanner2 img{
+     
+        
+    width: 900px;
     height:fit-content;
+    
     margin: auto;
-    
-    border: solid  #e77ceb;
-    
-    border-radius: 30rem ;
-
-    border-width: 3px 8px 19px 18px;
-    box-shadow: 9px 5px 2px 3px #3280e6;
-}
-
-
-.finalImage1{
-    background-image: linear-gradient(#f3f3f3,#6498d4,#e77ceb,#f3f3f3 );  
-    
-    padding-top:0px;
-    padding-bottom:0px;
-    width:100%; 
-    height:auto;
-    
-
-    border: solid  #e77ceb;
-    
-    border-radius: 3rem ;
-
-    border-width: 3px 8px 19px 18px;
-    box-shadow: 9px 5px 2px 3px #3280e6;
-}
-
-.finalImage2{
-    background-image: linear-gradient(#f3f3f3,#6498d4,#e77ceb,#f3f3f3 );  
-    width:80%;
-    margin-bottom: 10%;
-    
-    margin-left: 10%;
+    margin-top: 11%;
+    margin-right: 0;
     
     border: solid  #e77ceb;    
-    border-radius: 15rem ;
+    border-radius: 13rem ;
 
     border-width: 3px 8px 19px 18px;
     box-shadow: 9px 5px 2px 3px #3280e6;
+
 }
-.finalImage2:hover{
-    border: solid 5px #2d2268;
+.kBanner3 img{
     
+    
+    width:500px;
+    padding: 0;
+
+    
+    margin-left: 10%;
+    
+    
+    margin-top: 70%;
+    
+    border: solid  #e77ceb;    
     border-radius: 5rem ;
-    box-shadow: 0 6px 6px 8px #ad24c9;
-    margin-bottom: 10%;
-    
-    margin-left: 10%;
-    scale:1.0125;
-    
-    height: fit-content;  
-    opacity: 100%;   
-    background-color: #3280e6;
+
+    border-width: 3px 8px 19px 18px;
+    box-shadow: 9px 5px 2px 3px #3280e6;
+
 }
+.KcardMain img{
+    width: 800px;
+    height: auto;
+    padding: 0;
 
-.finalImage3{
-    background-image: linear-gradient(#f3f3f3,#6498d4,#e77ceb,#f3f3f3 );  
-    width:80%;
-    height:fit-content;
+    margin-top: 70%;
     
-    
-
-    border: solid  #e77ceb;
-    
-    border-radius: 30rem ;
+    border: solid  #e77ceb;    
+    border-radius: 5rem ;
 
     border-width: 3px 8px 19px 18px;
     box-shadow: 9px 5px 2px 3px #3280e6;
 }
-.finalImage3:hover{
-    border: solid 5px #4328db;
-    box-shadow: 0 16px 16px 8px #3280e6;
-    margin-left: 10%;
-    scale:1.5;
+.kArt_1 img{
+    width: 500px;
+    height: auto;
+    padding: 0;
+
     
-    height: fit-content;  
-    opacity: 100%;   
-    background-color: #3280e6;
+    margin-left: 10%;
+    
+    
+    margin-top: 70%;
+    
+    border: solid  #e77ceb;    
+    border-radius: 5rem ;
+
+    border-width: 3px 8px 19px 18px;
+    box-shadow: 9px 5px 2px 3px #3280e6;
 }
 
-@media screen and (max-width:1080px) {
-    .final{
-        margin-left: 20%;
-        margin-right: 20%;
-    
-        margin-bottom: 20%;
-        
+
+
+
+
+/*------------------MEDIA---------------------------------*/
+
+@media screen and (max-width:980px) {
+
+    .kBanner2 img{
+        width: 500px;
+        margin-top: 20%;
     }
-    .final1{
-        margin-left: 20%;
-        margin-right: 20%;
+
+    .kArt_1 img{
+        width: 500px;
         
-        width: 500px; 
-        margin-bottom: 20%;
-        
-    }
-    .final2{
-        margin-left: 10%;
-        margin-right: 10%;
-    
-        margin-bottom: 10%;
-        
-    }
-    
-    .final3{
-        margin-left: 20%;
-        margin-right: 20%;
-    
-        margin-bottom: 10%;
         margin: auto;
-        
+        margin-top: 20%;
+
     }
-    
+
+    .KcardMain img{
+        width: 500px;
+        margin-top: 20%;
+    }
+
+
 
 }
 
+@media screen and (max-width:380px) {
+
+    .kBanner2 img{
+        width: 300px;
+    }
+    .kArt_1 img{
+        width: 300px;
+
+    }
+
+    .KcardMain img{
+        width: 300px;
+        margin-top: 20%;
+    }
 
 
 
-@media screen and (max-width:588px) {
-    
-.finalImage{
-    background-image: linear-gradient(#f3f3f3,#6498d4,#e77ceb,#f3f3f3 );  
-    width:50%;
-    
-    
-    height:fit-content;
-    margin: auto;
-    
-    
 }
 
-
-.finalImage1{
-    background-image: linear-gradient(#f3f3f3,#6498d4,#e77ceb,#f3f3f3 );  
-    
-    padding-top:0px;
-    padding-bottom:0px;
-    width:50%;
-    height:auto;
-    
-
-    
-}
-
-.finalImage2{
-    background-image: linear-gradient(#f3f3f3,#6498d4,#e77ceb,#f3f3f3 );  
-    width:50%;
-    margin-bottom: 10%;
-    
-    margin-left: 5px;
-    
-    
-}
-.finalImage2:hover{
-    border: solid 5px #2d2268;
-    
-    border-radius: 5rem ;
-    box-shadow: 0 6px 6px 8px #ad24c9;
-    margin-bottom: 10%;
-    
-    margin-left: 10%;
-    scale:1.5;
-    
-    
-}
-
-.finalImage3{
-    background-image: linear-gradient(#f3f3f3,#6498d4,#e77ceb,#f3f3f3 );  
-    width:50%;
-    height:fit-content;
-    margin-bottom: 10%;
-    
-    margin-left: 5px;
-    
-    
-
-    ;
-}
-.finalImage3:hover{
-    border: solid 5px #4328db;
-    box-shadow: 0 16px 16px 8px #3280e6;
-    margin-left: 10%;
-    scale:1.5;
-    
-    height: fit-content;  
-    opacity: 100%;   
-    background-color: #3280e6;
-}
-
-}
