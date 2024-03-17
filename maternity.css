@@ -131,6 +131,10 @@
 
 /*------------------MEDIA---------------------------------*/
 @media screen and (max-width:1180px) {
+      .kBanner1{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 
     .krow{
         
