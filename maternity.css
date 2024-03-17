@@ -41,6 +41,9 @@
   .kheadr2 label {
     color: #7d0788;
   }
+  .kheadr2 label span {
+    color: #2d2268;
+  }
 
 .Kbanner{
     height:500
