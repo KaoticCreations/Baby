@@ -1,13 +1,14 @@
 .body{
       
-    margin-left: 50%;
+    
+    background-image: linear-gradient(#f3f3f3,#6498d4,#e77ceb,#f3f3f3 ); 
 
     
     
 }
 .kheadr{
 
-    
+    position: fixed;
     
     width: 100%;
     background-image: linear-gradient(#f3f3f3,#6498d4,#e77ceb,#f3f3f3 );  
@@ -33,18 +34,23 @@
   }
 
 .Kbanner{
-    
+    height:500
     
     
 }
 
 
 .kBanner1{
+    display:flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    
+    
     
 }
 
 .kTainr{
-    
+    background-image: linear-gradient(#f3f3f3,#6498d4,#e77ceb,#f3f3f3 ); 
 }
 
 
@@ -89,12 +95,19 @@
 
 /*------------------MEDIA---------------------------------*/
 
-@media screen and (max-width:380px) {
+@media screen and (max-width:580px) {
 
     .krow{
         display: block;
         margin: auto;
 
+    }
+    .kmain{
+        display:block;
+
+        margin-left: 10%;
+       
+    
     }
 
 
