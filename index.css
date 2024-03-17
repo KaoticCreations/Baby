@@ -475,9 +475,7 @@ form .inputbox[type="submit"]:active
         flex-wrap: wrap;
     }   
 
-    .box{
-        width:70%;
-    }
+    
 
     svg{    
         margin-top: 18.5rem;  
@@ -492,21 +490,21 @@ form .inputbox[type="submit"]:active
 
     }
     
-    .titlelogin h4{
-        font-size: 2.5rem;
+    .titlelogin #title1{
+        font-size: 2rem;
     }
-    .titlelogin h4 span{
-        font-size: 3.5rem;
+    .titlelogin #title2{
+        font-size: 3rem;
    }
-   
-   
-    
    .babyNme h4 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     }
     .babyNme h4 span{
-    font-size: 3.5rem;
+    font-size: 3rem;
    }
+   
+    
+   
 }
 
 
@@ -523,9 +521,9 @@ form .inputbox[type="submit"]:active
    }
 
     .box{
-        width:90%;
+        width:70%;
         height:30rem;
-        margin-top: 5rem;
+        
     }
 
     .kaotic{
@@ -537,20 +535,21 @@ form .inputbox[type="submit"]:active
     }
     
     
-    .titlelogin h4{
-        font-size: 2.5rem;
+    .titlelogin #title1{
+        font-size: 1.5rem;
     }
-    .titlelogin h4 span{
-        font-size: 3.5rem;
+    .titlelogin #title2{
+        font-size: 2.5rem;
    }
+   
 
    
     
    .babyNme h4 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     }
     .babyNme h4 span{
-    font-size: 3.5rem;
+    font-size: 3rem;
    }
 }
 
@@ -566,6 +565,19 @@ form .inputbox[type="submit"]:active
         width:90%;
         margin-top: 5rem;
     }
+
+    .titlelogin #title1{
+        font-size: 1rem;
+    }
+    .titlelogin #title2{
+        font-size: 2rem;
+   }
+    .babyNme h4 {
+        font-size: 1rem;
+        }
+        .babyNme h4 span{
+        font-size: 2rem;
+       }
     
    /*
     height:30rem;
@@ -578,12 +590,7 @@ form .inputbox[type="submit"]:active
     }
 
 
-    .babyNme h4{
-        font-size: 2rem;
-    }
-    .babyNme h4 span{
-    font-size: 3rem;
-    }
+    
 
     */
 
