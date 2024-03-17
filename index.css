@@ -22,8 +22,7 @@ body
     background-position: center;
     background-size: cover;
 
-    width: fit-content;
-    height: fit-content;
+    
     margin: auto;    
     
 }
@@ -57,26 +56,39 @@ body
 
 
 .babyNme{    
-    font-size: 4rem;    
+    font-size: 4rem;  
+    font-weight: 700;   
     color: #47336d;  
 }
+
+.babyNme label span{
+    
+    font-size: 5rem;
+    font-weight: 700;  
+
+    
+    color: #da903c; 
+}
 .titlelogin{
-    margin-bottom: 1rem;
+    margin-bottom: 3rem;
 }
 
 #title1 {
     
-    font-size: 4rem;    
+    font-size: 4rem; 
+    font-weight: 700;   
     color: #47336d; 
 }
 
-#title1 span,.babyNme h4 span{
+#title1 span{
     
-    font-size: 4.5rem;
+    font-size: 5rem;
+    font-weight: 700;  
 
-    margin-bottom:20px;
+    
     color: #da903c; 
 }
+
 
 #title2  {
     padding-top:30px;
@@ -491,20 +503,76 @@ form .inputbox[type="submit"]:active
     }
     
     .titlelogin #title1{
-        font-size: 2rem;
+        font-size: 3rem;
+    }
+    .titlelogin #title1 span{
+        font-size: 4rem;
     }
     .titlelogin #title2{
         font-size: 3rem;
    }
-   .babyNme h4 {
-    font-size: 2rem;
-    }
-    .babyNme h4 span{
+   .babyNme label {
     font-size: 3rem;
+    }
+    .babyNme label span{
+        font-size: 4rem;
    }
-   
+   .kaotiCreations{
+    margin:auto;
+   }
     
    
+}
+
+@media screen and (max-height: 720px){
+  
+  
+    .kmain{  
+            
+     
+        
+    
+    }
+ 
+     .box{
+         /*
+         height:auto;
+         margin-top: 2rem;*/
+     }
+ 
+     .kaotic{
+     
+     
+         font-size: .5rem;
+         
+         padding-bottom:0rem ;
+     }
+     
+     
+     .titlelogin h4{
+         font-size: 1.5rem;
+     }
+     .titlelogin h4 span{
+         font-size: 2.5rem;
+    }
+ 
+    
+     
+    .babyNme label {
+        font-size: 1.5rem;
+     }
+     .babyNme label span{
+        font-size: 2.5rem;
+    }
+
+    svg{   
+    
+    
+        scale: 1.125;
+        margin-bottom: 0px;
+        margin-top: 4.5rem;
+    }
+ 
 }
 
 
@@ -521,9 +589,10 @@ form .inputbox[type="submit"]:active
    }
 
     .box{
-        width:70%;
+
+        /*width:10%;
         height:30rem;
-        
+        */
     }
 
     .kaotic{
@@ -536,19 +605,22 @@ form .inputbox[type="submit"]:active
     
     
     .titlelogin #title1{
-        font-size: 1.5rem;
+        font-size: 2.5rem;
     }
     .titlelogin #title2{
         font-size: 2.5rem;
    }
+   .titlelogin #title1 span{
+    font-size: 2.5rem;
+}
    
 
    
     
-   .babyNme h4 {
-    font-size: 2rem;
+   .babyNme label {
+    font-size:3rem;
     }
-    .babyNme h4 span{
+    .babyNme label span{
     font-size: 3rem;
    }
 }
@@ -562,21 +634,30 @@ form .inputbox[type="submit"]:active
     }
 
     .box{
-        width:90%;
-        margin-top: 5rem;
+        width: 300px;
+        height: 450px; 
+        
+    }
+    .LogAction{
+        display:flex;
+        
+        flex-direction: column;
     }
 
     .titlelogin #title1{
-        font-size: 1rem;
+        font-size: 1.75rem;
+    }
+    .titlelogin #title1 span{
+        font-size: 2.5rem;
     }
     .titlelogin #title2{
-        font-size: 2rem;
+        font-size: 1.75rem;
    }
-    .babyNme h4 {
-        font-size: 1rem;
+    .babyNme label {
+        font-size: 1.75rem;
         }
-        .babyNme h4 span{
-        font-size: 2rem;
+        .babyNme label span{
+        font-size: 2.5rem;
        }
     
    /*
@@ -597,54 +678,3 @@ form .inputbox[type="submit"]:active
 }
 
 
-@media screen and (max-height: 720px){
-  
-  
-      .kmain{  
-              
-        display:flex;
-        flex-wrap: wrap;
-          
-      
-      }
-   
-       .box{
-           
-           height:26rem;
-           margin-top: 2rem;
-       }
-   
-       .kaotic{
-       
-       
-           font-size: .5rem;
-           
-           padding-bottom:0rem ;
-       }
-       
-       
-       .titlelogin h4{
-           font-size: 1.5rem;
-       }
-       .titlelogin h4 span{
-           font-size: 2.5rem;
-      }
-   
-      
-       
-      .babyNme h4 {
-          font-size: 1.5rem;
-       }
-       .babyNme h4 span{
-          font-size: 2.5rem;
-      }
-  
-      svg{   
-      
-      
-          scale: 1.125;
-          margin-bottom: 0px;
-          margin-top: 4.5rem;
-      }
-   
-  }
