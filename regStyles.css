@@ -17,18 +17,13 @@
     } 
     .kmainReg{
         width:680px;
-            
-    
+        
     } 
     .kcardSono{
         
-            
-    
     } 
     .kmainSono{
         
-            
-    
     }   
     #title{
         color:#7d7daf;
@@ -64,29 +59,30 @@
     }
 
     body{
-        max-width: 1380px; 
-        min-width: 380px;
+        
         
         width: 1280px;
-        background-color: #7d7daf;    
+        
         margin-top:0;
-        display:grid;
-        grid-template-columns: 200px 1380px ;    
-        grid-template-rows: 120px 700px  auto;         
+            
     }
 
 
-.ktainrReg{
-    grid-row: 1;
-    grid-column: 2;    
-    width:980px;
+.ktainr{
+
+    max-width: 1380px; 
+        min-width: 380px;
+      
+    width:auto;
     height: fit-content;  
     padding:30px;
     padding-bottom:200px;
     
     margin: auto;
     margin-top: 50px;
-    margin-bottom: 50px;    
+    margin-bottom: 50px;  
+    margin-left: 20%; 
+      
 
     background-image: linear-gradient(#f3f3f3 ,#6498d4,#6498d4,#e77ceb );
     border-radius: 5rem;
