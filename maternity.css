@@ -8,7 +8,7 @@
 }
 .kheadr{
 
-    position: fixed;
+/*    position: fixed;*/
     
     width: 100%;
     background-image: linear-gradient(#f3f3f3,#6498d4,#e77ceb,#f3f3f3 );  
@@ -27,6 +27,8 @@
 
   .kheadr1{
     margin: auto;
+    margin-top: 50px;
+    display:block;
   }
 
   .kheadr1 span{
@@ -94,8 +96,24 @@
 
 
 /*------------------MEDIA---------------------------------*/
+@media screen and (max-width:1180px) {
 
-@media screen and (max-width:580px) {
+    .krow{
+        
+
+    }
+    .kheadr1{
+
+        
+       
+    
+    }
+
+
+
+}
+
+@media screen and (max-width:380px) {
 
     .krow{
         display: block;
