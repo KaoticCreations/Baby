@@ -8,13 +8,25 @@
 }
 .kheadr{
 
-/*    position: fixed;*/
+     position: fixed;
+     margin-top: 0;
     
     width: 100%;
     background-image: linear-gradient(#f3f3f3,#6498d4,#e77ceb,#f3f3f3 );  
+    display:flex;
+    
+    flex-direction: column;
     
     
-    font-size: 5rem;
+  
+  }
+
+  .kheadr1,.kheadr2{
+    margin: auto;
+    margin-top: 5px;
+    display:block;
+
+    font-size: 3rem;
     
     font-family: "Trade Winds", system-ui;
     font-family: "Salsa", cursive;
@@ -22,21 +34,16 @@
     font-weight: 400;
     font-style: normal;
     color: #2d2268;  
-  
+
   }
 
-  .kheadr1{
-    margin: auto;
-    margin-top: 50px;
-    display:block;
-  }
-
-  .kheadr1 span{
+  .kheadr2 label {
     color: #7d0788;
   }
 
 .Kbanner{
     height:500
+
     
     
 }
@@ -45,10 +52,37 @@
 .kBanner1{
     display:flex;
     flex-wrap: nowrap;
-    justify-content: center;
     
+}
+
+.kBanner1 i{
+    color: #2d2268;  
+    font-size: 8rem;
+    rotate: 30deg;
+}
+.kBanner1 p{
+
+    margin-left: 5rem;
+    margin-right: 5rem;
     
+
+    color: #2d2268;  
+    font-size: 3rem;
     
+    font-family: "Mogra", system-ui;  
+    font-family: "Trade Winds", system-ui;
+    font-family: "Salsa", cursive;
+      
+    font-weight: 400;
+    font-style: normal;
+
+    border: solid 6px 5px 2px 3px #000066;
+    box-shadow: 0px 5px 2px 3px #000066;
+
+}
+.kBanner1 p span{
+    color: #7d0788;
+
 }
 
 .kTainr{
@@ -102,23 +136,59 @@
         
 
     }
-    .kheadr1{
+    .kheadr1{       
+       
+    
+    }
 
+    
+
+}
+
+@media screen and (max-width:780px) {
+
+    .krow{
         
+
+    }
+    .kheadr1 label{       
+       
+    
+    }
+
+    
+
+}
+
+@media screen and (max-width:580px) {
+
+    .krow{
+        
+
+    }
+    .kheadr1{       
+       
+    
+    }
+
+    
+
+}
+
+@media screen and (max-width:380px) {
+    .kBanner1{
+        display:block;
+    }
+
+    .kheadr1{       
        
     
     }
 
 
-
-}
-
-@media screen and (max-width:380px) {
-
     .krow{
         display: block;
         margin: auto;
-
     }
     .kmain{
         display:block;
