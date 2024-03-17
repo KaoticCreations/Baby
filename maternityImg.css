@@ -147,16 +147,20 @@
 
 @media screen and (max-width:380px) {
 
+   
     .kBanner2 img{
-        width: 300px;
+        width: 250px;
+        margin: auto;
     }
     .kArt_1 img{
-        width: 300px;
+        width: 250px;
+        margin: auto;
 
     }
 
     .KcardMain img{
-        width: 300px;
+        width: 250px;
+        margin: auto;
         margin-top: 20%;
     }
 
