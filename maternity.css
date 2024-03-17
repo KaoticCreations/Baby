@@ -1,133 +1,306 @@
-.body{
-      
-    
-    background-image: linear-gradient(#f3f3f3,#6498d4,#e77ceb,#f3f3f3 ); 
 
-    
-    
-}
-.kheadr{
-
-/*    position: fixed;*/
-    
-    width: 100%;
-    background-image: linear-gradient(#f3f3f3,#6498d4,#e77ceb,#f3f3f3 );  
-    
-    
-    font-size: 5rem;
-    
-    font-family: "Trade Winds", system-ui;
-    font-family: "Salsa", cursive;
-    font-family: "Mogra", system-ui;    
+.mogra-regular {
+    font-family: "Mogra", system-ui;
     font-weight: 400;
     font-style: normal;
-    color: #2d2268;  
+  }
+
+  .trade-winds-regular {
+    font-family: "Trade Winds", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
   
+  .salsa-regular {
+    font-family: "Salsa", cursive;
+    font-weight: 400;
+    font-style: normal;
   }
 
-  .kheadr1{
+
+
+
+
+
+
+  .kBanner1{
+    margin: 0;
+    margin-top:  5%;
+    padding: 0;
+    
+    color: #791e7c;
+    font-size: 3rem;
+
+    border:solid;
+    border-width: 3px;
+    border-radius: 30px;
+    border-color:#7d7daf;
+     
+ 
+      
+    font-family: "Salsa", cursive;
+    font-weight: 400;
+    font-style: normal;
+
+    width:fit-content;
+    height: fit-content;
+    background-image: linear-gradient(#f3f3f3,#6498d4,#e77ceb,#f3f3f3 );   
+    text-align: center;
+  }
+  
+.kBanner2 img{
+     
+        
+    width: 900px;
+    height:fit-content;
+    
     margin: auto;
-    margin-top: 50px;
-    display:block;
-  }
-
-  .kheadr1 span{
-    color: #7d0788;
-  }
-
-.Kbanner{
-    height:500
+    margin-top: 11%;
+    margin-right: 0;
     
-    
+    border: solid  #e77ceb;    
+    border-radius: 13rem ;
+
+    border-width: 3px 8px 19px 18px;
+    box-shadow: 9px 5px 2px 3px #3280e6;
+
 }
-
-
-.kBanner1{
-    display:flex;
-    flex-wrap: nowrap;
-    justify-content: center;
+.kBanner3 img{
     
     
+    width:500px;
+    padding: 0;
+
     
-}
-
-.kTainr{
-    background-image: linear-gradient(#f3f3f3,#6498d4,#e77ceb,#f3f3f3 ); 
-}
-
-
-.knav{
-    
-    
-}
-
-
-
-.kmain{
-
     margin-left: 10%;
-   
+    
+    
+    margin-top: 70%;
+    
+    border: solid  #e77ceb;    
+    border-radius: 5rem ;
+
+    border-width: 3px 8px 19px 18px;
+    box-shadow: 9px 5px 2px 3px #3280e6;
 
 }
-.krow{
-    display:flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    /*
-    display: block;
+.kcard img{
+    width: 500px;
+    height: auto;
+    padding: 0;
+
+    margin-right: 150px;
+    margin-top: 10%;
+    
+    border: solid  #e77ceb;    
+    border-radius: 5rem ;
+
+    border-width: 3px 8px 19px 18px;
+    box-shadow: 9px 5px 2px 3px #3280e6;
+}
+
+.KcardMain img{
+    width: 350px;
+    height: auto;
+    padding: 0;
+
+    margin-right: 150px;
+    margin-top: 10%;
+    
+    border: solid  #e77ceb;    
+    border-radius: 5rem ;
+
+    border-width: 3px 8px 19px 18px;
+    box-shadow: 9px 5px 2px 3px #3280e6;
+}
+
+.KcardMain img:hover{
+    border: solid 5px #2d2268;
+    
+    border-radius: 5rem ;
+    box-shadow: 0 6px 6px 8px #ad24c9;
+    
+    
+    
+    scale:1.75;
+    
+    height: fit-content;  
+    opacity: 100%;   
+    background-color: #3280e6;
+
+}
+
+.Kcard img:hover{
+    border: solid 5px #6a1d6d;
+    
+    border-radius: 5rem ;
+    box-shadow: 0 6px 6px 8px #2458c9;
+    
+    
+    
+    scale:1.5;
+    
+    height: fit-content;  
+    opacity: 100%;   
+    background-color: #3280e6;
+
+}
+.kArt_1 {
+    width: 400px;
+    height: auto;
+    padding: 10px;
+
+    margin:auto;
+    margin-right: 10%;
+    
+    
+    margin-top: 3px;
+    
+    border: solid  #e77ceb;    
+    border-radius: 5rem ;
+
+    border-width: 3px 8px 19px 18px;
+    box-shadow: 9px 5px 2px 3px #3280e6;
+}
+
+.KcardCentr,.Kcardtop{
+    margin-left: 15%;
+    margin-right: 15%;
+
+    margin-bottom: 5rem;
+
+}
+
+.KcardCentr img,.Kcardtop img{
+    width:100%;
+    
+    
+    height:fit-content;
     margin: auto;
-    */
-
-}
-
-.KcardMain{
-    
-}
-.kside{
-    
-
-}
-.kAbyss{
-   
+    margin-top: 30%;
 
     
+    border: solid  #e77ceb;
+    
+    border-radius: 30rem ;
+
+    border-width: 3px 8px 19px 18px;
+    box-shadow: 9px 5px 2px 3px #3280e6;
+    
+}
+.Kcardtop img{
+    margin-top: 5px;
 
 }
+.Kcardfinal{
+    margin-left: 15%;
+    margin-right: 15%;
+
+    margin-bottom: 5rem;
+    
+}
+
+.Kcardfinal img{
+    background-image: linear-gradient(#f3f3f3,#6498d4,#e77ceb,#f3f3f3 );  
+    width:100%;
+    
+    
+    height:fit-content;
+    margin: auto;
+    margin-top: 30%;
+    
+    border: solid  #e77ceb;
+    
+    border-radius: 30rem ;
+
+    border-width: 3px 8px 19px 18px;
+    box-shadow: 9px 5px 2px 3px #3280e6;
+}
+
+.kcardHoriztl img{
+    background-image: linear-gradient(#f3f3f3,#6498d4,#e77ceb,#f3f3f3 );  
+    width:100%;
+    
+    
+    height:fit-content;
+    margin: auto;
+    margin-top: 30%;
+    
+    border: solid  #e77ceb;
+    
+    border-radius: 30rem ;
+
+    border-width: 3px 8px 19px 18px;
+    box-shadow: 9px 5px 2px 3px #3280e6;
+
+}
+
 
 
 /*------------------MEDIA---------------------------------*/
+
 @media screen and (max-width:1180px) {
 
-    .krow{
+    .kBanner2 img{
+        width: 500px;
+        margin-top: 20%;
+    }
+
+    .kArt_1 {
+        width: 500px;
         
+        margin: auto;
+        margin-top: 20%;
 
     }
-    .kheadr1{
 
-        
-       
-    
+    .KcardMain img{
+        width: 500px;
+        margin-top: 20%;
     }
 
 
 
 }
 
-@media screen and (max-width:380px) {
+@media screen and (max-width:580px) {
+    .kmain{
+        margin:auto;
+    }
 
-    .krow{
-        display: block;
+    .kBanner2 img{
+        width: 250px;
+        margin: auto;
+    }
+    .kArt_1 {
+        width: 250px;
         margin: auto;
 
     }
-    .kmain{
-        display:block;
 
-        margin-left: 10%;
-       
-    
+    .KcardMain img{
+        width: 250px;
+        margin: auto;
+        margin-top: 20%;
     }
 
+    .Kcardfinal,.KcardCentr,.Kcardtop{
+        margin-left: 5%;
+        margin-right: 5%;
+    
+        margin-bottom: 1rem;
+        
+    }
+
+    .KcardMain img:hover, .Kcard img:hover{
+        
+        scale:1.75;
+        
+    
+    }
+    
+  
 
 
 }
+
