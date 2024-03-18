@@ -34,6 +34,15 @@ width: 100%;
   margin-left:20px;
   margin-top:-75px;
 }
+.kcard1{
+  display:flex;
+  flex-wrap: wrap;
+  gap:15px;
+  
+}
+.kcard2{
+  margin: auto;
+}
 
 
 
