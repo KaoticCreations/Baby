@@ -7,11 +7,14 @@
     
 }
 .kheadr{
+    
 
-     position: fixed;
+     
 
      margin-top: 0;
-     margin-left: 3.5rem;
+     margin-left: .5rem;
+     margin-bottom: 8rem;
+
     width: 100%;
     background-image: linear-gradient(#f3f3f3,#6498d4,#e77ceb,#f3f3f3 );  
     display:flex;
@@ -27,7 +30,7 @@
     margin-top: 5px;
     display:block;
 
-    font-size: 3rem;
+    font-size: 6rem;
     
     font-family: "Trade Winds", system-ui;
     font-family: "Salsa", cursive;
@@ -46,7 +49,8 @@
   }
 
 .Kbanner{
-    height:500
+    height:500;
+    margin:auto;
 
     
     
@@ -65,6 +69,13 @@
     rotate: 30deg;
 }
 .kBanner1 p{
+
+    
+    translate: 0%;
+    rotate: 45deg;
+    
+    
+    
 
     margin-left: 5rem;
     margin-right: 5rem;
@@ -90,6 +101,8 @@
 }
 
 .kTainr{
+
+    min-width: 380px;
     background-image: linear-gradient(#f3f3f3,#6498d4,#e77ceb,#f3f3f3 ); 
     
 }
@@ -103,7 +116,7 @@
 
 
 .kmain{
-    
+    margin-top: 1.5rem;
     
 
 }
@@ -112,6 +125,9 @@
     display:flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-top: 5rem;
+
+
     /*
     display: block;
     margin: auto;
@@ -198,12 +214,15 @@
     }
     .kmain{
         display:block;
-
-        
-       
     
     }
 
 
+
+}
+@media screen and (max-height:480px) {
+    .kBanner{
+            display:none;
+    }
 
 }
