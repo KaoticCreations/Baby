@@ -1,21 +1,5 @@
 
-.mogra-regular {
-    font-family: "Mogra", system-ui;
-    font-weight: 400;
-    font-style: normal;
-  }
 
-  .trade-winds-regular {
-    font-family: "Trade Winds", system-ui;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-  .salsa-regular {
-    font-family: "Salsa", cursive;
-    font-weight: 400;
-    font-style: normal;
-  }
 
 
 
@@ -193,6 +177,7 @@
     margin-left: 15%;
     margin-right: 15%;
     
+    
 
     margin-bottom: 5rem;
     
@@ -201,12 +186,16 @@
 
 }
 .Kcardtop img{
-    width:100%;
+    width:900px;
+    position: absolute;
+    z-index: 1;
     
     
     height:fit-content;
     margin: auto;
-    margin-top: 0%;
+    margin-top: 15%;
+    margin-bottom: 15%;
+    margin-top: 0;
 
     
     border: solid  #e77ceb;
@@ -350,10 +339,21 @@
 
 }
 .logoWrap{
+    position:fixed;
+    top:0em;
+    left:0em;
+    border-radius: 0;
+    width: 100%;
+    z-index: 1;
+
+    /*
+    
     margin-left: 0;
     margin-right: 0;
 
     margin-bottom: 5rem;
+
+    */
     
 
 }
@@ -392,6 +392,7 @@
     display:flex;
     flex-wrap: wrap;
     gap:0px;
+    margin-top: 10rem;
 
 }
 .kSvgStrk{
