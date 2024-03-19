@@ -7,7 +7,8 @@
     
 }
 .kTainr{
-  width:380px;
+  min-width: 380px;
+  width:auto;
   height:760px;
   background-image: linear-gradient(#f3f3f3,#6498d4,#e77ceb,#f3f3f3 ); 
   border: solid 5px 5px 2px 3px #000066; 
@@ -27,21 +28,25 @@ width: 100%;
   
 }
 .Kbanner{
-  margin-left:50px;
+  width:fit-content;
+  margin-left:50%;
   
 }
 .kcard{
-  margin-left:20px;
-  margin-top:-75px;
+  margin-left:auto;
+  
+  
 }
 .kcard1{
   display:flex;
   flex-wrap: wrap;
   gap:15px;
   
+  
 }
 .kcard2{
-  margin: auto;
+  margin-left:auto;
+  
 }
 
 
@@ -79,11 +84,11 @@ width: 100%;
     display: flex;
     flex-direction: row;
 
-    width: 100%;
+    width: 80%;
     height:auto;
     margin-left: 00px ;
-    margin-right: 50px ;
     
+    margin:auto;
     margin-top: 20px ;
 
     border:  solid 3px #a7d7eb;
@@ -101,3 +106,95 @@ width: 100%;
 .kcardReg img{
     width: 100%;
     }
+
+
+
+
+
+    /********************************    MEDIA    ****************************/
+
+    /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .kcard1{
+      margin-left: 15%;
+      margin-right: auto;
+      margin-top: -3em ;
+
+    }
+    .kcard2, .kcard3{
+      margin-left: 8%;
+      margin-right: auto;
+      margin-top: -3em ;
+
+    }
+
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .kcard1, .kcard2, .kcard3{
+    margin-left: 25%;
+    margin-right: auto;
+    margin-top: 1em ;
+
+  }
+
+
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+  .kcard1, .kcard2, .kcard3{
+  
+    
+    
+
+    
+
+  }
+
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .kcard1, .kcard2, .kcard3{
+    margin-left: 45%;
+    margin-right: auto;
+    margin-top: 2.5em ;
+    scale: 1.75;
+
+  }
+
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+  .kcard1, .kcard2, .kcard3{
+    margin-left: 55%;
+    margin-right: auto;
+    margin-top: 2.5em ;
+    scale: 2;
+
+  }
+ 
+  
+}
+
+@media only screen and (min-width: 1800px) {
+
+  .kcard1, .kcard2, .kcard3{
+    margin-left: 60%;
+    margin-right: auto;
+    margin-top: 3.5em ;
+    scale: 2.5;
+
+  }
+ 
+  
+}
