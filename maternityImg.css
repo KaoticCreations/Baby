@@ -1,21 +1,5 @@
 
-.mogra-regular {
-    font-family: "Mogra", system-ui;
-    font-weight: 400;
-    font-style: normal;
-  }
 
-  .trade-winds-regular {
-    font-family: "Trade Winds", system-ui;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-  .salsa-regular {
-    font-family: "Salsa", cursive;
-    font-weight: 400;
-    font-style: normal;
-  }
 
 
 
@@ -23,6 +7,7 @@
 
 .kBanner{
     margin-top: 8rem;
+    
 }
 
   .kBanner1{
@@ -135,6 +120,23 @@
     margin-left: 15%;
 
 }
+.Kcard img{
+    width: 350px;
+    height: auto;
+    padding: 0;
+    margin:auto;
+    margin-right: 150px;
+    
+
+    
+    margin-top: 10%;
+    
+    border: solid  #3280e6;    
+    border-radius: 5rem ;
+
+    border-width: 3px 8px 19px 18px;
+    box-shadow: 9px 5px 2px 3px #e77ceb;
+}
 
 .Kcard img:hover{
     border: solid 5px #6a1d6d;
@@ -151,6 +153,8 @@
     background-color: #3280e6;
 
 }
+
+
 .kArt_1 {
     width: 350px;
     height: auto;
@@ -173,20 +177,25 @@
     margin-left: 15%;
     margin-right: 15%;
     
+    
 
-    margin-bottom: 15rem;
+    margin-bottom: 5rem;
     
     
     
 
 }
 .Kcardtop img{
-    width:100%;
+    width:900px;
+    position: absolute;
+    z-index: 1;
     
     
     height:fit-content;
     margin: auto;
-    margin-top: 10%;
+    margin-top: 15%;
+    margin-bottom: 15%;
+    margin-top: 0;
 
     
     border: solid  #e77ceb;
@@ -239,6 +248,20 @@
 
     border-width: 3px 8px 19px 18px;
     box-shadow: 9px 5px 2px 3px #3280e6;
+}
+.Kcardfinal:hover{
+    
+    border: solid 5px #6a1d6d;
+    
+    border-radius: 5rem ;
+    box-shadow: 0 6px 6px 8px #2458c9;
+    
+    
+    
+    scale:1.5;
+    
+    height: fit-content;  
+
 }
 
 .kcardSono{
@@ -315,6 +338,71 @@
     margin-left: 15%;
 
 }
+.logoWrap{
+    position:fixed;
+    top:0em;
+    left:0em;
+    border-radius: 0;
+    width: 100%;
+    z-index: 1;
+
+    /*
+    
+    margin-left: 0;
+    margin-right: 0;
+
+    margin-bottom: 5rem;
+
+    */
+    
+
+}
+
+.kaotiCreations{
+    background-image: linear-gradient(#f3f3f3,#6498d4,#e77ceb,#f3f3f3 ); 
+    width: 100%;
+    margin-left: 50px;
+    margin-top: 1rem;
+    height: 150px;
+    
+
+    border: solid #2d2268;
+    border-width: 0 0 1rem .5rem;
+    border-radius: 25rem 0 0 15rem;
+}
+.kaotiCreations img{
+    scale: 1.;
+    margin-bottom: -2rem;
+        
+}
+
+
+.kaotiCreations label{
+    color: #2d2268;
+    font-size: 5rem;
+    
+}
+.kaotiCreations span{
+    color: #7d0788;
+    font-size: 7rem;
+    
+}
+
+.kWrpStrk{
+    display:flex;
+    flex-wrap: wrap;
+    gap:0px;
+    margin-top: 10rem;
+
+}
+.kSvgStrk{
+    margin:auto;
+    
+}
+.kSvgStrk2{
+    margin:auto;
+ 
+}
 .kcardHoriztl img{
     background-image: linear-gradient(#f3f3f3,#6498d4,#e77ceb,#f3f3f3 );  
     width:100%;
@@ -343,6 +431,9 @@
         width: 500px;
         margin-top: 20%;
     }
+    .kheadr {
+        display:none ;
+    }
 
     .kArt_1 {
         width: 400px;
@@ -356,6 +447,15 @@
         width: 500px;
         margin-top: 20%;
     }
+    .kSvgStrk{
+        scale:.75;
+        
+    }
+    .kSvgStrk2{
+        
+        scale:.75;
+     
+    }
 
 
 
@@ -366,6 +466,7 @@
         width: 500px;
         margin-top: 20%;
     }
+    
 
     .kArt_1 {
         width: 300px;
@@ -400,6 +501,39 @@
         margin-left: 0;
     
     }
+    .kWrpStrk{
+        display:block;
+        
+    
+    }
+
+    .kSvgStrk{
+
+        
+        scale:1;
+        margin-left: 0;
+        
+    }
+    .kSvgStrk2{
+        
+        
+        scale:1;
+        margin-left: 0;
+        transform:translate(0, 00) scale(-1,1); 
+     
+    }
+    .kaotiCreations label{
+        color: #2d2268;
+        font-size: 3rem;
+        
+    }
+    .kaotiCreations span{
+        color: #7d0788;
+        font-size: 5rem;
+        
+    }
+    
+
 
 
 
@@ -426,6 +560,17 @@
         margin: auto;
 
     }
+    .KcardMain{
+        /*
+        margin-left: 15%;
+        margin-right: 15%;
+        
+    
+        margin-bottom: 5rem;
+        */
+        
+    }
+    
 
     .KcardMain img{
         width: 250px;
@@ -436,10 +581,10 @@
     }
 
     .Kcardfinal,.KcardCentr,.Kcardtop{
-        margin-left: 5%;
-        margin-right: 5%;
+        margin-left: 20%;
+        margin-right: 20%;
     
-        margin-bottom: 1rem;
+        margin-bottom: 5rem;
         
     }
 
@@ -471,7 +616,7 @@
         margin-left: 0;
     
     }
-    
+   
   
 
 
