@@ -7,7 +7,7 @@
     
 }
 .kTainr{
-  min-width: 380px;
+  min-width: 180px;
   width:auto;
   height:760px;
   background-image: linear-gradient(#f3f3f3,#6498d4,#e77ceb,#f3f3f3 ); 
@@ -17,38 +17,105 @@
   margin-top: 0;
 
 
- 
+  
 
 }
 
 .kheadr{
 height: 80px;
 width: 100%;
-          
+font-family: "Oooh Baby", cursive;
+      font-weight: 700;        
+      font-size: .7em;
+      margin-bottom: 12%;
   
 }
-.Kbanner{
-  width:fit-content;
-  margin-left:50%;
+
+.kheadr label{
   
+  
+  font-size: 12em;
+      color:#7d0788;
+  
+    
+  }
+
+.kheadr label span{
+
+  
+  
+      color:#2d2268; 
+    
+  }
+.Kbanner{
+  
+  
+  
+  
+  
+}
+
+
+.regCard{
+
+  
+  width: fit-content;
+  margin-left:28%;
+  margin-bottom:0;
+  padding: 3em;
+
 }
 .kcard{
-  margin-left:auto;
-  
-  
+
+
+  width: fit-content;
+  margin-left:28%;
+  margin-bottom:8%;
+  padding: 3em;
+
+
+
+  background-image: linear-gradient(#2d2268,#c3c3c3,#c3c3c3,#c3c3c3,#7d0788 ); 
+  border: solid ;
+  box-shadow: 0px 5px 2px 13px #000066;
+  border-radius: 4em 8em 1em 3em;
+  border-color: #2d2268 #fff #7d0788;
+}
+
+.kcard label{
+  font-family: "Trade Winds", system-ui;
+    font-weight: 400;
+    font-size: 3em;
+    color:#2d2268;
+}
+.lblvisitReg{
+  font-family: "Mogra", system-ui;
+    font-weight: 400;
+    color:#7d0788;
+
 }
 .kcard1{
   display:flex;
   flex-wrap: wrap;
   gap:15px;
+  margin-left:10%;
+  margin-bottom: 3%;
   
   
 }
 .kcard2{
-  margin-left:auto;
+  margin-left:0px;
+  margin-bottom: 3%;
+  margin-top: -13%;
   
 }
-
+.kcard3{
+  margin-left:20%;
+  margin-bottom: 3%;
+  margin-top: -13%;
+  scale: 1.75;
+  
+}
 
 
 .kNavCtrl{
@@ -84,7 +151,7 @@ width: 100%;
     display: flex;
     flex-direction: row;
 
-    width: 80%;
+    width: 250px;
     height:auto;
     margin-left: 00px ;
     
@@ -112,12 +179,14 @@ width: 100%;
 
 
     /********************************    MEDIA    ****************************/
+    
 
-    /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+        /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 380px) {
+  /*
   .kcard1{
-      margin-left: 15%;
-      margin-right: auto;
+      
+      margin: auto;
       margin-top: -3em ;
 
     }
@@ -125,69 +194,137 @@ width: 100%;
       margin-left: 8%;
       margin-right: auto;
       margin-top: -3em ;
-
+      scale:.75;
     }
+    */
 
 
 }
 
+
+
+    /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  /*
+  .kcard1{
+      margin-left: 5%;
+      margin-right: auto;
+      margin-top: -3em ;
+
+    }
+    .kcard2, .kcard3{
+      margin-left: 3%;
+      margin-right: auto;
+      margin-top: -3em ;
+
+    }
+*/
+
+}
+
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
+@media only screen and (max-width: 600px) {
+  /*
   .kcard1, .kcard2, .kcard3{
     margin-left: 25%;
     margin-right: auto;
     margin-top: 1em ;
 
   }
+*/
+
+  .kheadr{
+    font-size: 1rem;
+
+  }
+  .kcard{
+    margin-left: 0;
+  }
+
+  .kcard,.kcard1 .kcard2, .kcard3, .kcard label{
+    scale: .75;
+  }
 
 
 }
 
 
+
+
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 768px) {
 
-  .kcard1, .kcard2, .kcard3{
-  
-    
-    
-
-    
+  .kheadr{
+    font-size: .3em;
 
   }
+  .kcard, .kcard label{
+    margin: auto;
+  }
+  .kcard, .kcard1, .kcard2, .kcard3{
+    scale: .875;
+  }
+ 
 
 }
 
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-  .kcard1, .kcard2, .kcard3{
+@media only screen and (max-width: 992px) {
+  /*
     margin-left: 45%;
     margin-right: auto;
     margin-top: 2.5em ;
     scale: 1.75;
 
   }
+  */
+  .kheadr{
+    font-size: .5em;
+
+  }
+  .kcard{
+    padding: 0;
+  }
 
 
 }
 
+@media only screen and (min-width: 1080px) {
+  
+
+
+  
+}
+
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-
+/*
   .kcard1, .kcard2, .kcard3{
     margin-left: 55%;
     margin-right: auto;
+    margin: auto;
     margin-top: 2.5em ;
     scale: 2;
 
   }
+  */
+  
+  
+
+ 
+  .kcard{
+    
+
+  }
+
+  
  
   
 }
 
 @media only screen and (min-width: 1800px) {
-
+/*
   .kcard1, .kcard2, .kcard3{
     margin-left: 60%;
     margin-right: auto;
@@ -195,6 +332,6 @@ width: 100%;
     scale: 2.5;
 
   }
- 
+ */
   
 }
