@@ -62,9 +62,10 @@ font-family: "Oooh Baby", cursive;
 
   
   width: fit-content;
-  margin-left:28%;
+  margin: auto;
   margin-bottom:0;
-  padding: 3em;
+  padding: 0;
+  font-size: 50px;
 
 }
 .kcard{
@@ -123,6 +124,7 @@ font-family: "Oooh Baby", cursive;
   scale: 1.75;
   
 }
+                    
 
 
 .kNavCtrl{
@@ -156,31 +158,31 @@ font-family: "Oooh Baby", cursive;
 
 .kcardReg{
 
-    display: flex;
-    flex-direction: row;
-
-    width: 250px;
-    height:auto;
-    margin-left: 00px ;
+  
     
+
+    width:700px;
+    height: auto;
     margin:auto;
-    margin-top: 20px ;
+    
+    margin-bottom:8%;
+    padding: 3em;
 
-    border:  solid 3px #a7d7eb;
+    background-image: linear-gradient(#2d2268,#c3c3c3,#c3c3c3,#c3c3c3,#7d0788 ); 
+  border: solid ;
+  box-shadow: 0px 5px 2px 13px #000066;
+  border-radius: 4em 8em 1em 3em;
+  border-color: #2d2268 #fff #7d0788;
     
-    border-bottom: solid 1px #6498d4;
+    font-family: "Mogra", system-ui;
+    font-weight: 400;
     
-    border-radius: 3px ;
-    border-width: 33px 28px 19px 33px;
-    box-shadow: 0px 5px 2px 3px #e77ceb;
-    opacity: 100%;
-    background-color: #f3f3f3;
-    font-size: 25px;
     
 }
 .kcardReg img{
-    width: 100%;
+    
     }
+
 
 
 
