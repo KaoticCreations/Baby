@@ -60,6 +60,9 @@
 .kBanner1{
     display:flex;
     flex-wrap: nowrap;
+
+    border: solid 6px 5px 2px 3px #545455;
+    box-shadow: 0px 5px 2px 3px #000066;
     
 }
 
@@ -69,13 +72,6 @@
     rotate: 30deg;
 }
 .kBanner1 p{
-
-    
-    translate: 0%;
-    rotate: 45deg;
-    
-    
-    
 
     margin-left: 5rem;
     margin-right: 5rem;
@@ -116,7 +112,7 @@
 
 
 .kmain{
-    margin-top: 1.5rem;
+    margin-top: 12rem;
     
 
 }
