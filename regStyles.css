@@ -27,7 +27,7 @@ width: 100%;
 font-family: "Oooh Baby", cursive;
       font-weight: 700;        
       font-size: .7em;
-      margin-bottom: 12%;
+      margin-bottom: 8%;
   
 }
 
@@ -60,11 +60,18 @@ font-family: "Oooh Baby", cursive;
 
 .regCard{
 
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+
   
   width: fit-content;
   margin: auto;
-  margin-bottom:0;
-  padding: 0;
+  margin-top: 20px;
+  margin-left: 12.5%;
+  
+  
   font-size: 50px;
 
 }
@@ -92,11 +99,13 @@ font-family: "Oooh Baby", cursive;
     font-weight: 400;
     font-size: 3em;
     color:#2d2268;
+    color:#7d0788;
 }
 .lblvisitReg{
   font-family: "Mogra", system-ui;
     font-weight: 400;
     color:#7d0788;
+    color:#2d2268;
 
 }
 .kcard1{
@@ -104,7 +113,17 @@ font-family: "Oooh Baby", cursive;
   flex-wrap: wrap;
   gap:15px;
   
-  margin-left:50%;
+  margin-left:55%;
+  margin-bottom: 1%;
+  
+  
+}
+.kcard11{
+  display:flex;
+  flex-wrap: wrap;
+  gap:15px;
+  
+  margin-left:5%;
   margin-bottom: 3%;
   
   
@@ -114,7 +133,7 @@ font-family: "Oooh Baby", cursive;
   
 
   margin-bottom: 3%;
-  margin-top: -13%;
+  margin-top: -5%;
   
 }
 .kcard3{
@@ -138,6 +157,9 @@ font-family: "Oooh Baby", cursive;
 
 
 .kmain{
+  display:flex;
+  flex-wrap: wrap;
+  
     
 
 }
@@ -159,14 +181,16 @@ font-family: "Oooh Baby", cursive;
 .kcardReg{
 
   
+ 
     
 
-    width:700px;
+    width:500px;
     height: auto;
+    height: 900px;
     margin:auto;
     
-    margin-bottom:8%;
-    padding: 3em;
+    margin-bottom:.2rem;
+    
 
     background-image: linear-gradient(#2d2268,#c3c3c3,#c3c3c3,#c3c3c3,#7d0788 ); 
   border: solid ;
@@ -182,7 +206,28 @@ font-family: "Oooh Baby", cursive;
 .kcardReg img{
     
     }
+.linkTag,.linkTag2{
 
+  border: solid 5px 5px 2px 3px #000066; 
+  box-shadow: 0px 5px 2px 3px #000066;
+
+  width:80%;
+  height: auto;
+  margin-bottom: 0;
+
+
+}
+.linkTag img{
+  width: 100%;
+
+}
+.linkTag2 img{
+  width: 100%;
+  
+
+
+
+}
 
 
 
