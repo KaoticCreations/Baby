@@ -1,0 +1,231 @@
+
+*{
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+body{
+    
+    min-width: 380px;
+    max-width: 2250px;  
+    height: 920px;
+    
+    
+    
+    background-image: url(BabyJ_MaternityNew2.svg);
+    background-image: url(dashBckGrnd.svg);   
+    
+    background-repeat: no-repeat;  
+    
+    background-size: cover;
+    margin: 0;
+    
+    
+}
+
+
+.kheadr{
+       
+  
+}
+.Kbanner{
+  
+}
+
+.kTainr{
+    
+}
+
+.knav{
+ 
+  
+}
+
+
+
+.kmain{
+    z-index:2;    
+    display: flex;
+    flex-wrap: wrap;  
+
+}
+.kRow{
+   
+    z-index:3;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+
+    margin-left: 5%;
+
+}
+.kRow2{
+
+    z-index:3;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+
+    margin-left: 10%;
+    
+
+
+}
+.kRow2{
+
+    z-index:3;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+
+    margin-left: 10%;
+    
+
+
+}
+.kRow3{
+
+    z-index:3;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+
+    margin-left: 10%;
+    display: none;
+    
+
+
+}
+.kRow4{
+
+    z-index:3;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+
+    margin-left: 10%;
+    display: none;
+    
+
+
+}
+.kRow5{
+
+        z-index:3;
+    
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: auto;
+    
+        margin-left: 10%;
+        display: none;
+    
+    
+}
+.kRow6{
+
+
+    z-index:3;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+
+    margin-left: 10%;
+    display: none;
+
+
+}
+.kRow7{
+
+
+    z-index:3;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+
+    margin-left: 10%;
+    display: none;
+
+
+}
+
+
+.kside{
+  
+
+}
+.kAbyss label{
+
+    font-size: 70px;
+
+    text-align: center;
+    margin-left: 43%;
+    opacity: 30%;
+ 
+
+  
+
+}
+
+.kcard ,.kcard1{
+    margin-right: 300px;
+
+
+}
+
+
+
+.kcard img, .kcard1 img,.kcard2 img,.kcard3 img, .kcard4 img,.kcard5 img,.kcard6 img{
+    margin-left: 150px;
+    
+    width: 50px;
+    scale:.75;
+
+    
+    
+    
+    height:fit-content;
+    margin: auto;
+    
+    
+    border: solid  #3280e6;
+    
+    border-radius: 50% ;
+
+    border-width: 3px 3px 3px 3px;
+    box-shadow: 3px 5px 2px 3px #531f55;
+    
+    
+}
+
+.kcard img:hover {
+    width: 300px;
+    scale:2.25;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 80%;
+
+    
+
+}
+.kcard2 img:hover {
+    width: 300px;
+    scale:2.25;
+    margin-left: 0%;
+    margin-right: 40%;
+    margin-bottom: 80%;
+
+    
+
+}
